@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Arts - Vic's Archive 3: Hoodlum Havoc</title>
+  <title>Artworks - Vic's Archive 3: Hoodlum Havoc</title>
 </head>
 <body>
-<h3>To be added</h3>
+  <h2>Art Archive</h2>
+      <p>Not sure when I'll update these since I make art a bit frequently, but here, you can take a look at my progress that I'm proud of.</p>
+    <h3>Sorted by date:</h3>
+    <!--
+    <figure>
+      <img src="https://wallpapercave.com/wp/wp6761049.png"
+       alt="BigSur wallpaper">
+      <figcaption>MacOS BigSur Walpaper</figcaption>
+    </figure>
+    -->
+<a href="https://vicarchive.github.io/site/">Home</a>
 </body>
 </html>
