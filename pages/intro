@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About Me - Vic's Archive 3: Hoodlum Havoc</title>
+  <title>About Me - Vic's Archive 3: Hoodlum Havoc</title>
 </head>
-<body>
-<h1>About Me</h1>
-<h2>Personal</h2>
-<p>Hey, my name is Vic, I'm 19 and this is my third attempt at an archiving site. I'm trying to stay off of social media (except YouTube) so I hope I'll stick with updating this thing.</p>
-<p>I am a math major going to Cal Poly and I primarily like to work on art stuff like drawing and animating. I prefer to draw in Procreate, and I animate in Adobe After Effects with Duik Bassel 2 (learning Angela). I'm also getting familiar with Adobe Animate, thanks Plus7.</p>
-<p>You can find some of my animated work on my YouTube channel when I link it.</p>
-<h2>Interests</h2>
-<p>In addition to my interest in the arts, I am also a little bit of a weirdo. I am a huge Sonic fan since late March of 2020, and my favorite character is Shadow. I tend to draw Sonadow because it makes me happy. Anyway, some other stuff I like are Splatoon and Rayman. I know how to do most of the dances in the Splatoon games.</p>
-<h2>Video Games</h2>
-<p>I like to play a lot of video games, as if you couldn't tell. I tend to go for rhythm games and calmer story based games, but my favorites are Sonic Adventure (1 and 2), Rayman 2, Splatoon (1 and 2), Sonic 06...</p>
-<h2>Socials<h2>
-<p>Hey hey hey, I have a tendency to never have a concrete place to put my energy or work in. I have plenty of aliases that may appear unrelated, but I am all the same.</p>
-<h3>Art Stuff</h3>
-<h3>Contact</h3>
-<h3>Rhythm Games</h3>
-</body>
+  <body>
+    <h1>About Me</h1>
+    <h2>Personal</h2>
+        <p>Hey, my name is Vic, I'm 19 and this is my third attempt at an archiving site. I'm trying to stay off of social media (except YouTube) so I hope I'll stick with updating this thing.</p>
+        <p>I am a math major going to Cal Poly and I primarily like to work on art stuff like drawing and animating. I prefer to draw in Procreate, and I animate in Adobe After Effects with Duik Bassel 2 (learning Angela). I'm also getting familiar with Adobe Animate, thanks Plus7.</p>
+        <p>You can find some of my animated work on my YouTube channel when I link it.</p>
+    <h2>Interests</h2>
+        <p>In addition to my interest in the arts, I am also a little bit of a weirdo. I am a huge Sonic fan since late March of 2020, and my favorite character is Shadow. I tend to draw Sonadow because it makes me happy. Anyway, some other stuff I like are Splatoon and Rayman. I know how to do most of the dances in the Splatoon games.</p>
+    <h2>Video Games</h2>
+        <p>I like to play a lot of video games, as if you couldn't tell. I tend to go for rhythm games and calmer story based games, but my favorites are Sonic Adventure (1 and 2), Rayman 2, Splatoon (1 and 2), Sonic 06...</p>
+    <h2>Socials<h2>
+        <p>Hey hey hey, I have a tendency to never have a concrete place to put my energy or work in. I have plenty of aliases that may appear unrelated, but I am all the same.</p>
+      <h3>Art Stuff</h3>
+        <a href="">Instagram</a> <p>(hiatus)</p> <p> | </p> <a href="">Sonic DeviantArt</a> <p> | </p> <a href="">Splatoon DeviantArt</a>
+      <h3>Rhythm Games</h3>
+        <a href="">osu!</a> <p> | </p> <a href="">Etterna</a> <p> | <p> <a href="">FlashFlashRevolution</a>
+      <h3>Contact</h3>
+        <p>My Discord is OCTO#9589, but I'll probably not talk to you.</p>
+  </body>
 </html>
