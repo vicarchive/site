@@ -1,3 +1,3 @@
-If you found this, cool, it's just my website,
-I got tired of Carrd or Neocities restrictions and I don't feel like paying shit so I'm doing it on github instead with html
-. It will have a ton of cringe, be ready
+Hey, my name is Vic and this is my website ??<br />
+I got tired of Carrd or Neocities restrictions and I don't feel like paying shit so I'm doing it on github instead with html. <br />
+This has a ton of cringe. Sorry.
