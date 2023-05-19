@@ -8,7 +8,8 @@
   line-height: 20px;
   font-size: 25px;
 }
-.clickbox {
+.soclickbox {
   writing mode: vertical-rl;
   text-orientation: upright;
+  background-image: url("../../assets/slay.jpg");
 }
