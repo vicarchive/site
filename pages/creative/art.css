@@ -9,7 +9,23 @@
   font-size: 25px;
 }
 .soclickbox {
+  display: flex;
   writing mode: vertical-rl;
   text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
+}
+.spclickbox {
+  display: flex;
+  writing mode: vertical-rl;
+  text-orientation: upright;
+}
+.ssclickbox {
+  display: flex;
+  writing mode: vertical-rl;
+  text-orientation: upright;
+}
+.otclickbox {
+  display: flex;
+  writing mode: vertical-rl;
+  text-orientation: upright;
 }
