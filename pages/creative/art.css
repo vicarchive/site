@@ -8,20 +8,24 @@
   line-height: 20px;
   font-size: 25px;
 }
-.soclickbox {
+.artcol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.artcol > soclickbox {
   writing-mode: vertical-rl;
   text-orientation: upright;
   width: 25%;
-  height: 75%;
+  height: 100%;
   border: 5px solid;
-  color: Black;
+  color: Blue;
   text-decoration: none;
-  box-sizing: border-box;
   font-size: 40px;
-  align-items: center;
-  justify-content: center;
 }
-.soclickbox::before {
+.artcol > soclickbox::before {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   opacity: 0.6;
