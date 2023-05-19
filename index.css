@@ -8,7 +8,7 @@
   color: Black;
   border: 10px solid Black;
 }
-.lbbg {
+.largebanner::before {
   background-color: CornflowerBlue;
   opacity: 0.8;
 }
