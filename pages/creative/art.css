@@ -9,7 +9,8 @@
   font-size: 25px;
 }
 .soclickbox {
-  writing-mode: tb-rl;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
   background-size: 200px;
   background-positon: left;
