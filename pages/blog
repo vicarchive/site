@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog - Vic's Archive 3: Hoodlum Havoc</title>
+</head>
+<body>
+<h2>Blog</h2>
+<p>More of a thought dumping ground, but you get the point. I'll probably have my thoughts and 'hot' takes in here, and I'll probably label them.</p>
+<button type="button" class="collapse">Quick Test</button>
+<div class="inside">
+<p>I hate Discord usernames.</p>
+</div>
+</body>
+</html>
