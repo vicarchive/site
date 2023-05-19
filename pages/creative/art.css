@@ -11,8 +11,6 @@
 .soclickbox {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  background-image: url("../../assets/art/slay.jpg");
-  background-size: cover;
   width: 25%;
   height: 75%;
   border: 5px solid;
@@ -20,6 +18,12 @@
   text-decoration: none;
   box-sizing: border-box;
   font-size: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.soclickbox::before {
+  background-image: url("../../assets/art/slay.jpg");
+  background-size: cover;
   opacity: 0.6;
 }
 .spclickbox {
