@@ -9,10 +9,11 @@
   font-size: 25px;
 }
 .soclickbox {
-  display: flex;
   writing mode: vertical-rl;
   text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
+  width: 50px;
+  height: 200px;
 }
 .spclickbox {
   display: flex;
