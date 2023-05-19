@@ -13,23 +13,39 @@
   background-image: url("../../assets/art/slay.jpg");
   background-size: 200px;
   background-positon: left;
-  width: 50px;
-  height: 200px;
+  width: 25%;
+  height: 75%;
+  border: 5px solid;
+  color: Black;
+  
+}
+.spclickbox {
+  text-orientation: upright;
+  background-image: url("../../assets/art/slay.jpg");
+  background-size: 200px;
+  background-positon: left;
+  width: 25%;
+  height: 75%;
   border: 5px solid;
   color: Black;
 }
-.spclickbox {
-  display: flex;
-  writing mode: vertical-rl;
-  text-orientation: upright;
-}
 .ssclickbox {
-  display: flex;
-  writing mode: vertical-rl;
   text-orientation: upright;
+  background-image: url("../../assets/art/slay.jpg");
+  background-size: 200px;
+  background-positon: left;
+  width: 25%;
+  height: 75%;
+  border: 5px solid;
+  color: Black;
 }
 .otclickbox {
-  display: flex;
-  writing mode: vertical-rl;
   text-orientation: upright;
+  background-image: url("../../assets/art/slay.jpg");
+  background-size: 200px;
+  background-positon: left;
+  width: 25%;
+  height: 75%;
+  border: 5px solid;
+  color: Black;
 }
