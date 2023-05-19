@@ -1,8 +1,10 @@
 .col {
   display: flex;
+  background-color: Blue;
 }
 .col > div {
   margin: 10px;
   padding: 20px;
+  line-height: 20px;
   font-size: 25px;
 }
