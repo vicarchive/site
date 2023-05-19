@@ -1,6 +1,6 @@
 .col {
   display: flex;
-  background-color: Blue;
+  background-color: Orange;
 }
 .col > div {
   margin: 10px;
