@@ -9,6 +9,7 @@
   font-size: 25px;
 }
 .artcol {
+  border-radius: 25px;
   height: 100%;
   display: flex;
   flex-direction: row;
