@@ -13,7 +13,6 @@
   text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
-  background-positon: left;
   width: 25%;
   height: 75%;
   border: 5px solid;
@@ -22,38 +21,47 @@
   box-sizing: border-box;
   font-size: 40px;
   opacity: 0.6;
-  
 }
 .spclickbox {
+  writing-mode: vertical-rl;
   text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
-  background-size: 200px;
-  background-positon: left;
+  background-size: cover;
   width: 25%;
   height: 75%;
   border: 5px solid;
   color: Black;
   text-decoration: none;
+  box-sizing: border-box;
+  font-size: 40px;
+  opacity: 0.6;
 }
 .ssclickbox {
+  writing-mode: vertical-rl;
   text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
-  background-size: 200px;
-  background-positon: left;
+  background-size: cover;
   width: 25%;
   height: 75%;
   border: 5px solid;
   color: Black;
   text-decoration: none;
+  box-sizing: border-box;
+  font-size: 40px;
+  opacity: 0.6;
 }
 .otclickbox {
+  writing-mode: vertical-rl;
   text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
-  background-size: 200px;
-  background-positon: left;
+  background-size: cover;
   width: 25%;
   height: 75%;
   border: 5px solid;
   color: Black;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 40px;
+  opacity: 0.6;
   text-decoration: none;
 }
