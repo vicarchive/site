@@ -15,61 +15,63 @@
   justify-content: space-around;
   align-items: center;
 }
-.artcol > soclickbox {
+.socb {
   writing-mode: vertical-rl;
   text-orientation: upright;
   width: 25%;
   height: 100%;
   border: 5px solid;
-  color: Blue;
-  text-decoration: none;
+  color: White;
   font-size: 40px;
+  text-decoration: none;
 }
-.artcol > soclickbox::before {
+.socb::before {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   opacity: 0.6;
 }
-.spclickbox {
+.spcb {
   writing-mode: vertical-rl;
   text-orientation: upright;
+  width: 25%;
+  height: 100%;
+  border: 5px solid;
+  color: White;
+  font-size: 40px;
+  text-decoration: none;
+}
+.spcb::before {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
-  width: 25%;
-  height: 75%;
-  border: 5px solid;
-  color: Black;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-size: 40px;
   opacity: 0.6;
 }
-.ssclickbox {
+.sscb {
   writing-mode: vertical-rl;
   text-orientation: upright;
+  width: 25%;
+  height: 100%;
+  border: 5px solid;
+  color: White;
+  font-size: 40px;
+  text-decoration: none;
+}
+.sscb::before {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
-  width: 25%;
-  height: 75%;
-  border: 5px solid;
-  color: Black;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-size: 40px;
   opacity: 0.6;
 }
-.otclickbox {
+.otcb {
   writing-mode: vertical-rl;
   text-orientation: upright;
+  width: 25%;
+  height: 100%;
+  border: 5px solid;
+  color: White;
+  font-size: 40px;
+  text-decoration: none;
+}
+.otcb {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
-  width: 25%;
-  height: 75%;
-  border: 5px solid;
-  color: Black;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-size: 40px;
   opacity: 0.6;
-  text-decoration: none;
 }
