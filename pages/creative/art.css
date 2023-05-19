@@ -25,6 +25,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   border: 5px solid;
+  border-color: Black;
   color: White;
   font-size: 40px;
   text-justify: inter-character;
@@ -34,20 +35,24 @@
 .socb {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
+  background-position: 50% 75%;
   opacity: 0.6;
 }
 .spcb {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
+  background-position: 50% 75%;
   opacity: 0.6;
 }
 .sscb {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
+  background-position: 50% 75%;
   opacity: 0.6;
 }
 .otcb {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
+  background-position: 50% 75%;
   opacity: 0.6;
 }
