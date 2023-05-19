@@ -17,6 +17,7 @@
   height: 75%;
   border: 5px solid;
   color: Black;
+  text-decoration: none;
   
 }
 .spclickbox {
@@ -28,6 +29,7 @@
   height: 75%;
   border: 5px solid;
   color: Black;
+  text-decoration: none;
 }
 .ssclickbox {
   text-orientation: upright;
@@ -38,6 +40,7 @@
   height: 75%;
   border: 5px solid;
   color: Black;
+  text-decoration: none;
 }
 .otclickbox {
   text-orientation: upright;
@@ -48,4 +51,5 @@
   height: 75%;
   border: 5px solid;
   color: Black;
+  text-decoration: none;
 }
