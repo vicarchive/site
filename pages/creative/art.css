@@ -12,7 +12,7 @@
   writing-mode: vertical-lr;
   text-orientation: upright;
   background-image: url("../../assets/art/slay.jpg");
-  background-size: 200px;
+  background-size: cover;
   background-positon: left;
   width: 25%;
   height: 75%;
@@ -21,6 +21,7 @@
   text-decoration: none;
   box-sizing: border-box;
   font-size: 40px;
+  opacity: 0.6;
   
 }
 .spclickbox {
