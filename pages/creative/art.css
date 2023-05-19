@@ -24,8 +24,7 @@
   height: 500px;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  border: 5px solid;
-  border-color: Black;
+  border: 5px solid Black;
   color: White;
   font-size: 40px;
   text-justify: inter-character;
