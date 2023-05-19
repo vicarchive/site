@@ -8,3 +8,7 @@
   line-height: 20px;
   font-size: 25px;
 }
+.clickbox {
+  writing mode: vertical-rl;
+  text-orientation: upright;
+}
