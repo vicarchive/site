@@ -10,6 +10,7 @@
 }
 .soclickbox {
   text-orientation: upright;
+  writing-mode: vertical-rl;
   background-image: url("../../assets/art/slay.jpg");
   background-size: 200px;
   background-positon: left;
