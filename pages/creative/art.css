@@ -15,7 +15,7 @@
   justify-content: space-around;
   align-items: center;
 }
-.socb {
+.artc {
   writing-mode: vertical-rl;
   text-orientation: upright;
   width: 25%;
@@ -25,50 +25,21 @@
   font-size: 40px;
   text-decoration: none;
 }
-.socb::before {
+
+.socb {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   opacity: 0.6;
 }
 .spcb {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  width: 25%;
-  height: 100%;
-  border: 5px solid;
-  color: White;
-  font-size: 40px;
-  text-decoration: none;
-}
-.spcb::before {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   opacity: 0.6;
 }
 .sscb {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  width: 25%;
-  height: 100%;
-  border: 5px solid;
-  color: White;
-  font-size: 40px;
-  text-decoration: none;
-}
-.sscb::before {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   opacity: 0.6;
-}
-.otcb {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  width: 25%;
-  height: 100%;
-  border: 5px solid;
-  color: White;
-  font-size: 40px;
-  text-decoration: none;
 }
 .otcb {
   background-image: url("../../assets/art/slay.jpg");
