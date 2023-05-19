@@ -1,3 +1,24 @@
-.header {
-  
+.col {
+  float: left;
+  padding: 10px;
+}
+.l {
+  width:45%
+}
+.r {
+  width:55%
+}
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .hcoll{
+    width: 100%;
+  }
+  .hcolr{
+    width:100%;
+  }
 }
