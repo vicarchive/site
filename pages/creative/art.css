@@ -18,6 +18,8 @@
   border: 5px solid;
   color: Black;
   text-decoration: none;
+  box-sizing: border-box;
+  font-size: 40px;
   
 }
 .spclickbox {
