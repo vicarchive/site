@@ -93,10 +93,14 @@
 }
 .minesweeper { /* minesweeper container */
   border-radius: 10px;
+  border: 1px solid;
+  color: White;
+}
+.mineimage {
   background-image: url(assets/sweeper.png);
   background-size: cover;
   background-position: center;
-  border: 1px solid
+  opacity: 0.8;
 }
 .songloop { /* loop song */
 
