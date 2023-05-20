@@ -45,7 +45,7 @@
 .flexrow1{ /* see whiteboard, is the top row on the inside top */
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -54,7 +54,7 @@
 .flexrow2{ /* is on the inside bottom */
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -62,7 +62,7 @@
 }
 .desc { /* description container */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
   border: 1px solid;
 }
@@ -72,7 +72,7 @@
 }
 .linkscont { /* links container in desc*/
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   border: 1px solid;
 }
