@@ -80,7 +80,7 @@
   padding: 10px;
 }
 .shads { /* shadow image */
-  background-image: url(assets/shads.jpg);
+  background-image: url("assets/shads.jpg");
   padding: 10px;
   background-size: cover;
   background-position: center;
@@ -110,7 +110,7 @@
   padding: 10px;
 }
 .mineimage {
-  background-image: url(assets/sweeper.png);
+  background-image: url("assets/sweeper.png");
   background-size: cover;
   background-position: 75% 50%;
   opacity: 0.8;
