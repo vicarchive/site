@@ -77,26 +77,26 @@
   border: 1px solid;
 }
 .shads { /* shadow image */
-
+  background-image: url(/*add later*/)
 }
 .leftover { /* extra thing on the side */
 
 }
 .columnrow2 { /* recent buys and the banner with callie and shadow */
-
+  display: flex;
+  flex-direction: column;
 }
 .recbuys { /* recent buys row 1 in col */
-
+  color: Black;
 }
 .favsbanner { /* callie and shadow banner in row 2 in col */
-
+  background-image: url(/*add image later*/)
 }
 .minesweeper { /* minesweeper container */
   border-radius: 10px;
   border: 1px solid;
   color: White;
-  height: 100%;
-  width: 30%;
+  height: 300px;
 }
 .mineimage {
   background-image: url(assets/sweeper.png);
@@ -105,5 +105,6 @@
   opacity: 0.8;
 }
 .songloop { /* loop song */
-
+  display: flex;
+  flex-direction: column;
 }
