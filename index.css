@@ -95,6 +95,8 @@
   border-radius: 10px;
   border: 1px solid;
   color: White;
+  height: 100%;
+  width: 30%;
 }
 .mineimage {
   background-image: url(assets/sweeper.png);
