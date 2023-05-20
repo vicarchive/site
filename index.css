@@ -82,6 +82,8 @@
 .shads {
   width: 100%;
   padding: 10px;
+  height: 200px;
+  width: 200px;
 }
 .leftover { /* extra thing on the side */
   padding: 10px 20px 10px 10px;
