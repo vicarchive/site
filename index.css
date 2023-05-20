@@ -79,13 +79,12 @@
   border: 1px solid;
   padding: 10px;
 }
-.shads { /* shadow image */
-  background-image: url("assets/shads.jpg");
+.shads {
+  width: 100%;
   padding: 10px;
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  width: 400px;
+}
+.shads img { /* shadow image */
+  .width: 100%;
 }
 .leftover { /* extra thing on the side */
   padding: 10px;
