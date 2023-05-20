@@ -95,13 +95,13 @@
 .minesweeper { /* minesweeper container */
   border-radius: 10px;
   border: 1px solid;
-  color: White;
-  height: 300px;
+  color: Black;
+  height: 200px;
 }
 .mineimage {
   background-image: url(assets/sweeper.png);
   background-size: cover;
-  background-position: center;
+  background-position: 75% 50%;
   opacity: 0.8;
 }
 .songloop { /* loop song */
