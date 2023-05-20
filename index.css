@@ -82,6 +82,10 @@
 .shads { /* shadow image */
   background-image: url(assets/shads.jpg);
   padding: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 400px;
 }
 .leftover { /* extra thing on the side */
   padding: 10px;
