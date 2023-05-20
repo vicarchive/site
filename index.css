@@ -40,6 +40,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid;
 }
 .flexrow2{ /* is on the inside bottom */
   display: flex;
@@ -48,11 +49,13 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid;
 }
 .desc { /* description container */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  border: 1px solid;
 }
 .desc::before {
   background-color: White;
@@ -62,6 +65,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border: 1px solid;
 }
 .shads { /* shadow image */
 
@@ -83,6 +87,7 @@
   background-image: url(assets/sweeper.png);
   background-size: cover;
   background-position: center;
+  border: 1px solid
 }
 .songloop { /* loop song */
 
