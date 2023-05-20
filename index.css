@@ -23,6 +23,7 @@
 }
 .sidenav { /* toc */
   width: 130px;
+  height: 100%
   left: 10px;
   background-color: #eee;
   overflow-x: hidden;
