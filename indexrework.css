@@ -3,7 +3,7 @@ html, body { /* the whole page */
   margin: 0%;
 }
 .header { /* title banner on the top */
-  font-size: 15px;
+  font-size: 40px;
   width: auto;
   height: 10%;
   border: 2vw;
