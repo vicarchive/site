@@ -4,6 +4,8 @@ html, body { /* the whole page */
   margin: 0;
 }
 .header { /* title banner on the top */
+  width: 100%;
+  height: 20%
 }
 .ins { /* the underside of the banner container */
 }
