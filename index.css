@@ -1,5 +1,6 @@
 .body {
-  border: 1px solid;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -8,16 +9,19 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 70%;
+  margin: 5%;
 }
 .largebanner {
   border-radius: 15px;
-  width: 100%;
-  padding: 20px;
+  width: 90%;
+  height: 10%;
+  margin: 5%;
   justify-content: center;
   align-items: center;
   font-size: 50px;
   color: Black;
-  border: 10px solid Black;
+  border: 5vw solid Black;
 }
 .largebanner::before {
   background-color: CornflowerBlue;
@@ -28,14 +32,13 @@
   flex-direction: column;
   flex-wrap: nowrap;
   width: 10%;
-  height: 100%;
-  left: 10px;
+  height: 90%;
   background-color: #eee;
   overflow-x: hidden;
-  padding: 20px 10px 10px 20px;
+  margin: 5%;
 }
 .sidenav a { /* inside toc */
-  padding: 6px 8px 6px 16px;
+  padding: 10%;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
@@ -45,14 +48,15 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-left: 130px;
-  padding: 5px;
-  width: 90%;
+  margin: 5%;
+  width: 70%;
+  height: 90%;
 }
 .flexrow1{ /* see whiteboard, is the top row on the inside top */
   display: flex;
-  width: 100%;
-  height: 60%;
+  width: 90%;
+  height: 50%;
+  margin: 5%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -61,8 +65,9 @@
 }
 .flexrow2{ /* is on the inside bottom */
   display: flex;
-  width: 100%;
-  height: 40%;
+  width: 90%;
+  height: 30%;
+  margin; 5%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -74,8 +79,8 @@
   flex-direction: column;
   flex-wrap: nowrap;
   border: 1px solid;
-  padding: 10px;
-  width: 35%;
+  margin: 5%;
+  width: 40%;
 }
 .desc::before {
   background-color: White;
@@ -86,44 +91,44 @@
   flex-direction: row;
   flex-wrap: wrap;
   border: 1px solid;
-  padding: 10px;
   width: 100%;
   height: 10%;
 }
 .shads {
-  width: 40%;
-  padding: 10px;
-  height: 100%
+  width: 20%;
+  margin: 5%;
+  height: 90%
 }
 .leftover { /* extra thing on the side */
-  padding: 10px 20px 10px 10px;
-  width: 25%:
+  margin: 5%;
+  width: 10%:
 }
 .columnrow2 { /* recent buys and the banner with callie and shadow */
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 90%;
   width: 30%;
+  margin: 5%;
 }
 .recbuys { /* recent buys row 1 in col */
   color: Black;
-  padding: 10px;
-  height: 50%;
+  height: 45%;
   width: 100%;
+  margin-bottom: 5%;
 }
 .favsbanner { /* callie and shadow banner in row 2 in col */
   background-image: url(/*add image later*/);
-  padding: 10px;
-  height: 50%;
+  margin-bottom: 5%;
+  height: 45%;
   width: 100%;
 }
 .minesweeper { /* minesweeper container */
   border-radius: 10px;
   border: 1px solid;
   color: Black;
-  height:100%;
-  width: 25%;
-  padding: 10px;
+  height: 90%;
+  width: 20%;
+  margin: 5%
 }
 .mineimage {
   background-image: url("assets/sweeper.png");
@@ -134,7 +139,7 @@
 .songloop { /* loop song */
   display: flex;
   flex-direction: column;
-  padding: 10px 20px 10px 10px;
-  height: 100%;
-  width: 45%;
+  margin: 5%;
+  height: 0-%;
+  width: 20%;
 }
