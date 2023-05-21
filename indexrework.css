@@ -12,7 +12,6 @@ html, body { /* the whole page */
 .ins { /* the underside of the banner container */
 }
 .sidenav { /* the sidebar thing on the left of the rest of the page */
-  visibility: visible;
 }
 .main{ /* the two rows */
 }
@@ -43,8 +42,8 @@ html, body { /* the whole page */
 .smallbanner img { /* banner img on the bottom */
   width: auto;
   height: auto;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 25%;
+  max-height: 25%;
 }
 .minesweeper { /* minesweeper pb */
   color: White;
