@@ -1,0 +1,32 @@
+.body { /* the whole page */
+}
+.largebanner { /* title banner on the top */
+}
+.ins { /* the underside of the banner container */
+}
+.sidebar { /* the sidebar thing on the left of the rest of the page */
+}
+.main{ /* the two rows */
+}
+.row1 { /* row 1 */
+}
+.desc { /* description box, separated for correct sizing */
+}
+.shads { /* box for shadow */
+}
+.leftover { /* idk what this is but i have space for it */
+}
+.row2 { /* row 2 */
+}
+.cols2 { /* the set of columns on the bottom left */
+}
+.recbuys { /* my recent buys */
+}
+.smallbanner { /* favorite characters */
+}
+.minesweeper { /* minesweeper pb */
+}
+.currentsong { /* my current favorite song */
+}
+@media only screen and (max-width: 600px) { /* copy everything in here and edit for mobile layout*/
+}
