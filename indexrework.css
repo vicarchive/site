@@ -68,7 +68,7 @@ html, body { /* the whole page */
 .minesweeper { /* minesweeper pb */
   color: White;
 }
-.minesweeper::before { /* minesweeper bg image */
+.minesweeper:before { /* minesweeper bg image */
   background-image: url("/assets/sweeper.png");
   background-size: cover;
   background-position: 75% 50%;
