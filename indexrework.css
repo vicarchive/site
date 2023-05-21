@@ -1,4 +1,7 @@
-.body { /* the whole page */
+html, body { /* the whole page */
+  width: 100%;
+  height: 100%;
+  margin: 100%;
 }
 .header { /* title banner on the top */
 }
@@ -13,6 +16,12 @@
 .desc { /* description box, separated for correct sizing */
 }
 .shads { /* box for shadow */
+}
+.shads img { /* image properties for shads*/
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height 50%;
 }
 .leftover { /* idk what this is but i have space for it */
 }
