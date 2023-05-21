@@ -3,14 +3,17 @@ html, body { /* the whole page */
   margin: 0%;
 }
 .header { /* title banner on the top */
-  font-size: 10px;
+  font-size: 15px;
   width: auto;
   height: 7%;
   border: 5px solid Black;
-  margin: 3%;
+  margin: 1%;
   padding: 1%;
 }
 .ins { /* the underside of the banner container */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: auto;
   height: 90%;
 }
@@ -20,11 +23,11 @@ html, body { /* the whole page */
   flex-wrap: nowrap;
   width: 10%;
   height: auto;
-  margin: 5%;
+  margin: 3%;
   overflow-x: hidden;
 }
 .sidenav a { /* links inside the sidebar */
-  padding: 1%;
+  padding: 3%;
   text-decoration: none;
   font-size: 20px;
 }
