@@ -90,5 +90,8 @@ html, body { /* the whole page */
 .currentsong { /* my current favorite song */
   width: 50%;
 }
+.current song iframe {
+  max-width: 80%;
+}
 @media only screen and (max-width: 600px) { /* copy everything in here and edit for mobile layout*/
 }
