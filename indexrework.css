@@ -17,6 +17,7 @@ html, body { /* the whole page */
 .main{ /* the two rows */
 }
 .row1 { /* row 1 */
+  display: flex;
 }
 .desc { /* description box, separated for correct sizing */
 }
@@ -31,6 +32,7 @@ html, body { /* the whole page */
 .leftover { /* idk what this is but i have space for it */
 }
 .row2 { /* row 2 */
+  display: flex;
 }
 .cols2 { /* the set of columns on the bottom left */
 }
@@ -38,7 +40,20 @@ html, body { /* the whole page */
 }
 .smallbanner { /* favorite characters */
 }
+.smallbanner img { /* banner img on the bottom */
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
 .minesweeper { /* minesweeper pb */
+  color: White;
+}
+.minesweeper::before { /* minesweeper bg image */
+  background-image: url("assets/sweeper.png");
+  background-size: cover;
+  background-position: 75% 50%;
+  opacity: 0.8;
 }
 .currentsong { /* my current favorite song */
 }
