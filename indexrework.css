@@ -5,9 +5,10 @@ html, body { /* the whole page */
 .header { /* title banner on the top */
   font-size: 20px;
   width: auto;
-  height: 10%;
+  height: 7%;
   border: 5px solid Black;
   margin: 3%;
+  padding: 1%;
 }
 .ins { /* the underside of the banner container */
   
