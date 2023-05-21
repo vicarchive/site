@@ -42,8 +42,8 @@ html, body { /* the whole page */
 .smallbanner img { /* banner img on the bottom */
   width: auto;
   height: auto;
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 75%;
+  max-height: 75%;
 }
 .minesweeper { /* minesweeper pb */
   color: White;
