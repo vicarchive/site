@@ -1,10 +1,10 @@
 .body { /* the whole page */
 }
-.largebanner { /* title banner on the top */
+.header { /* title banner on the top */
 }
 .ins { /* the underside of the banner container */
 }
-.sidebar { /* the sidebar thing on the left of the rest of the page */
+.sidenav { /* the sidebar thing on the left of the rest of the page */
 }
 .main{ /* the two rows */
 }
