@@ -3,6 +3,7 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .ins {
   border: 1px solid;
@@ -11,6 +12,7 @@
   width: 100%;
   height: 70%;
   margin: 5%;
+  position: relative;
 }
 .largebanner {
   border-radius: 15px;
@@ -22,6 +24,7 @@
   font-size: 50px;
   color: Black;
   border: 5vw solid Black;
+  position: absolute;
 }
 .largebanner::before {
   background-color: CornflowerBlue;
@@ -36,6 +39,7 @@
   background-color: #eee;
   overflow-x: hidden;
   margin: 5%;
+  position: absolute;
 }
 .sidenav a { /* inside toc */
   padding: 10%;
@@ -51,6 +55,7 @@
   margin: 5%;
   width: 70%;
   height: 90%;
+  position: relative;
 }
 .flexrow1{ /* see whiteboard, is the top row on the inside top */
   display: flex;
@@ -62,6 +67,7 @@
   justify-content: space-around;
   align-items: center;
   border: 1px solid;
+  position: relative;
 }
 .flexrow2{ /* is on the inside bottom */
   display: flex;
@@ -73,6 +79,7 @@
   justify-content: space-around;
   align-items: center;
   border: 1px solid;
+  position: relative;
 }
 .desc { /* description container */
   display: flex;
@@ -81,6 +88,7 @@
   border: 1px solid;
   margin: 5%;
   width: 40%;
+  position: relative;
 }
 .desc::before {
   background-color: White;
@@ -93,15 +101,18 @@
   border: 1px solid;
   width: 100%;
   height: 10%;
+  position: relative;
 }
 .shads {
   width: 20%;
   margin: 5%;
-  height: 90%
+  height: 90%;
+  position: relative;
 }
 .leftover { /* extra thing on the side */
   margin: 5%;
-  width: 10%:
+  width: 10%;
+  position: relative;
 }
 .columnrow2 { /* recent buys and the banner with callie and shadow */
   display: flex;
@@ -109,18 +120,21 @@
   height: 90%;
   width: 30%;
   margin: 5%;
+  position: relative;
 }
 .recbuys { /* recent buys row 1 in col */
   color: Black;
   height: 45%;
   width: 100%;
   margin-bottom: 5%;
+  position: relative;
 }
 .favsbanner { /* callie and shadow banner in row 2 in col */
   background-image: url(/*add image later*/);
   margin-bottom: 5%;
   height: 45%;
   width: 100%;
+  position: relative;
 }
 .minesweeper { /* minesweeper container */
   border-radius: 10px;
@@ -128,7 +142,8 @@
   color: Black;
   height: 90%;
   width: 20%;
-  margin: 5%
+  margin: 5%;
+  position: relative;
 }
 .mineimage {
   background-image: url("assets/sweeper.png");
@@ -142,4 +157,5 @@
   margin: 5%;
   height: 0-%;
   width: 20%;
+  position: relative;
 }
