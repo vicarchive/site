@@ -1,5 +1,24 @@
 /* PLEASE just try to make this look arranged on your PC before making it scalable, text is awful just finish putting it together so it's finished at least somewhere. Worst case scenario you'll make a mobile version for the page and that's all you'll need */
 
+/*
+ISSUES:
+- Title is not fitting in the box.
+  ^ Change font size
+- Sidebar is not properly showing up.
+  ^ Probably a combination of margins and width
+- Large space between every element.
+  ^ Most likely a margin issue
+- Minesweeper image is not showing up.
+  ^ No idea
+- Images are very small.
+  ^ They're probably based on the width of their containers.
+
+NOTES:
+- Once the title begins to resize, then make that point the mobile switch point.
+  ^ Header for mobile is in the whiteboard.
+- Front page shouldn't have scrolling. Hopefully the auto settings keep that.
+*/
+
 html, body { /* the whole page */
   height: 100%;
   margin: 0%;
