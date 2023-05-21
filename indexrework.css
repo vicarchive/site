@@ -22,6 +22,9 @@ html, body { /* the whole page */
   overflow-x: hidden;
 }
 .sidenav a { /* links inside the sidebar */
+  padding: 10%;
+  text-decoration: none;
+  font-size: 20px;
 }
 .main{ /* the two rows */
 }
