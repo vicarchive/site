@@ -17,6 +17,7 @@ html, body { /* the whole page */
 }
 .row1 { /* row 1 */
   display: flex;
+  flex-wrap: nowrap;
 }
 .desc { /* description box, separated for correct sizing */
 }
@@ -32,6 +33,7 @@ html, body { /* the whole page */
 }
 .row2 { /* row 2 */
   display: flex;
+  flex-wrap: nowrap;
 }
 .cols2 { /* the set of columns on the bottom left */
 }
@@ -52,7 +54,6 @@ html, body { /* the whole page */
   background-image: url("assets/sweeper.png");
   background-size: cover;
   background-position: 75% 50%;
-  opacity: 0.8;
 }
 .currentsong { /* my current favorite song */
 }
