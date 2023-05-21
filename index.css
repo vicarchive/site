@@ -12,6 +12,8 @@ ISSUES:
   ^ No idea
 - Images are very small.
   ^ They're probably based on the width of their containers.
+- Source code is not in a container yet.
+  ^ Place it at the bottom of the sidebar? Probably best there.
 
 NOTES:
 - Once the title begins to resize, then make that point the mobile switch point.
