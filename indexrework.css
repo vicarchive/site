@@ -21,7 +21,7 @@ html, body { /* the whole page */
   width: auto;
   height: auto;
   max-width: 50%;
-  max-height 50%;
+  max-height: 50%;
 }
 .leftover { /* idk what this is but i have space for it */
 }
