@@ -10,9 +10,6 @@ html, body { /* the whole page */
   padding: 1%;
   align: center;
 }
-.header h1 { /* text modification? */
-  width: 75%;
-}
 .ins { /* the underside of the banner container */
   display: flex;
   flex-direction: row;
@@ -24,7 +21,7 @@ html, body { /* the whole page */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 10%;
+  width: 5%;
   height: auto;
   margin: 3%;
   overflow-x: hidden;
@@ -45,8 +42,10 @@ html, body { /* the whole page */
   height: 50%;
 }
 .desc { /* description box, separated for correct sizing */
+  width: 30%;
 }
 .shads { /* box for shadow */
+  width: 40%;
 }
 .shads img { /* image properties for shads*/
   width: auto;
@@ -55,16 +54,23 @@ html, body { /* the whole page */
   max-height: 80%;
 }
 .leftover { /* idk what this is but i have space for it */
+  width: 30%;
 }
 .row2 { /* row 2 */
   display: flex;
   flex-wrap: nowrap;
 }
 .cols2 { /* the set of columns on the bottom left */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 40%;
 }
 .recbuys { /* my recent buys */
+  height: 50%;
 }
 .smallbanner { /* favorite characters */
+  height: 50%
 }
 .smallbanner img { /* banner img on the bottom */
   width: auto;
@@ -74,6 +80,7 @@ html, body { /* the whole page */
 }
 .minesweeper { /* minesweeper pb */
   color: White;
+  width: 20%;
 }
 .minesweeper:before { /* minesweeper bg image */
   background-image: url("/assets/sweeper.png");
@@ -81,6 +88,7 @@ html, body { /* the whole page */
   background-position: 75% 50%;
 }
 .currentsong { /* my current favorite song */
+  width: 50%;
 }
 @media only screen and (max-width: 600px) { /* copy everything in here and edit for mobile layout*/
 }
