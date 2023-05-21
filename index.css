@@ -8,6 +8,10 @@ html, body { /* the whole page */
   border: 5px solid Black;
   margin: 1%;
   padding: 1%;
+  align: center;
+}
+.header h1 { /* text modification? */
+  width: 75%;
 }
 .ins { /* the underside of the banner container */
   display: flex;
