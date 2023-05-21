@@ -21,7 +21,7 @@ html, body { /* the whole page */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 5%;
+  width: 7%;
   height: auto;
   margin: 3%;
   overflow-x: hidden;
@@ -32,8 +32,8 @@ html, body { /* the whole page */
   font-size: 20px;
 }
 .main{ /* the two rows */
-  width: auto;
-  height: auto;
+  width: 90%;
+  height: 90%;
   margin: 5%;
 }
 .row1 { /* row 1 */
