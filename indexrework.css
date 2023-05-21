@@ -10,8 +10,18 @@ html, body { /* the whole page */
   margin: 3%;
 }
 .ins { /* the underside of the banner container */
+  
 }
 .sidenav { /* the sidebar thing on the left of the rest of the page */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 10%;
+  height: 90%;
+  margin: 5%;
+  overflow-x: hidden;
+}
+.sidenav a { /* links inside the sidebar */
 }
 .main{ /* the two rows */
 }
