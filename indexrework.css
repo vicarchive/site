@@ -11,11 +11,8 @@ html, body { /* the whole page */
 }
 .ins { /* the underside of the banner container */
 }
-.sidenav-pc { /* the sidebar thing on the left of the rest of the page */
+.sidenav { /* the sidebar thing on the left of the rest of the page */
   visibility: visible;
-}
-.sidenav-mob { /* sidebar layout for mobile */
-  visibility: hidden;
 }
 .main{ /* the two rows */
 }
