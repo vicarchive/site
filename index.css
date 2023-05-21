@@ -31,13 +31,14 @@ html, body { /* the whole page */
   font-size: 20px;
 }
 .main{ /* the two rows */
-  width: 70%;
+  width: auto;
   height: auto;
   margin: 5%;
 }
 .row1 { /* row 1 */
   display: flex;
   flex-wrap: nowrap;
+  height: 50%;
 }
 .desc { /* description box, separated for correct sizing */
 }
