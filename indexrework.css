@@ -3,7 +3,7 @@ html, body { /* the whole page */
   margin: 0%;
 }
 .header { /* title banner on the top */
-  font-size: 5vw;
+  font-size: 1.5vw;
   width: auto;
   height: 7%;
   border: 5px solid Black;
@@ -11,14 +11,15 @@ html, body { /* the whole page */
   padding: 1%;
 }
 .ins { /* the underside of the banner container */
-  
+  width: auto;
+  height: 90%;
 }
 .sidenav { /* the sidebar thing on the left of the rest of the page */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   width: 10%;
-  height: 90%;
+  height: auto;
   margin: 5%;
   overflow-x: hidden;
 }
@@ -28,6 +29,9 @@ html, body { /* the whole page */
   font-size: 20px;
 }
 .main{ /* the two rows */
+  width: 70%;
+  height: auto;
+  margin: 5%;
 }
 .row1 { /* row 1 */
   display: flex;
@@ -65,7 +69,7 @@ html, body { /* the whole page */
   color: White;
 }
 .minesweeper::before { /* minesweeper bg image */
-  background-image: url("assets/sweeper.png");
+  background-image: url("/assets/sweeper.png");
   background-size: cover;
   background-position: 75% 50%;
 }
