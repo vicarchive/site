@@ -10,6 +10,6 @@ To do list:
 - CSS the blog
 
 - OC page information:
-- - Main oc's have their own page and backstory, with their own art. Main page with art of said franchise has their art up as well.
+  - Main oc's have their own page and backstory, with their own art. Main page with art of said franchise has their art up as well.
 
 ... and finally, make mobile CSS layouts.
