@@ -7,9 +7,6 @@ To do list:
 - Figure out height overflow stuff on the index page
   - Or add more boxes so it looks like this:
   - ![image](https://github.com/vicarchive/site/assets/133058751/6c0fe8f2-d4b5-456c-8be7-1eef69b48be5)
-- Add BG and background colors to the index page
-  - BG image is transluscent SA2 sky w/ black BG color
-  - Elements have like 50% white color opacity BG
 - CSS the art page, add my art to the buttons
   - Probably no images in the BG, maybe a light color
   - Add some color to the elements
