@@ -50,6 +50,10 @@ html, body { /* the whole page */
   text-decoration: none;
   text-size: 20px;
 }
+.sidebottom { /* bottom of the sidebar */
+  position: relative;
+  bottom: 0;
+}
 .main{ /* the two rows */
   width: auto;
   height: auto;
