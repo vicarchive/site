@@ -46,6 +46,7 @@ html, body { /* the whole page */
   overflow-x: hidden;
 }
 .sidenav a { /* links inside the sidebar */
+  position: relative;
   padding: 1%;
   text-decoration: none;
   text-size: 20px;
