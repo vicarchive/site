@@ -4,8 +4,8 @@
 ISSUES:
 - Minesweeper image is not showing up.
   ^ No idea
-- Images are very small.
-  ^ They're probably based on the width of their containers.
+- Streamer images are too large.
+  ^ No idea.
 - Source code is not in a container yet.
   ^ Place it at the bottom of the sidebar? Probably best there.
 
@@ -121,10 +121,10 @@ html, body { /* the whole page */
   color: White;
   width: 20%;
 }
-.minesweeper:before { /* minesweeper bg image */
-  content:"";
+.minebox { /* minesweeper bg image */
   background-image: url("assets/sweeper.png");
   background-size: cover;
+  opacity: 0.9;
 }
 .currentsong { /* my current favorite song */
   width: 50%;
