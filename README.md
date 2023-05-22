@@ -4,7 +4,7 @@ To do list:
 - Make images in streamer sections not squash by either:
   - Taking out their dependency on the width
   - Figure out a way to allow their heights to vary
-- Figure out width stuff in the index page
+- Figure out height overflow stuff on the index page
 - Add bg and background colors to the index page
 - CSS the art page, add my art to the buttons
 - Finish creating all linked art pages
