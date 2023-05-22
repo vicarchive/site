@@ -25,10 +25,10 @@ html, body { /* the whole page */
 }
 .header { /* title banner on the top */
   width: auto;
-  height: 25px;
+  height: 20%;
   border: 5px solid Black;
   margin: 1%;
-  padding: 2px;
+  padding: 5px;
   align: center;
   font-size: 15px;
 }
@@ -87,8 +87,10 @@ html, body { /* the whole page */
   flex-direction: row;
 }
 .streamers img { /* the image */
-  max-width: 30%;
-  max-height: 30%;
+  width: auto;
+  height: auto;
+  max-width: 20%;
+  max-height: 20%;
 }
 .row2 { /* row 2 */
   display: flex;
