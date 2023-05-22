@@ -2,7 +2,6 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 <br /><br />
 To do list:
 - CSS the art page, add my art to the buttons
-  - Probably no images in the BG, maybe a light color
   - Add some color to the elements
 - Finish creating all linked art pages
 - Organize and CSS about me
