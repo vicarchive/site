@@ -121,6 +121,7 @@ html, body { /* the whole page */
   width: 20%;
 }
 .minesweeper:before { /* minesweeper bg image */
+  content:"";
   background-image: url("assets/sweeper.png");
   background-size: cover;
 }
