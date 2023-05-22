@@ -83,6 +83,8 @@ html, body { /* the whole page */
   flex-direction: column;
 }
 .cont { /* container for the streamers stuff */
+  width: 100%;
+  height: 33%;
   display: flex;
   flex-direction: row;
 }
