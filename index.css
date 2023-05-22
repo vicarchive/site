@@ -32,9 +32,10 @@ html, body { /* the whole page */
   margin: 1%;
   padding: 1%;
   align: center;
+  font-size: 15px;
 }
 .header h1 { /* h1 header settings */
-  font-size: 15px;
+  
 }
 .ins { /* the underside of the banner container */
   display: flex;
