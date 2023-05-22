@@ -71,7 +71,7 @@ body { /* it works aye */
 }
 .sidebottom { /* bottom of the sidebar */
   position: relative;
-  bottom: -400px;
+  bottom: -440px;
   padding: 5%;
 }
 .main{ /* the two rows */
