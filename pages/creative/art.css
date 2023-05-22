@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px;
+  width: 250px;
   height: 500px;
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -44,6 +44,12 @@
   opacity: 0.7;
 }
 .sscb {
+  background-image: url("../../assets/art/slay.jpg");
+  background-size: cover;
+  background-position: 50% 75%;
+  opacity: 0.7;
+}
+.ocs {
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   background-position: 50% 75%;
