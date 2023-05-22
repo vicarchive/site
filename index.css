@@ -79,6 +79,7 @@ html, body { /* the whole page */
 }
 .streamers { /* idk what this is but i have space for it */
   width: 30%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
