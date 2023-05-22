@@ -7,13 +7,18 @@ To do list:
 - Figure out height overflow stuff on the index page
   - Or add more boxes so it looks like this:
   - ![image](https://github.com/vicarchive/site/assets/133058751/6c0fe8f2-d4b5-456c-8be7-1eef69b48be5)
-- Add bg and background colors to the index page
+- Add BG and background colors to the index page
+  - BG image is transluscent SA2 sky w/ black BG color
+  - Elements have like 50% white color opacity BG
 - CSS the art page, add my art to the buttons
+  - Probably no images in the BG, maybe a light color
+  - Add some color to the elements
 - Finish creating all linked art pages
 - Organize and CSS about me
+  - Need to draft layout
 - Upload and link my art properly to their respective pages (+CSS it)
 - CSS the blog
-- Put the Shadow overlay image somewhere
+  - Also needs layout
 
 - OC page information:
   - Main oc's have their own page and backstory, with their own art. Main page with art of said franchise has their art up as well.
