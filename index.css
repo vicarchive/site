@@ -89,9 +89,9 @@ html, body { /* the whole page */
   flex-direction: row;
 }
 .streamers img { /* the image */
-  width: auto;
+  width: 50%;
   height: auto;
-  max-width: 20%;
+  max-width: 250px;
   max-height: 20%;
 }
 .row2 { /* row 2 */
