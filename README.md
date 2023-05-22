@@ -8,6 +8,7 @@ To do list:
 - Organize and CSS about me
 - Upload and link my art properly to their respective pages (+CSS it)
 - CSS the blog
+- Put the Shadow overlay image somewhere
 
 - OC page information:
   - Main oc's have their own page and backstory, with their own art. Main page with art of said franchise has their art up as well.
