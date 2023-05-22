@@ -107,9 +107,8 @@ html, body { /* the whole page */
   width: 20%;
 }
 .minesweeper:before { /* minesweeper bg image */
-  background-image: url("/assets/sweeper.png");
+  background-image: url("assets/sweeper.png");
   background-size: cover;
-  background-position: 75% 50%;
 }
 .currentsong { /* my current favorite song */
   width: 50%;
