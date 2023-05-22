@@ -5,6 +5,8 @@ To do list:
   - Taking out their dependency on the width
   - Figure out a way to allow their heights to vary
 - Figure out height overflow stuff on the index page
+  - Or add more boxes like an early 2000s magazine website
+  - ![image](https://github.com/vicarchive/site/assets/133058751/6c0fe8f2-d4b5-456c-8be7-1eef69b48be5)
 - Add bg and background colors to the index page
 - CSS the art page, add my art to the buttons
 - Finish creating all linked art pages
