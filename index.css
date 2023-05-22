@@ -2,8 +2,6 @@
 
 /*
 ISSUES:
-- Title is not fitting in the box.
-  ^ Change font size
 - Sidebar is not properly showing up.
   ^ Probably a combination of margins and width
 - Large space between every element.
@@ -49,7 +47,7 @@ html, body { /* the whole page */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: auto;
+  width: 10%;
   height: auto;
   margin: 1%;
   overflow-x: hidden;
