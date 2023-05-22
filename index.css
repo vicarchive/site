@@ -32,9 +32,6 @@ html, body { /* the whole page */
   align: center;
   font-size: 15px;
 }
-.header h1 { /* h1 header settings */
-  
-}
 .ins { /* the underside of the banner container */
   display: flex;
   flex-direction: row;
