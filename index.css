@@ -21,7 +21,7 @@ html, body { /* the whole page */
 }
 .header { /* title banner on the top */
   width: auto;
-  height: 20%;
+  height: 50px;
   border: 5px solid Black;
   margin: 1%;
   padding: 5px;
