@@ -1,12 +1,42 @@
-.col {
-  display: flex;
+html {
+  margin: 0;
+  padding: 0;
 }
-.col > div {
-  margin: 10px;
-  line-height: 20px;
+.col { /* top navigation bar */
+  display: flex;
+  border: 5px solid Black;
+  background-image: url("../../assets/sa2skybox.JPG");
+  background-size: cover;
+}
+.col a { /* link colors */
+  color: Black;
+}
+.col a:hover { /* nifty things */
+  color: rgb(166,15,55);
+}
+.col > div { /* different links */
+  margin: 0 10px 0 10px;
+  line-height: 25px;
   font-size: 25px;
 }
-.artcol {
+.col img { /* shadow thingy */
+  position: absolute;
+  right: 10%;
+  top: 2%;
+  height: 250px;
+  z-index: 3;
+}
+.texts { /* text boxes */
+  display: flex;
+  flex-direction: row;
+  line-height: 40px;
+  padding: 10px;
+}
+.texts p { /* you get it */
+  padding-left: 30px;
+  font-size: 25px;
+}
+.artcol { /* row of boxes */
   border-radius: 25px;
   height: 100%;
   display: flex;
@@ -15,47 +45,62 @@
   justify-content: space-around;
   align-items: center;
 }
-.artc {
+.artc { /* separate boxes */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 250px;
   height: 500px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
   border: 5px solid Black;
-  color: White;
+  border-radius: 15px;
+  color: Black;
   font-size: 40px;
   text-decoration: none;
+  text-align: center;
 }
 
-.socb {
+.socb { /* sonic box */
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   background-position: 50% 75%;
-  opacity: 0.7;
+  opacity: 0.3;
 }
-.spcb {
-  background-image: url("../../assets/art/slay.jpg");
-  background-size: cover;
-  background-position: 50% 75%;
-  opacity: 0.7;
+.socb:hover {
+  opacity: 0.6;
 }
-.sscb {
+.spcb { /* splatoon box */
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   background-position: 50% 75%;
-  opacity: 0.7;
+  opacity: 0.3;
 }
-.ocs {
-  background-image: url("../../assets/art/slay.jpg");
-  background-size: cover;
-  background-position: 50% 75%;
-  opacity: 0.7;
+.spcb:hover {
+  opacity: 0.6;
 }
-.otcb {
+.sscb { /* ss crossover box */
   background-image: url("../../assets/art/slay.jpg");
   background-size: cover;
   background-position: 50% 75%;
-  opacity: 0.7;
+  opacity: 0.3;
+}
+.sscb:hover {
+  opacity: 0.6;
+}
+.ocsb { /* oc box */
+  background-image: url("../../assets/art/slay.jpg");
+  background-size: cover;
+  background-position: 50% 75%;
+  opacity: 0.3;
+}
+.ocsb:hover {
+  opacity: 0.6;
+}
+.otcb { /* other box */
+  background-image: url("../../assets/art/slay.jpg");
+  background-size: cover;
+  background-position: 50% 75%;
+  opacity: 0.3;
+}
+.otcb:hover {
+  opacity: 0.6;
 }
