@@ -8,6 +8,7 @@ To do list:
 - Organize and CSS about me
   - Need to draft layout
 - Upload and link my art properly to their respective pages (+CSS it)
+  - Images from GD
 - CSS the blog
   - Also needs layout
 
