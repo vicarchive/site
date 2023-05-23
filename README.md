@@ -1,6 +1,7 @@
 I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML and discover that I despise CSS. Also the large commit number is because I was directly editing code in GitHub, but after learning that GitPages take 10 minutes to update I decided to stop abusing GitHub and edit stuff in Aptana Studio 3.
 <br /><br />
 To do list:
+- Move all assets to GD?
 - Link to the WD art
 - CSS the art page, add my art to the buttons
   - Add some color to the elements
@@ -8,7 +9,6 @@ To do list:
 - Organize and CSS about me
   - Need to draft layout
 - Upload and link my art properly to their respective pages (+CSS it)
-  - Images from GD
 - CSS the blog
   - Also needs layout
 
