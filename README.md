@@ -2,13 +2,8 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 <br /><br />
 To do list:
 - Move all assets to GD?
-- Link to the WD art
-- CSS the art page, add my art to the buttons
-  - Add some color to the elements
-- Finish creating all linked art pages
+- Add my artwork into the art page
 - Organize and CSS about me
-  - Need to draft layout
-- Upload and link my art properly to their respective pages (+CSS it)
 - CSS the blog
   - Also needs layout
 
