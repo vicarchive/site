@@ -3,11 +3,10 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 To do list:
 - Move all assets to GD?
 - Add my artwork into the art page
+  - Includes OC work
+- Add OC information and images
 - Organize and CSS about me
 - CSS the blog
   - Also needs layout
-
-- OC page information:
-  - Main oc's have their own page and backstory, with their own art. Main page with art of said franchise has their art up as well.
-<br />
+<br /><br />
 ... and finally, make mobile CSS layouts.
