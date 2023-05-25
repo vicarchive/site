@@ -8,5 +8,9 @@ To do list:
 - Organize and CSS about me
 - CSS the blog
   - Also needs layout
+- CSS Collection page
+  - Yet again, needs a layout
+- CSS Cringe Corner
+  - Basically is an infodump about SA1 and 2, maybe could include some other cringe stuff in there
 <br /><br />
 ... and finally, make mobile CSS layouts.
