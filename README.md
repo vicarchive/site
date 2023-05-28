@@ -11,6 +11,8 @@ To do list:
 - CSS Collection page
   - Yet again, needs a layout
 - CSS Cringe Corner
-  - Basically is an infodump about SA1 and 2, maybe could include some other cringe stuff in there
+  - Basically is a port of my infodumps about SA1 and 2 from the NeoCities page, maybe could include some other cringe stuff in there
 <br /><br />
 ... and finally, make mobile CSS layouts.
+  - Homepage needs a completely separate layout
+  - The rest of the pages can be display:flex'd into mobile layouts
