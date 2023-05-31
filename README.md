@@ -6,6 +6,7 @@ To do list:
   - Includes OC work
 - Add OC information and images
 - Figure out why SSCrossover position:sticky refuses to work
+- Make the links in the Collection page not underlined
 - Organize and CSS about me
 - CSS the blog
   - Also needs layout
