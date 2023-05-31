@@ -3,9 +3,9 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 ### Easy stuff (Barely any braincells):
 - Add 'Back to Top' labels for the OC page
 - CSS OC page like the Collection and SSCrossover pages?
+  - Depends on whether there is a lot of information on it, probably better just to have it normally done like with images on the top
 - Find a cool font for each text type
 ### Real ToDo List (Requires braincells):
-- Organize and CSS about me
 - CSS the blog
   - Also needs layout
   - Might remove or reuse this page for something else
@@ -24,3 +24,4 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 - Add SSCrossover information and images
   - Wikipedia uses float right?
 - Add Collection information and images
+- Add About Me information and images
