@@ -12,6 +12,7 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 ### Vic use braincells to make website usable (IMPOSSIBLE):
 - Homepage needs a completely separate layout
 - SSCrossover and Collection also need separate layouts
+  - Images here can be put under the corresponding text (flex-direction: row to flex-direction: column)
 - The rest of the pages can be display:flex'd into mobile layouts
 ### Tedious Manual Labor:
 - Upload lower quality art I guess, or originals on GD
