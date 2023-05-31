@@ -10,11 +10,12 @@ To do list:
 - Organize and CSS about me
 - CSS the blog
   - Also needs layout
+  - Might remove or reuse this page for something else
 - Add information and images to Collection page
 - CSS Cringe Corner
   - Basically is a port of my infodumps about SA1 and 2 from the NeoCities page, maybe could include some other cringe stuff in there
 <br /><br />
 ... and finally, make mobile CSS layouts.
 - Homepage needs a completely separate layout
-- SSCrossover and Collection need separate layouts
+- SSCrossover and Collection also need separate layouts
 - The rest of the pages can be display:flex'd into mobile layouts
