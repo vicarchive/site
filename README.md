@@ -5,6 +5,7 @@ To do list:
 - Add my artwork into the art page
   - Includes OC work
 - Add OC information and images
+- Figure out why SSCrossover position:sticky refuses to work
 - Organize and CSS about me
 - CSS the blog
   - Also needs layout
