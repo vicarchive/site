@@ -6,6 +6,7 @@ To do list:
   - Includes OC work
 - Add OC information and images
 - Figure out why SSCrossover position:sticky refuses to work
+  - As an alternative, can add a (Top) jump section to go back up to select a section
 - Make the links in the Collection page not underlined
 - Organize and CSS about me
 - CSS the blog
