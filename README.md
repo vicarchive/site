@@ -10,6 +10,7 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
   - Might remove or reuse this page for something else
 - CSS Cringe Corner
   - Basically is a port of my infodumps about SA1 and 2 from the NeoCities page, maybe could include some other cringe stuff in there
+  - I want the lore pages to look different than my other pages. It can use the wiki style but it should look different
 ### Vic use braincells to make website usable (IMPOSSIBLE):
 - Homepage needs a completely separate layout
 - SSCrossover and Collection also need separate layouts
