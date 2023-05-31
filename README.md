@@ -2,6 +2,8 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 <br /><br />
 ### Easy stuff (Barely any braincells):
 - Add 'Back to Top' labels for the OC page
+- CSS OC page like the Collection and SSCrossover pages?
+- Find a cool font for each text type
 ### Real ToDo List (Requires braincells):
 - Organize and CSS about me
 - CSS the blog
