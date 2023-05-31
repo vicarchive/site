@@ -13,5 +13,6 @@ To do list:
   - Basically is a port of my infodumps about SA1 and 2 from the NeoCities page, maybe could include some other cringe stuff in there
 <br /><br />
 ... and finally, make mobile CSS layouts.
-  - Homepage needs a completely separate layout
-  - The rest of the pages can be display:flex'd into mobile layouts
+- Homepage needs a completely separate layout
+- SSCrossover and Collection need separate layouts
+- The rest of the pages can be display:flex'd into mobile layouts
