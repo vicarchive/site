@@ -9,6 +9,10 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
   - Might remove or reuse this page for something else
 - CSS Cringe Corner
   - Basically is a port of my infodumps about SA1 and 2 from the NeoCities page, maybe could include some other cringe stuff in there
+### Vic use braincells to make website usable (IMPOSSIBLE):
+- Homepage needs a completely separate layout
+- SSCrossover and Collection also need separate layouts
+- The rest of the pages can be display:flex'd into mobile layouts
 ### Tedious Manual Labor:
 - Upload lower quality art I guess, or originals on GD
 - Add Artwork information and images
@@ -16,7 +20,3 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 - Add OC information and images
 - Add SSCrossover information and images
 - Add Collection information and images
-### Vic use braincells to make website usable (IMPOSSIBLE):
-- Homepage needs a completely separate layout
-- SSCrossover and Collection also need separate layouts
-- The rest of the pages can be display:flex'd into mobile layouts
