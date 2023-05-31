@@ -22,4 +22,5 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
   - With OC Art
 - Add OC information and images
 - Add SSCrossover information and images
+  - Wikipedia uses float right?
 - Add Collection information and images
