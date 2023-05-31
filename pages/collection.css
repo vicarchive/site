@@ -1,0 +1,78 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+.col { /* top navigation bar */
+  display: flex;
+  border: 5px solid Black;
+  background-image: url("../assets/sa2skybox.JPG");
+  background-size: cover;
+}
+.col a { /* link colors */
+  color: Black;
+}
+.col a:hover { /* nifty things */
+  color: rgb(166,15,55);
+}
+.col > div { /* different links */
+  margin: 0 10px 0 10px;
+  line-height: 25px;
+  font-size: 25px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.sidenavwiki { /* scrolly sidebar */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: left;
+  position: sticky;
+  margin: 1%;
+  width: 15%;
+}
+.sidenavwiki p {
+  margin: 5px 0 10px 0;
+}
+.sidenavwiki ul {
+  list-style: none;
+  padding: 5px;
+}
+.sidenavwiki ul li {
+  margin: 3px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.texts { /* text boxes */
+  display: flex;
+  flex-direction: row;
+  line-height: 40px;
+  padding: 10px 0 10px 0;
+}
+.texts h1 {
+  margin:15px 0 15px 0;
+}
+.info p { /* you get it */
+  padding: 10px;
+  font-size: 25px;
+  margin: 0px;
+  font-size: 20px;
+}
+.horiz { /* hr doesnt want to work */
+  border-top: 2px solid Black;
+  margin: 0;
+  padding: 0;
+}
+.info h2 { /* major headings */
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.info h3 { /* minor headings */
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}

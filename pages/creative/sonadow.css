@@ -19,13 +19,6 @@ html {
   line-height: 25px;
   font-size: 25px;
 }
-.col img { /* shadow thingy */
-  position: absolute;
-  right: 10%;
-  top: 2%;
-  height: 250px;
-  z-index: 3;
-}
 .texts { /* text boxes */
   display: flex;
   flex-direction: row;
@@ -36,44 +29,17 @@ html {
   padding-left: 30px;
   font-size: 25px;
 }
-.btncontainer {
-  overflow: hidden;
-}
-.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.btn {
-  border: none;
-  outline: none;
-  margin: 0 10px;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-.container { /* the box with pictures in it */
+.container { /* image container */
   display: flex;
   flex-direction: row;
 }
-.filterDiv {
-  float: left;
+.imgdiv {
   margin: 10px;
   text-align: center;
-  display: none;
   background-color: LightBlue;
   border: 3px solid Black;
 }
-.filterDiv img {
+.imgdiv img {
   max-width: 90%;
 }
 .titledate p { /* date of the pic */
@@ -82,7 +48,4 @@ html {
 }
 .desc { /* the description aye */
   font-size: 10px;
-}
-.show {
-  display: block;
 }

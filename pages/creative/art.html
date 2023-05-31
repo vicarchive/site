@@ -9,44 +9,79 @@
   <div class="col">
     <div><p><strong><a href="https://vicarchive.github.io/site" style="text-decoration: none">VIC'S ARCHIVE 3</a></strong></p></div>
     <div><p><a href="https://vicarchive.github.io/site/pages/me" style="text-decoration: none">ME</a> <a href="https://vicarchive.github.io/site/pages/creative/art" style="text-decoration: none">ART</a> <a href="https://vicarchive.github.io/site/pages/cringe/landing" style="text-decoration: none">CC</a> <a href="https://vicarchive.github.io/site/pages/collection" style="text-decoration: none">MC</a> <a href="https://vicarchive.github.io/site/pages/blog/blog" style="text-decoration: none">BL</a></p></div>
-    <img src="../../assets/art/shadsoverlay.png">
+    <a href="https://vicarchive.github.io/site/pages/creative/sonadow"><div><img src="../../assets/shadsoverlay.png"></div></a>
   </div>
   <div class="texts">
   	<h1>Art Stuff:</h1>  <p>Collection of my artwork, on full display.</p>
   </div>
-  <div class="artcol">
-  <a href="https://vicarchive.github.io/site/pages/creative/sonic">
-    <div class="artc socb">
-      Sonic
-    </div>
-  </a>
-  <a href="https://vicarchive.github.io/site/pages/creative/splatoon">
-    <div class="artc spcb">
-      Splatoon
-    </div>
-  </a>
-  <a href="">
-    <div class="artc sscb">
-      SS Crossover
-    </div>
-  </a>
-  <a href="">
-    <div class="artc ocsb">
-      OCs
-    </div>
-  </a>
-  <a href="">
-    <div class="artc otcb">
-      Other
-    </div>
-  </a>
+  <p style="margin:5px">Information on my OCs are <a href="https://vicarchive.github.io/site/pages/creative/originalcharacters">here</a>.</p>
+  <p style="text-align:center;margin-bottom:10px">Click the buttons below to filter through my work:</p>
+<div id="buttons" class="buttons">
+  <button class="btn active" onclick="filterSelection('all')">All</button>
+  <button class="btn" onclick="filterSelection('sonic')">Sonic</button>
+  <button class="btn" onclick="filterSelection('splatoon')">Splatoon</button>
+  <button class="btn" onclick="filterSelection('other')">Other</button>
+  <button class="btn" onclick="filterSelection('sscrossover')">Splachao</button>
+</div>
+
+<div class="container">
+  <div class="filterDiv sonic">
+  	<img src="../../assets/slay.jpg">
+  	<div class="titledate"><p><strong>Bitchless</strong> - <small>04.20.2069</small></p></div>
+  	<p class="desc">Placeholder tbh</p>
   </div>
-  <!-- image caption
-    <figure>
-      <img src="https://wallpapercave.com/wp/wp6761049.png"
-       alt="BigSur wallpaper">
-      <figcaption>MacOS BigSur Walpaper</figcaption>
-    </figure>
-    -->
-</body>
+</div>
+  
+<script> /* copied from w3 schools lmao i cant code for shit */
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("buttons");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+  </body>
 </html>
