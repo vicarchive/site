@@ -2,7 +2,7 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 <br /><br />
 ### Easy stuff (Barely any braincells):
 - Add 'Back to Top' labels for the OC page
-### To do list (Requires braincells):
+### Real ToDo List (Requires braincells):
 - Organize and CSS about me
 - CSS the blog
   - Also needs layout
