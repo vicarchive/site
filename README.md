@@ -6,13 +6,11 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
 - Find a cool font for each text type
 ### Real ToDo List (Requires braincells):
 - Create and CSS the game pages for the CC
-  - BGs for these and layouts should be unique to each game
+  - BGs for these should be unique to each game, layouts can be similar
 - CSS the blog
   - Also needs layout
   - Might remove or reuse this page for something else
 - Add more into the Cringe Corner landing
-  - Basically is a port of my infodumps about SA1 and 2 from the NeoCities page, maybe could include some other cringe stuff in there
-  - I want the lore pages to look different than my other pages. It can use the wiki style but it should look different
 ### Vic use braincells to make website usable (IMPOSSIBLE):
 - Homepage needs a completely separate layout
 - SSCrossover and Collection also need separate layouts
