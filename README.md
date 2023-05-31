@@ -8,8 +8,7 @@ To do list:
 - Organize and CSS about me
 - CSS the blog
   - Also needs layout
-- CSS Collection page
-  - Yet again, needs a layout
+- Add information and images to Collection page
 - CSS Cringe Corner
   - Basically is a port of my infodumps about SA1 and 2 from the NeoCities page, maybe could include some other cringe stuff in there
 <br /><br />
