@@ -174,7 +174,8 @@ body { /* it works aye */
 }
 .smallbannerimg {
   background-image: url("assets/boy.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .minesweeper { /* minesweeper pb */
   color: White;

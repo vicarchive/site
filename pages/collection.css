@@ -24,23 +24,28 @@ html {
   flex-direction: row;
 }
 .sidenavwiki { /* scrolly sidebar */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  text-align: left;
+  display: block;
   position: sticky;
+  top: 0;
+  text-align: left;
   margin: 1%;
-  width: 15%;
+  min-width: 15%;
+  overflow-x: hidden;
 }
 .sidenavwiki p {
   margin: 5px 0 10px 0;
 }
+.sidenavwiki a {
+	text-decoration: none;
+}
 .sidenavwiki ul {
   list-style: none;
-  padding: 5px;
+  padding: 2px;
+  margin: 0 0 0 10px;
 }
 .sidenavwiki ul li {
-  margin: 3px;
+  margin: 0;
+  padding: 2px;
 }
 .info {
   display: flex;
@@ -60,6 +65,10 @@ html {
   font-size: 25px;
   margin: 0px;
   font-size: 20px;
+}
+.info a {
+	margin-top: 15px;
+	text-decoration: none;
 }
 .horiz { /* hr doesnt want to work */
   border-top: 2px solid Black;
