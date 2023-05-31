@@ -19,24 +19,35 @@ html {
   line-height: 25px;
   font-size: 25px;
 }
-.jumpsection {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  flex-wrap: wrap;
+.col img { /* shadow thingy */
+  position: absolute;
+  right: 10%;
+  top: 2%;
+  height: 250px;
+  z-index: 3;
 }
-.jumpindiv {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 200px;
-  margin: auto;
-  padding: 15px;
+.info {
+	display: flex;
+	flex-direction: row;
+	padding-left: 20px;
 }
-.jumpindiv img {
-  width: 90%;
-  margin: auto;
+.col1 {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
 }
-body a {
+.col2 {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 20px;
+}
+.col2 h2 {
+	margin-top: 0;
+}
+.col2 a {
 	text-decoration: none;
+}
+.col2 li {
+	margin-bottom: 10px;
 }
