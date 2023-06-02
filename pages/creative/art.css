@@ -21,9 +21,9 @@ html {
 }
 .col img { /* shadow thingy */
   position: absolute;
-  right: 10%;
-  top: 2%;
-  height: 250px;
+  right: 3%;
+  top: 1%;
+  height: 200px;
   z-index: 3;
 }
 .texts { /* text boxes */
@@ -82,6 +82,11 @@ html {
   margin: auto;
   max-width: 90%;
   max-height: 75%;
+}
+.filterDiv iframe {
+  margin: auto;
+  min-width: 75%;
+  min-height: 75%;
 }
 .textholder {
   margin: auto;

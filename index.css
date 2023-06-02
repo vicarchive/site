@@ -58,7 +58,7 @@ body { /* it works aye */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 15%;
+  min-width: 70px;
   height: 88.2%;
   overflow-x: hidden;
   text-align: center;
@@ -100,6 +100,7 @@ body { /* it works aye */
 }
 .desc p { /* clearing borders again */
   margin: 1%;
+  font-size: 1.2vw;
 }
 .desc a {
   position: relative;
@@ -134,6 +135,7 @@ body { /* it works aye */
 }
 .cont p { /* editing p to be blocks*/
   text-align: center;
+  font-size: 1.2vw;
 }
 .streamers img { /* the image */
   display: block;
@@ -185,10 +187,12 @@ body { /* it works aye */
 }
 .minesweeper p {
   margin: 2%;
+  font-size: 1.2vw;
 }
 .minebox { /* minesweeper bg image */
   background-image: url("assets/latestpb.png");
   background-size: cover;
+  background-position: 50% 50%;
 }
 .minebox mark {
 	background-color: White;
@@ -197,16 +201,12 @@ body { /* it works aye */
   width: 30%;
   border: 3px solid Black;
   margin-right: 1%;
+  text-align: center;
+  content-align: center;
 }
 .songloop h3 {
   margin: 4%;
-}
-.songloop a {
-  margin: 6%;
-  text-align: center;
-  position: relative;
-  bottom: -20px;
-  left: 30px;
+  text-align: left;
 }
 .songloop iframe {
   display: block;
@@ -214,5 +214,5 @@ body { /* it works aye */
   width: 70%;
   height: 50%;
 }
-@media only screen and (max-width: 600px) { /* copy everything in here and edit for mobile layout*/
+@media only screen and (max-width: 900px) { /* copy everything in here and edit for mobile layout*/
 }
