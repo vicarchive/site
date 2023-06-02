@@ -64,24 +64,34 @@ html {
 .container { /* the box with pictures in it */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .filterDiv {
   float: left;
   margin: 10px;
+  width: 460px;
+  height: 460px;
   text-align: center;
   display: none;
   background-color: LightBlue;
   border: 3px solid Black;
+  padding: 10px;
 }
 .filterDiv img {
+  margin: auto;
   max-width: 90%;
+  max-height: 75%;
+}
+.textholder {
+  margin: auto;
 }
 .titledate p { /* date of the pic */
   font-size: 20px;
-  margin: 5px;
 }
 .desc { /* the description aye */
   font-size: 10px;
+  margin: auto;
 }
 .show {
   display: block;
