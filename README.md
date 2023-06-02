@@ -17,7 +17,8 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
   - Images here can be put under the corresponding text (flex-direction: row to flex-direction: column)
 - The rest of the pages can be display:flex'd into mobile layouts
 ### Tedious Manual Labor:
-- Upload images for art page
+- Fix text sizes for each page
+- Upload more images for art page
 - Add OC information and images
 - Add SSCrossover information and images
   - Wikipedia uses float right?
