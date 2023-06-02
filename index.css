@@ -58,7 +58,7 @@ body { /* it works aye */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  min-width: 70px;
+  min-width: 80px;
   height: 88.2%;
   overflow-x: hidden;
   text-align: center;
