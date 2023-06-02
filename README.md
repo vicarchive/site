@@ -11,7 +11,6 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
   - Also needs layout
   - Might remove or reuse this page for something else
 - Add more into the Cringe Corner landing
-- Space out the art and text
 ### Vic use braincells to make website usable (IMPOSSIBLE):
 - Homepage needs a completely separate layout
 - SSCrossover and Collection also need separate layouts
