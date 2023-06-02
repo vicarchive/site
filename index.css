@@ -178,7 +178,7 @@ body { /* it works aye */
   background-repeat: no-repeat;
 }
 .minesweeper { /* minesweeper pb */
-  color: White;
+  color: Black;
   width: 30%;
   margin-right: 1%;
   border: 3px solid Black;
@@ -187,10 +187,11 @@ body { /* it works aye */
   margin: 2%;
 }
 .minebox { /* minesweeper bg image */
-  background-image: url("assets/sweeper.png");
+  background-image: url("assets/latestpb.png");
   background-size: cover;
-  background-position: 50%;
-  opacity: 0.9;
+}
+.minebox mark {
+	background-color: White;
 }
 .songloop { /* my current favorite song */
   width: 30%;
