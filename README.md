@@ -5,7 +5,8 @@ I'm tired of Neocities and Carrd restrictions. At least I get to learn some HTML
   - Depends on whether there is a lot of information on it, probably better just to have it normally done like with images on the top
 - Find a cool font for each text type
 ### Real ToDo List (Requires braincells):
-- CSS the game pages for the CC
+-ReCSS the About Me to be *unique* slay
+-  CSS the game pages for the CC
   - BGs for these should be unique to each game, layouts can be similar
 - CSS the blog
   - Also needs layout
