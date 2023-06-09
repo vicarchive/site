@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+.col { /* top navigation bar */
+  display: flex;
+  border: 5px solid Black;
+  background-image: url("../../assets/sa2skybox.JPG");
+  background-size: cover;
+}
+.col a { /* link colors */
+  color: Black;
+}
+.col a:hover { /* nifty things */
+  color: rgb(166,15,55);
+}
+.col > div { /* different links */
+  margin: 0 10px 0 10px;
+  line-height: 25px;
+  font-size: 25px;
+}
+.collapse {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapse:hover {
+  background-color: #555;
+}
+
+.inside {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
