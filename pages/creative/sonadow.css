@@ -22,12 +22,18 @@ html {
 .texts { /* text boxes */
   display: flex;
   flex-direction: row;
-  line-height: 40px;
+  line-height: 20px;
   padding: 10px;
 }
 .texts p { /* you get it */
   padding-left: 30px;
   font-size: 25px;
+}
+.disclaimer {
+	margin: 0;
+	font-size: 20px;
+	padding: 20px;
+	padding-bottom: 20px;
 }
 .container { /* image container */
   display: flex;
@@ -48,6 +54,18 @@ html {
   margin: auto;
   max-width: 90%;
   max-height: 75%;
+}
+.imgdiv iframe {
+  margin: auto;
+  min-width: 75%;
+  min-height: 75%;
+}
+.agefilter {
+  transition: 0.3s;
+  filter: blur(10px);
+}
+.agefilter:hover {
+	filter: blur(0);
 }
 .textholder {
   margin: auto;
