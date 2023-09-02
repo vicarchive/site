@@ -19,60 +19,35 @@ html {
   line-height: 25px;
   font-size: 25px;
 }
-.main {
+.main { /* contains everything in it */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px;
+}
+.titlecontainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	text-align: center;
+  	background-color: LightBlue;
+  	border: 3px solid Black;
+  	padding: 10px;
+}
+.container { /* holds the information boxes */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.sidenavwiki { /* scrolly sidebar */
-  display: block;
-  position: sticky;
-  top: 0;
-  text-align: left;
-  margin: 1%;
-  min-width: 10%;
-  overflow-x: hidden;
-}
-.sidenavwiki p {
-  margin: 5px 0 10px 0;
-}
-.sidenavwiki a {
-	text-decoration: none;
-}
-.sidenavwiki ul {
-  list-style: none;
-  padding: 2px;
-  margin: 0 0 0 10px;
-}
-.sidenavwiki ul li {
-  margin: 0;
-  padding: 2px;
-}
-.info {
-  display: flex;
-  flex-direction: column;
-}
-.info p { /* you get it */
+.box { /* the information boxes under the title */
+  float: left;
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  background-color: LightBlue;
+  border: 3px solid Black;
   padding: 10px;
-  font-size: 25px;
-  margin: 0px;
-  font-size: 20px;
-}
-.info a {
-	margin-top: 15px;
-	text-decoration: none;
-}
-.horiz { /* hr doesnt want to work */
-  border-top: 2px solid Black;
-  margin: 0;
-  padding: 0;
-}
-.info h2 { /* major headings */
-  font-size: 25px;
-  font-weight: normal;
-  margin-bottom: 5px;
-}
-.info h3 { /* minor headings */
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 5px;
 }
