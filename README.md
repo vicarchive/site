@@ -1,6 +1,5 @@
 I'm tired of Neocities and Carrd restrictions. The large commit number is because I was directly editing code on here, but after learning that GitPages takes 10 minutes to update I decided to stop abusing GitHub and edit stuff in Aptana Studio 3.
 <br /><br />
-
 ### Required ASAP
 - change all website links to internal html file links. just in case i have to move from github :P
 ### Easy stuff (Barely any braincells):
@@ -22,7 +21,3 @@ I'm tired of Neocities and Carrd restrictions. The large commit number is becaus
 - Complete SSCrossover
 - Complete Collection
 - Complete About Me
-
-<br /><br />
-## Why did I make this?
-I have a hard time using social media, but I wish to upload my artwork somewhere. The idea of my own website has gone from an extended biography on an Instagram page, to a Sonic lore website, to hosting my art on a platform that I can customize, but ultimately it has culminated into what I want to call an archive of my existence. Hopefully it is something you can somewhat enjoy.
