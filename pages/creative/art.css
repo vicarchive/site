@@ -93,6 +93,7 @@ html {
 }
 .titledate p { /* date of the pic */
   font-size: 20px;
+  margin: 10px;
 }
 .desc { /* the description aye */
   font-size: 10px;
