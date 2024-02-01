@@ -1,6 +1,11 @@
 Welcome to VicArchive. I'm Vic and I'm archiving my existence in a place with complete creative freedom.
 The large commit number is because I was previously directly editing code on here, but after learning that GitPages takes 10 minutes to update I decided to stop abusing GitHub and edit stuff in Aptana Studio 3.
 <br /><br />
+## Plans
+- i want to make a separate website to be professional on. this is for me.
+  - essentially a portfolio. this website is a dump or presentation who i am to myself
+  
+## Website Plans
 ### Easy stuff:
 - add basic html content and css to new pages (cringe corner)
 
