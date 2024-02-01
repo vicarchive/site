@@ -3,6 +3,7 @@ The large commit number is because I was previously directly editing code on her
 <br /><br />
 ### Easy stuff:
 - add basic html content and css to new pages (cringe corner)
+
 ### Active ToDo List:
 - Index:
 
@@ -17,11 +18,13 @@ The large commit number is because I was previously directly editing code on her
 - Website:
   - mainly the index page, but redo anything to be mobile friendly
   - for each page that has a specific look or theme to it, the upper portion - the wayfinding part - should match the theme. otherwise it will remain as the sa2 sky
+
 ### Stuff I Need to Clarify:
 - i wanna redo the homepage to be more like a cringy 00s blog. scrolly.
   - need references and a plan for this
 - make the 'wiki' pages more cool.. theyre boring to read through
   - okay??? and what do you want to do now??
+
 ### Too Much Work:
 - Fix text sizes and fonts for each page
   - :/ you need some kind of font database to test out
