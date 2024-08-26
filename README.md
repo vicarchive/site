@@ -1,17 +1,17 @@
 Welcome to VicArchive. I'm Vic and I'm archiving my existence in a place with complete creative freedom.
 The large commit number is because I was previously directly editing code on here, but after learning that GitPages takes 10 minutes to update I decided to stop abusing GitHub and edit stuff in Aptana Studio 3.
 <br /><br />
-## Plans
-- i want to make a separate website to be professional on. this is for me.
-  - essentially a portfolio. this website is a dump or presentation who i am to myself
-  
 ## Website Plans
 ### Easy stuff:
-- add basic html content and css to new pages (cringe corner)
+- finish html and css for unfinished pages
+- create different folders for different website themes
+  - dreamcast web browser / y2k
+  - frutiger aero
+  - sonadow
+  - sa2 (default)
 
-### Active ToDo List:
-- Index:
-
+### Active ToDo List (Default):
+- Index: update
 - About Me:
   - finish adding info and making it less bland (use those posters as active reference)
 - Cringe Corner:
@@ -23,10 +23,9 @@ The large commit number is because I was previously directly editing code on her
 - Website:
   - mainly the index page, but redo anything to be mobile friendly
   - for each page that has a specific look or theme to it, the upper portion - the wayfinding part - should match the theme. otherwise it will remain as the sa2 sky
+    - for special pages only. themes will not apply to them (like splatchao lore page)
 
 ### Stuff I Need to Clarify:
-- i wanna redo the homepage to be more like a cringy 00s blog. scrolly.
-  - need references and a plan for this
 - make the 'wiki' pages more cool.. theyre boring to read through
   - okay??? and what do you want to do now??
 
