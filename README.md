@@ -4,7 +4,7 @@ The large commit number is because I was previously directly editing code on her
 ## Website Plans
 ### Easy stuff:
 - finish html and css for unfinished pages
-- create different folders for different website themes
+- create different folders for different website themes (this is gonna have to be done manually w pages like /vicarchive/frutiger/index.html and /vicarchive/dreamcast/index.html and theyre all gonna have to be updated MANUALLY guh)
   - dreamcast web browser / y2k
   - frutiger aero
   - sonadow
