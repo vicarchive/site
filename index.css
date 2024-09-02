@@ -1,281 +1,57 @@
-/* PLEASE just try to make this look arranged on your PC before making it scalable, text is awful just finish putting it together so it's finished at least somewhere. Worst case scenario you'll make a mobile version for the page and that's all you'll need */
-
-/*
-NOTES:
-- Once the title begins to resize, then make that point the mobile switch point.
-  ^ Header for mobile is in the whiteboard.
-*/
-
-html { /* the whole page */
-  height: 100%;
-  width: 100%;
-  margin: 0%;
-  background-image: url("assets/sa2skybox.JPG");
-  background-size: cover;
-  background-position: 50% 50%;
+.sidebar {
+  height: 90%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
   overflow-x: hidden;
-  overflow-y: hidden;
- }
-body { /* it works aye */
-  margin: 0 !important;
-  padding: 5px !important;
-  height: 100%;
-  width: 100%;
-  font-family: 'Akshar';
-}
-.rainbow {
-  
-  /* Chrome, Safari, Opera */
-  -webkit-animation: rainbow 5s infinite; 
-  
-  /* Internet Explorer */
-  -ms-animation: rainbow 5s infinite;
-  
-  /* Standar Syntax */
-  animation: rainbow 5s infinite; 
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes rainbow{
-  0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
-}
-
-/* Internet Explorer */
-@-ms-keyframes rainbow{
-   0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
-}
-
-/* Standar Syntax */
-@keyframes rainbow{
-    0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
-}
-.bgtrans { /* white bg */
-	background: rgba(255,255,255,0.8);
-}
-.header { /* title banner on the top */
-  display: flex;
-  flex-direction: row;
-  width: 99.5%;
-  height: 70px;
-  border: 5px solid Black;
-  margin: 0 0 0.5% 0;
-  font-size: 15px;
-  box-sizing: border-box;
-}
-.header h1 { /* h1 properties */
-  position: relative;
-  left: 2%;
-  top: -12%;
-}
-.header h2 {
-	position: relative;
-	font-size: 30px;
-	left:30%;
-	top: -20%;
-}
-.header h3 {
-  position: absolute;
-  right: 2%;
-  top: 3%;
-}
-.ins { /* the underside of the banner container */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 99.5%;
-  height: 100%;
-  margin: 0;
-  box-sizing: border-box;
-}
-.sidenav { /* the sidebar thing on the left of the rest of the page */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  min-width: 80px;
-  height: 88.2%;
-  overflow-x: hidden;
-  text-align: center;
-  border: 3px solid Black;
-  box-sizing: border-box;
-}
-.sidenava { /* links inside the sidebar */
-  padding: 10%;
+.sidebar a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  text-size: 30px;
-}
-.sidebottom { /* bottom of the sidebar */
-  position: relative;
-  bottom: -440px;
-  padding: 5%;
-}
-.main{ /* the two rows */
-  width: auto;
-  height: auto;
-  margin-left: 0.5%;
-  box-sizing: border-box;
-}
-.row1 { /* row 1 */
-  display: flex;
-  flex-wrap: nowrap;
-  height: 43%;
-  width: 99.8%;
-  margin-bottom: 1%;
-  box-sizing: border-box;
-}
-.desc { /* description box, separated for correct sizing */
-  width: 40%;
-  margin-right: 1%;
-  padding: 10px;
-  border: 3px solid Black;
-}
-.desc h3 { /* clearing borders */
-  margin: 1%;
-}
-.desc p { /* clearing borders again */
-  margin: 1%;
-  font-size: 1.2vw;
-}
-.desc a {
-  position: relative;
-  padding: 30px;
-  bottom: -20px;
-  left: 10px;
-}
-.shads { /* box for shadow */
-  width: 30%;
-  margin-right: 1%;
-  border: 3px solid Black;
-}
-.shads img { /* image properties for shads*/
-  width: auto;
-  height: auto;
-  max-width: 100%;
-}
-.streamers { /* i watch youtube */
-  width: 30%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  border: 3px solid Black;
-  justify-content: space-around;
-}
-.cont { /* container for the streamers stuff */
-  width: 100%;
-  height: 33%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.cont p { /* editing p to be blocks*/
-  text-align: center;
-  font-size: 1.2vw;
-}
-.streamers img { /* the image */
+  font-size: 25px;
+  color: #818181;
   display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  transition: 0.3s;
 }
-.row2 { /* row 2 */
-  display: flex;
-  flex-wrap: nowrap;
-  width: 99.8%;
-  height: 43%;
-  box-sizing: border-box;
+
+.sidebar a:hover {
+  color: #f1f1f1;
 }
-.cols2 { /* the set of columns on the bottom left */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  width: 40%;
-  height: auto;
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-.recbuys { /* my recent buys */
-  height: 30%;
-  border: 3px solid Black;
-  margin-bottom: 2%;
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
 }
-.recbuys h3 {
-  margin: 1%;
+
+.openbtn:hover {
+  background-color: #444;
 }
-.recbuys p {
-  margin: 1%;
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
 }
-.smallbanner { /* favorite characters */
-  height: 100%;
-  width: 99%;
-  border: 3px solid Black;
-}
-.smallbannerimg {
-  background-image: url("assets/boy.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.minesweeper { /* minesweeper pb */
-  color: Black;
-  width: 30%;
-  margin-right: 1%;
-  border: 3px solid Black;
-}
-.minesweeper p {
-  margin: 2%;
-  font-size: 1.2vw;
-}
-.minebox { /* minesweeper bg image */
-  background-image: url("assets/latestpb.png");
-  background-size: cover;
-  background-position: 50% 50%;
-}
-.minebox mark {
-	background-color: White;
-}
-.songloop { /* my current favorite song */
-  width: 30%;
-  border: 3px solid Black;
-  margin-right: 1%;
-  text-align: center;
-  content-align: center;
-}
-.songloop h3 {
-  margin: 4%;
-  text-align: left;
-}
-.songloop iframe {
-  display: block;
-  margin: auto;
-  width: 70%;
-  height: 50%;
-}
-@media only screen and (max-width: 900px) { /* copy everything in here and edit for mobile layout*/
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }

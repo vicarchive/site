@@ -1,85 +1,49 @@
 <!DOCTYPE html>
 <html style="height:100%;margin:0%">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href='https://fonts.googleapis.com/css?family=Akshar' rel='stylesheet'>
-    <title>Vic's Archive 3: Hoodlum Havoc</title>
-    <link rel="icon" type="image/x-con" href="favicon1.ico">
-  </head>
-<body>	
-  <div class="header bgtrans">
-    <h1>VIC'S ARCHIVE 3: HOODLUM HAVOC</h1>
-    <a href="pages/warning.html"><h2 class="rainbow">PLEASE READ!!</h2></a>
-    <h3>03 May 2024 Edition</h3>
-  </div>
-  <div class="ins">
-    <div class="sidenav bgtrans">
-    	<div class="sidenava">
-      		<a href="pages/404.html">ME</a>
-      	</div>
-      	<div class="sidenava">
-      		<a href="pages/creative/art.html">ART</a>
-      	</div>
-      	<div class="sidenava">
-      		<a href="pages/404">CC</a>
-      	</div>
-      	<div class="sidenava">
-      		<a href="pages/404">MC</a>
-      	</div>
-      	<div class="sidenava">
-      		<a href="pages/dump/dump">DU</a>
-     	</div>
-      	<div class="sidebottom">
-        	<a href="https://github.com/vicarchive/site">SC</a>
-        </div>
-      </div>
-    <div class="main">
-      <div class="row1">
-        <div class="desc bgtrans">
-          <h3><u>WELCOME</u></h3>
-          <p>Welcome to Vic's Archive, the third and hopefully final iteration of my own website. I can't code for shit, but I can at least tolerate HTML.<br><br>I am not active on social media (but occasionally I will break that). The Carrd below has socials and the Neocities link is my first attempt at HTML.</p>
-          <div class="linkscont">
-            <a href="https://nowinspired.carrd.co/">CARRD</a><a href="https://vicisaloser.neocities.org/">NEOCITIES</a>
-          </div>
-        </div>
-        <div class="songloop bgtrans">
-          <h3><u>SONG ON LOOP</u></h3>
-          <iframe src="https://www.youtube.com/embed/BMy7gvl3bXE?si=eZQyoilWdtNrMWh_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <br><a href="https://youtu.be/BMy7gvl3bXE?si=wZ6gmasCQ-eTUf8J">Big Betrayal - Deep Cut</a><br>
-        </div>
-        <div class="streamers bgtrans">
-          <div class="cont">
-            <img src="assets/varg.jpg">
-            <p>Corrupted by Sprunk<br>&lt;-------</p>
-          </div>
-          <div class="cont">
-            <p>Handsome bug eating doctors<br>-------&gt;</p>
-            <img src="assets/jerm.jpg">
-          </div>
-          <div class="cont">
-            <img src="assets/charles.jpg">
-            <p>This is the greatest<br>shitfest of All Time<br>&lt;-------</p>
-          </div>
-        </div>
-      </div>
-      <div class="row2">
-        <div class="bgtrans shads">
-          <img src="assets/shads.jpg">
-        </div>
-        <div class="minesweeper minebox">
-          <p><u><mark>Google Minesweeper (Hard) PB:</mark></u></p>
-        </div>
-        <div class="cols2">
-        <div class="recbuys bgtrans">
-          <h3><u>RECENT BUYS</u></h3>
-          <p>IDW Fang Comics</p>
-        </div>
-          <div class="bgtrans smallbanner smallbannerimg">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vic's Archive 3: Hoodlum Havoc V2</title>
+	<link rel="icon" type="image/x-con" href="favicon1.ico">
+	<link rel="stylesheet" href="index.css">
+</head>
+	<!-- Start of actual content -->
+<body>
+	
+	<!-- Header -->
+<div class="header">
+	<button style="display: inline-block" class="openbtn" onclick="openNav()">Menu</button>
+	<h1 style="display: inline-block">Vic's Archive 3: Hoodlum Havoc V2, 01 September 2024 Edition</h1>
+</div>
+	
+	<!-- Collapsible Menu -->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+<!-- i want this button aligned with the menu button next to the header. also the content of the menu should be under the header and it should be visible. hopefully -->
+  <a href="#">Me</a>
+  <a href="#">Art</a>
+  <a href="#">Showcase</a>
+  <a href="#">Theme Selector</a>
+  <a hred="#">Source Code</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+		
+	<!-- WIP Content -->
+<div id="main">
+	<p>Work in progress, all links are currently broken. Please see the legacy homepage <a href="legacy/index.html">here</a>, if you'd like some more content.</p>
+	
+	
+</div>
+
 </body>
 </html>
