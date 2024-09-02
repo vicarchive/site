@@ -1,9 +1,10 @@
+/** COLLAPSIBLE MENU **/
 .sidebar {
-  height: 90%;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 75px;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
@@ -26,10 +27,9 @@
 
 .sidebar .closebtn {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0px;
   font-size: 36px;
-  margin-left: 50px;
 }
 
 .openbtn {
@@ -54,4 +54,17 @@
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+}
+
+/** MAIN PAGE **/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.box {
+	margin: 5px;
+	padding: 15px;
+	border: 5px solid black;
 }
