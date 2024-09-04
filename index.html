@@ -13,7 +13,7 @@
 <div class="header">
 	<button style="display: inline-block" class="openbtn" onclick="openNav()">Menu</button>
 	<h1 style="display: inline-block; padding-left: 15px">Vic's Archive 3: Hoodlum Havoc V2</h1>
-	<h3 style="display: inline-block; padding-left: 30px">02 September 2024 Edition</h3>
+	<h3 style="display: inline-block; padding-left: 30px">03 September 2024 Edition</h3> <!-- Update date line whenever you work on this!! -->
 </div>
 	
 		<!-- Collapsible Menu -->
@@ -22,6 +22,7 @@
   <a href="pages/profile/me.html">Me</a>
   <a href="pages/creative/art.html">Art</a>
   <a href="pages/shelf/showcase.html">Showcase</a>
+  <a href="_legacy/index.html">Legacy Site</a>
   <a href="https://github.com/vicarchive/site">Source Code</a>
 </div>
 
@@ -39,22 +40,75 @@ function closeNav() {
 		
 		<!-- Main Page Content -->
 <div id="main">
-	<p>Work in progress, all links are currently broken. Please see the legacy homepage <a href="legacy/index.html">here</a>, if you'd like some more content.</p>
 	<div class="container">
 		<!-- Welcome Box -->
 		<div class="box">
 			<h3>Welcome!</h3>
 			<img src="common/SHADS_PLUSH.jpg" width="300">
+			<p>&quot;Enjoy your stay, or whatever.&quot;</p>
 		</div>
 		<!-- Updates Box -->
-		<div class="box">
+		<div style="height:353.5px max-width:400px overflow:auto" class="box">
 			<h3><u>Updates</u></h3>
+			<p>03 Sept</p>
+			<ul>
+				<li>Finished main HTML for the about me page</li>
+				<li>Added some more music</li>
+				<li>Worked and completed a function for the art page<br>(remember when i had to manually put art in? not anymore :D)</li>
+				<li>Added a way back to the new site from the legacy site</li>
+			</ul>
 			<p>02 Sept</p>
 			<ul>
 				<li>Fixed the menu bar so it doesn't cover the header</li>
-				<li>Added some more interesting stuff onto the homepage</li>
+				<li>Added links to future pages</li>
+				<li>Added the music box</li>
+				<li>Added a way to reach the legacy site</li>
 			</ul>
 		</div>
+		<!-- Music Box -->
+		<div class="box">
+			<h3>Music</h3>
+			<p style="display: inline-block">Click the button and listen to a song I like! There are&nbsp;</p><p style="display: inline-block" id="counterp"></p><p style="display: inline-block">&nbsp;songs in the playlist! </p><br>
+			<button class="musicbtn" onclick="randomSong()">Generate!</button><br><br>
+			<iframe id="songLink" width="500" height="280" src="about:blank" title="YouTube video player" frameborder="0"></iframe>
+			
+			<script>
+			function link(embedID) {
+				return 'https://www.youtube.com/embed/' + embedID;
+			}
+			
+			linkArray = [
+			link('k2N9rVrIb6s'), //Three Wishes
+			link('J-ykAmdtOYI'), //Arid Sands Day
+			link('vlv7HV2lPQI'), //Anarchy Rainbow LIVE 2022
+			link('GmfwI0vDy68'), //On the FM
+			link('R4WDXeGtwYQ'), //LeJeune
+			link('8TAuh7HGUss'), //Myoisia
+			link('UxbyOQgTsVc'), //Seven Rings in Hand
+			link('3wm3Xr3OY3M') //One More Lovely
+			];
+			
+			window.onload = function countSong() {
+				document.getElementById("counterp").textContent = linkArray.length;
+			}
+			
+			function randomSong() {
+				const song = Math.floor(Math.random() * linkArray.length);
+				console.log(linkArray.length);
+				console.log(song);
+				console.log(linkArray[song]);
+				console.log(typeof linkArray[song]);
+				document.getElementById("songLink").src = linkArray[song];
+			}
+			</script>
+		</div>
+		<!-- Comments -->
+		<div class="box">
+			<h3>Whiteboard:</h3>
+			<p>Sign it and let me know you've been here!</p>
+			<iframe src="https://www3.cbox.ws/box/?boxid=3540570&boxtag=Kiqa2r" width="500" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+		</div>
+		<!-- End of main menu -->
 	</div>
 	
 </div>

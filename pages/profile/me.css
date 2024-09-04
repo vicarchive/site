@@ -1,0 +1,11 @@
+.columns {
+	display: flex;
+}
+.column1 {
+	width: 600px;
+	margin: 20px;
+}
+.column2 {
+	width: 500px;
+	margin: 20px;
+}

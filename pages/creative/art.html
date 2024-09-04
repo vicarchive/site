@@ -7,6 +7,27 @@
 		<link rel="icon" type="image/x-con" href="../../favicon1.ico">
 	</head>
 	<body>
-		<p>WIP. Click <a href="../../index.html">here</a> to go back.</p>
+		<p>Click <a href="../../index.html">here</a> to go back.</p>
+		<h1>Artwork</h1>
+		<p>hi, hi, hi!! welcome to my art portfolio! i am working on css'ing this the way i want it but have some fun little images while im doing that :P</p>
+		<div id="artBlock" class="container"></div>
+		
+<script>
+window.onload = function() {
+allArt = [
+// FORMAT: DIRECTORY, FILTERS, DATE, TITLE, DESCRIPTION
+["assets/1.jpg","sonic","04/69/2020","Test 1","Testing out a function for the future"],
+["assets/2.png","splatoon","01/10/2011","test 2 lol","is this too hard to code? idk"]
+];
+
+allArt.map(makeArt);
+function makeArt(infoArray) {
+	console.log(infoArray);
+	artCode = '<div class="filterDiv&nbsp;"' + infoArray[1] + '><br><img src=' + infoArray[0] + '><div class="textholder"><p>' + infoArray[3] + '&nbsp;-&nbsp;' + infoArray[2]  + '</p><p class="desc">' + infoArray[4] + '</p></div></div>';
+	console.log(artCode);
+	document.getElementById("artBlock").innerHTML = artCode + document.getElementById("artBlock").innerHTML;
+}
+}
+		</script>
 	</body>
 </html>
