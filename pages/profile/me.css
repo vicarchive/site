@@ -1,5 +1,7 @@
 .columns {
-	display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .column1 {
 	width: 600px;

@@ -1,0 +1,24 @@
+.header a {
+	display:inline-block;
+}
+.container {
+	display:flex;
+}
+#FILT {
+	position:relative;
+	margin:20px;
+	padding:10px;
+	height:400px;
+	width:330px;
+	text-align:center;
+	align-content:center;
+	background:#818181;
+	border:solid black 5px;
+}
+.textholder{
+	margin:5px;
+}
+#IMG {
+	max-width:320px;
+	max-height:320px;
+}
