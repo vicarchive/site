@@ -11,45 +11,30 @@
 	
 		<!-- Header -->
 <div class="header">
-	<button style="display: inline-block" class="openbtn" onclick="openNav()">Menu</button>
-	<h1 style="display: inline-block; padding-left: 15px">Vic's Archive 3: Hoodlum Havoc V2</h1>
-	<h3 style="display: inline-block; padding-left: 30px">07 September 2024 Edition</h3> <!-- Update date line whenever you work on this!! -->
+  	<a href="pages/profile/me.html">ME</a>
+  	<a href="pages/creative/art.html">ART</a>
+  	<a href="pages/shelf/showcase.html">SHOWCASE</a>
+  	<a href="!LEGACY/index.html">LEGACY</a>
+  	<a href="https://github.com/vicarchive/site">SOURCE</a>
 </div>
 	
-		<!-- Collapsible Menu -->
-<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
-  <a href="pages/profile/me.html">Me</a>
-  <a href="pages/creative/art.html">Art</a>
-  <a href="pages/shelf/showcase.html">Showcase</a>
-  <a href="!LEGACY/index.html">Legacy Site</a>
-  <a href="https://github.com/vicarchive/site">Source Code</a>
-</div>
-
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
-		
 		<!-- Main Page Content -->
 <div id="main">
-	<div class="container">
-		<!-- Welcome Box -->
+	<!-- Large Welcome -->
 		<div class="box">
-			<h3>Welcome!</h3>
-			<img src="common/SHADS_PLUSH.jpg" width="300">
-			<p>&quot;Enjoy your stay, or whatever.&quot;</p>
+			<h3 style="text-align:center;font-family:IMPORTANT; margin:10px;font-size:100px">Welcome!</h3>
 		</div>
+		
+	<div class="container">
 		<!-- Updates Box -->
 		<div style="height:353.5px max-width:400px overflow:auto" class="box">
 			<h3><u>Updates</u></h3>
+			<p>08 Sept</p>
+			<ul>
+				<li>Showcase partially css'd - some issues came about</li>
+				<li>Index partially css'd - assets required</li>
+				<li>Added custom cursors for all pages but art</li>
+			</ul>
 			<p>07 Sept</p>
 			<ul>
 				<li>Profile is now css'd! Go take a look</li>
@@ -78,7 +63,7 @@ function closeNav() {
 		<div class="box">
 			<h3>Music</h3>
 			<p style="display: inline-block">Click the button and listen to a song I like! There are&nbsp;</p><p style="display: inline-block" id="counterp"></p><p style="display: inline-block">&nbsp;songs in the playlist! </p><br>
-			<button class="musicbtn" onclick="randomSong()">Generate!</button><br><br>
+			<button class="musicbtn" onclick="randomSong()" style="cursor: url('common/DFLTL.GIF'), pointer">Generate!</button><br><br>
 			<iframe id="songLink" width="500" height="280" src="about:blank" title="YouTube video player" frameborder="0"></iframe>
 			
 			<script>
@@ -120,6 +105,12 @@ function closeNav() {
 		<!-- End of main menu -->
 	</div>
 	
+</div>
+
+<!-- Footer -->
+<div class="footer">
+	<p style="display:inline-block">Vic's Archive 3</p>
+	<p style="display:inline-block">08 September 2024</p>
 </div>
 
 </body>

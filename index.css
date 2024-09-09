@@ -1,62 +1,35 @@
-/** COLLAPSIBLE MENU **/
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 75px;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+@font-face {
+	font-family: DC;
+	src: url('common/eurostile-bold-extended.otf');
 }
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+@font-face {
+	font-family:biosish;
+	src: url('common/IndustryTest-BookItalic.otf');
 }
-
-.sidebar a:hover {
-  color: #f1f1f1;
+@font-face {
+	font-family:IMPORTANT;
+	src: url('common/Foreigner.otf');
 }
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 10px;
-  left: 0px;
-  font-size: 36px;
+body {
+	cursor: url("common/DFLTN.GIF"), default;
+/** cursor: url("common/DFLTL.GIF"), pointer; **/
+/** cursor: url("common/LOADINGSWIRL.GIF"), wait; **/
 }
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
+.header {
+	display:flex;
+	background:black;
+	position:sticky;
+	top:0px;
+	justify-content:space-evenly;
 }
-
-.openbtn:hover {
-  background-color: #444;
+.header a {
+	display:inline-block;
+	color:white;
+	text-decoration:none;
+	cursor: url("common/DFLTL.GIF"), pointer;
+	font-family:DC;
+	margin:10px;
 }
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
-
-/** MAIN PAGE **/
 .container {
   display: flex;
   flex-direction: row;
@@ -67,4 +40,15 @@
 	margin: 5px;
 	padding: 15px;
 	border: 5px solid black;
+}
+.footer {
+	display:flex;
+	background: black;
+	color:white;
+	position:sticky;
+	bottom:0px;
+	justify-content:space-around;
+}
+.footer p {
+	font-family:biosish;
 }
