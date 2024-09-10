@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vic's Archive 3: Hoodlum Havoc V2</title>
-	<link rel="icon" type="image/x-con" href="favicon1.ico">
+	<link rel="icon" type="image/x-con" href="common/DC.ico">
 	<link rel="stylesheet" href="index.css">
 </head>
 		<!-- Start of actual content -->
@@ -11,61 +11,34 @@
 	
 		<!-- Header -->
 <div class="header">
-  	<a href="pages/profile/me.html">ME</a>
-  	<a href="pages/creative/art.html">ART</a>
+  	<a href="pages/profile/me.html">PROFILE</a>
+  	<a href="pages/creative/art.html">ARTWORK</a>
   	<a href="pages/shelf/showcase.html">SHOWCASE</a>
   	<a href="!LEGACY/index.html">LEGACY</a>
   	<a href="https://github.com/vicarchive/site">SOURCE</a>
 </div>
 	
 		<!-- Main Page Content -->
-<div id="main">
+<div class="main">
 	<!-- Large Welcome -->
-		<div class="box">
-			<h3 style="text-align:center;font-family:IMPORTANT; margin:10px;font-size:100px">Welcome!</h3>
+		<div class="welcome">
+			<img id="welcomeimg" src="common/WELCOME.png">
 		</div>
 		
 	<div class="container">
-		<!-- Updates Box -->
-		<div style="height:353.5px max-width:400px overflow:auto" class="box">
-			<h3><u>Updates</u></h3>
-			<p>08 Sept</p>
-			<ul>
-				<li>Showcase partially css'd - some issues came about</li>
-				<li>Index partially css'd - assets required</li>
-				<li>Added custom cursors for all pages but art</li>
-			</ul>
-			<p>07 Sept</p>
-			<ul>
-				<li>Profile is now css'd! Go take a look</li>
-			</ul>
-			<p>04 Sept</p>
-			<ul>
-				<li>Fixed display for the art page</li>
-				<li>About me no longer squishes and is now readable on mobile</li>
-			</ul>
-			<p>03 Sept</p>
-			<ul>
-				<li>Finished main HTML for the about me page</li>
-				<li>Added some more music</li>
-				<li>Worked and completed a function for the art page<br>(remember when i had to manually put art in? not anymore :D)</li>
-				<li>Added a way back to the new site from the legacy site</li>
-			</ul>
-			<p>02 Sept</p>
-			<ul>
-				<li>Fixed the menu bar so it doesn't cover the header</li>
-				<li>Added links to future pages</li>
-				<li>Added the music box</li>
-				<li>Added a way to reach the legacy site</li>
-			</ul>
-		</div>
 		<!-- Music Box -->
-		<div class="box">
+		<div class="activitiesbox">
 			<h3>Music</h3>
 			<p style="display: inline-block">Click the button and listen to a song I like! There are&nbsp;</p><p style="display: inline-block" id="counterp"></p><p style="display: inline-block">&nbsp;songs in the playlist! </p><br>
 			<button class="musicbtn" onclick="randomSong()" style="cursor: url('common/DFLTL.GIF'), pointer">Generate!</button><br><br>
 			<iframe id="songLink" width="500" height="280" src="about:blank" title="YouTube video player" frameborder="0"></iframe>
-			
+		</div>
+		<!-- Comments -->
+		<div class="activitiesbox">
+			<h3>Whiteboard:</h3>
+			<p>Sign it and let me know you've been here!</p>
+			<iframe src="https://www3.cbox.ws/box/?boxid=3540570&boxtag=Kiqa2r" width="500" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+		</div>
 			<script>
 			function link(embedID) {
 				return 'https://www.youtube.com/embed/' + embedID;
@@ -82,29 +55,44 @@
 			link('3wm3Xr3OY3M') //One More Lovely
 			];
 			
-			window.onload = function countSong() {
+			window.onload = function startUp() {
+				// countSong
 				document.getElementById("counterp").textContent = linkArray.length;
-			}
+				
+				// loadUpdates
+				UPDATESLIST = [
+				// FORMAT: TITLE, [BULLET POINTS, AS AN ARRAY]
+["09 Sept", ["Index is basically css'd! Guess where it's from :D (need to figure out fonts and titles)","Added an easier way to add updates","Fixed buttons on the shelf page. Still need assets","Added a credits page to keep track of assets and fonts used. As of now it is conprehensive"]],
+["08 Sept", ["Showcase partially css'd - some issues came about", "Index partially css'd - assets required","Added custom cursors for all pages but art"]],
+["07 Sept", ["Profile is now css'd! Go take a look"]],
+["04 Sept", ["Fixed display for the art page","About me no longer squishes and is now readable on mobile"]],
+["03 Sept", ["Finished main HTML for the about me page","Added some more music","Worked and completed a function for the art page (remember when i had to manually put art in? not anymore :D)","Added a way back to the new site from the legacy site"]],
+["02 Sept", ["Fixed the menu bar so it doesn't cover the header","Added links to future pages","Added the music box","Added a way to reach the legacy site"]]
+				];
+
+				UPDATESLIST.map(createUpdate);
+				}
 			
 			function randomSong() {
 				const song = Math.floor(Math.random() * linkArray.length);
-				console.log(linkArray.length);
-				console.log(song);
-				console.log(linkArray[song]);
-				console.log(typeof linkArray[song]);
 				document.getElementById("songLink").src = linkArray[song];
 			}
 			</script>
-		</div>
-		<!-- Comments -->
-		<div class="box">
-			<h3>Whiteboard:</h3>
-			<p>Sign it and let me know you've been here!</p>
-			<iframe src="https://www3.cbox.ws/box/?boxid=3540570&boxtag=Kiqa2r" width="500" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-		</div>
 		<!-- End of main menu -->
 	</div>
-	
+	<!-- Updates Box -->
+		<h3 style="margin-left:5px"><u>Updates</u></h3>
+		<div id="UPD" class="updates"></div>
+<script>
+	function createUpdate(updateArray) {
+		ils="";
+		for (let i=0, len=updateArray[1].length; i<len; i++) {
+			ils += '<li>' + updateArray[1][i] + '</li>';
+		}
+		updateCode ='<div class="updatebox"><p>' + updateArray[0] + '</p><ul>' + ils + '</ul>';
+		document.getElementById("UPD").innerHTML += updateCode;
+	}
+</script>
 </div>
 
 <!-- Footer -->

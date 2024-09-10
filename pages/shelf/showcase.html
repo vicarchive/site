@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html style="height:100%; margin:0%">
+<html style="height:100%;margin:0%">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="showcase.css">
 		<title>Showcase - Vic's Archive 3: Hoodlum Havoc</title>
-		<link rel="icon" type="image/x-con" href="../../favicon1.ico">
+		<link rel="icon" type="image/x-con" href="assets/GLOBE.ico">
 	</head>
 	<body>
 		<div class="frutigerheader">
 			<h1 style="display:inline-block; margin-right:10px; vertical-align:middle">shelf</h1>
-			<a href="../../index.html"><img src="assets/HOME_ICON.png"></a>
+			<div class="frutigerheader1">
+				<a href="../../index.html"><img src="assets/HOME_ICON.png"></a>
 			<a href="../profile/me.html"><img src="assets/PROFILE_ICON.png"></a>
 			<a href="../creative/art.html"><img src="assets/ART_ICON.png"></a>
+			</div>
 		</div>
 		<p>welcome to my shelf... check it out</p>
 		<div class="bubbles">
-			<a href="#">video games</a>
-			<a href="#">statues</a>
-			<a href="#">plushies</a>
-			<a href="#">prints</a>
-			<a href="#">trinkets</a>
+			<a href="javascript:void(0)" onClick="showSection('VGS')"><img src="assets/BUBBLE.png" width="100px;">video games</a>
+			<a href="javascript:void(0)" onClick="showSection('STATS')"><img src="assets/BUBBLE.png" width="100px;">statues</a>
+			<a href="javascript:void(0)" onClick="showSection('PLUSH')"><img src="assets/BUBBLE.png" width="100px;">plushies</a>
+			<a href="javascript:void(0)" onClick="showSection('PRINT')"><img src="assets/BUBBLE.png" width="100px;">prints</a>
+			<a href="javascript:void(0)" onClick="showSection('TRINK')"><img src="assets/BUBBLE.png" width="100px;">trinkets</a>
 		</div>
+		
+		<div id="VGS" class="information" style="display:none">
+			<p>video game information</p>
+		</div>
+		<div id="STATS" class="information" style="display:none">
+			<p>statue information</p>
+		</div>
+		<div id="PLUSH" class="information" style="display:none">
+			<p>plushie information</p>
+		</div>
+		<div id="PRINT" class="information" style="display:none">
+			<p>print information</p>
+		</div>
+		<div id="TRINK" class="information" style="display:none">
+			<p>trinket information</p>
+		</div>
+		
+<script>
+	function showSection(element) {
+		var x = document.getElementById(element);
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+</script>
 	</body>
 </html>

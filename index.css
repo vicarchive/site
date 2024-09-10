@@ -11,6 +11,9 @@
 	src: url('common/Foreigner.otf');
 }
 body {
+	max-width: 1280px;
+	margin:auto;
+	background:black;
 	cursor: url("common/DFLTN.GIF"), default;
 /** cursor: url("common/DFLTL.GIF"), pointer; **/
 /** cursor: url("common/LOADINGSWIRL.GIF"), wait; **/
@@ -21,6 +24,7 @@ body {
 	position:sticky;
 	top:0px;
 	justify-content:space-evenly;
+	height: 50px;
 }
 .header a {
 	display:inline-block;
@@ -28,18 +32,60 @@ body {
 	text-decoration:none;
 	cursor: url("common/DFLTL.GIF"), pointer;
 	font-family:DC;
+	font-size:25px;
 	margin:10px;
+}
+.header a:hover {
+	border: 4px solid yellow;
+	margin:6px;
+}
+.main {
+	background:#b0b0b0;
+	max-width:1280px;
+}
+.welcome {
+	max-width:1280px;
+}
+#welcomeimg {
+	max-width:100%;
+	height:auto;
 }
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-evenly;
 }
-.box {
+.activitiesbox {
 	margin: 5px;
 	padding: 15px;
 	border: 5px solid black;
+	border-radius:5px;
+	background:gainsboro;
+}
+.musicbtn {
+	margin:4px;
+	border-radius:5px;
+}
+.musicbtn:hover {
+	border: 5.6px solid yellow;
+	margin:0;
+}
+iframe {
+	border: 3px solid black;
+}
+.updates {
+	overflow:auto;
+	white-space:nowrap;
+	max-width:100%;
+}
+.updatebox {
+	border-left:2px solid black;
+	padding-left:5px;
+	width:300px;
+	text-wrap: wrap;
+	display:inline-block;
+	vertical-align:top;
 }
 .footer {
 	display:flex;

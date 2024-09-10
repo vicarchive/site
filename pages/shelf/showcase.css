@@ -1,6 +1,9 @@
 @font-face {
 	font-family: Myriad; src: url('assets/MYRIADAT.TTF');
 }
+@font-face {
+	font-family: nn; src:url('assets/NEURO.otf');
+}
 body {
 	background-image:url('assets/GRASS.jpeg');
 	background-size:cover;
@@ -10,15 +13,20 @@ body {
 /** cursor: url('assets/7_LINK.cur'), pointer; **/
 }
 h1 {
-	font-family:Myriad;
+	font-family:nn;
 }
 p {
 	font-family:Myriad;
 }
 .frutigerheader {
+	display:flex;
 	border-radius:15px;
 	padding:10px;
 	text-align:center;
+	justify-content: space-around
+}
+.frutigerheader1 {
+	display:inline-block;
 }
 .frutigerheader img {
 	width:50px;
@@ -29,10 +37,14 @@ p {
 }
 .bubbles a {
 	display:inline-block;
-	background-image: url('assets/BUBBLE.png');
-	height:100px;
-	width:100px;
 	text-align:center;
 	vertical-align:middle;
 	cursor: url('assets/7_LINK.cur'), pointer;
+	font-family: Myriad;
+	border:none;
+	text-decoration:none;
+}
+.information {
+	border: 3px solid green;
+	padding:5px;
 }
