@@ -6,22 +6,23 @@ The large commit number is because I was previously directly editing code on her
 - themes for the website:
   - dreamcast web browser (index)
   - myspace (profile)
-  - sa2 (art)
-  - sonadow (sonadow section)
+  - splatoon base (art)
+  - sonic adventure 2 / sonadow (sonadow section)
   - frutiger aero metal (showcase)
 
 ### ToDo List:
-- Index: find some more random stuff to put on there, maybe some images
-- Art: add in artwork
+- Index: change the activity box look for css, it doesn't match
+- Profile: look off of spacehey and css (mostly smaller text)
+- Art: readd the filter thing (see w3 schools)
+- Art: create assets for the filter buttons
+- Art: add in artwork from legacy + new
+- Art: create "artwork" sign for the top of the page
+- Art: create the background card thing for art (see splatoon website)
+- Art: create background pattern similar to splatoon base
+- Shelf: make bubble assets for shelf information
+- Shelf: css the boxes for the information
+- Shelf: create asset for the top header
+- Shelf: create the assets for the information boxes
 
-### General:
-- find some fonts to use on each page
-- oc pages can be linked to the art page
-- find some assets to use for css on all the pages
-	- profile is probably just going to be straight css theme images
-
-### To Think About:
-- need assets for the frutiger page, it's very image based
-- myspace needs pretty much no images, it's just css
-- index needs more images as well (dc browser), custom cursor?
-- do i need a filter on the art page? does it matter? or can i just put filter bubbles on the bottom?
+### Extra Notes:
+- N/A atm

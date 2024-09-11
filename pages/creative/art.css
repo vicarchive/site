@@ -1,8 +1,47 @@
-.header a {
-	display:inline-block;
+@font-face {
+	font-family: splat; src: url('assets/ZY9.ttf');
+}
+@font-face {
+	font-family: splat2; src:url('assets/AZ5.ttf');
+}
+body {
+	margin:0;
+}
+.header {
+	display:flex;
+	justify-content:center;
+	background:black;
+}
+.header a{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
+.contents {
+	max-width:1920px;
+	margin:auto;
+	background:white;
+}
+h1 {
+	font-family: splat;
+	text-align:center;
+	font-size:130px;
+	margin:0px;
+	padding:15px;
+}
+.descriptionheader {
+	text-align:center;
+	font-family:splat2;
+	font-size:40px;
 }
 .container {
 	display:flex;
+	max-width:1920px;
+	margin:auto;
 }
 #FILT {
 	position:relative;
