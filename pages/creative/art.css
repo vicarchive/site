@@ -9,6 +9,7 @@
 }
 body {
 	margin:0;
+	background:url('assets/bg.png');
 }
 .header {
 	display:flex;
@@ -28,7 +29,11 @@ body {
 .contents {
 	max-width:1920px;
 	margin:auto;
-	background:white;
+}
+#HEAD {
+	margin-left:290px;
+	margin-right:290px;
+	max-width:1400px;
 }
 h1 {
 	font-family: splat;
@@ -41,6 +46,7 @@ h1 {
 	text-align:center;
 	font-family:splat2;
 	font-size:40px;
+	color:white;
 }
 .container {
 	display:flex;
