@@ -15,10 +15,10 @@ The large commit number is because I was previously directly editing code on her
 - Profile: look off of spacehey and css (mostly smaller text)
 - Art: readd the filter thing (see w3 schools)
 - Art: create assets for the filter buttons
-- Art: add in artwork from legacy + new
-- Art: create "artwork" sign for the top of the page
+- Art: add in new artwork
+- Art: refine "artwork" sign
 - Art: create the background card thing for art (see splatoon website)
-- Art: create background pattern similar to splatoon base
+- Art: refine background patterm
 - Shelf: make bubble assets for shelf information
 - Shelf: css the boxes for the information
 - Shelf: create asset for the top header
