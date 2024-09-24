@@ -33,7 +33,7 @@ body {
 #HEAD {
 	margin-left:290px;
 	margin-right:290px;
-	max-width:1400px;
+	max-width:100%;
 }
 h1 {
 	font-family: splat;
