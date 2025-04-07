@@ -12,17 +12,20 @@ The large commit number is because I was previously directly editing code on her
 
 ### ToDo List:
 - Index: change the activity box look for css, it doesn't match
+- Index: add in my folder for splatoon / sonic resources
 - Profile: look off of spacehey and css (mostly smaller text)
-- Art: readd the filter thing (see w3 schools)
+- Art: re-add the filter thing (see w3 schools)
 - Art: create assets for the filter buttons
 - Art: add in new artwork
 - Art: refine "artwork" sign
 - Art: create the background card thing for art (see splatoon website)
-- Art: refine background patterm
+- Art: refine background pattern
 - Shelf: make bubble assets for shelf information
 - Shelf: css the boxes for the information
 - Shelf: create asset for the top header
 - Shelf: create the assets for the information boxes
+- Shelf: add in the information for the items i have
+- Shelf: take and add pictures of my thingies
 
 ### Extra Notes:
 - N/A atm
