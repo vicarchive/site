@@ -28,6 +28,9 @@ the large commit number is from the early development cuz i was editing stuff di
 
 - css every page to be mobile friendly (after finishing all css and html)
 
+### Thought About:
+- would moving the credits to the index be a better idea? easier to access
+
 ### Maintenence:
 - Art: add in newer artworks
 - Shelf: add in new collection items
