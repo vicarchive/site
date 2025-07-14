@@ -32,5 +32,6 @@ the large commit number is from the early development cuz i was editing stuff di
 - would moving the credits to the index be a better idea? easier to access
 
 ### Maintenence:
+- Index: add in more songs i listen to
 - Art: add in newer artworks
 - Shelf: add in new collection items
