@@ -11,9 +11,10 @@ the large commit number is from the early development cuz i was editing stuff di
   - frutiger aero metal (showcase) [i need this link]
 
 ### ToDo List:
-- Index: change the activity box look for css, it doesn't match (see the original video and style in that way)
-- Profile: finish up the css and more areas to look around (diary entries for my own things, more space for customization. look at spacehey)
-- Profile: write a function to create entries (similar to the artwork thing)
+- Index: write a function to scroll through the updates. each update has an array id, just scroll through those array ids when clicking a button. then move updates up as an activity box
+- Profile: add the rest of the pages and finish adding content / css
+- Profile: write a function to create entries for the diary (similar to the artwork thing)
+- Profile: get a different discord logo or cut down the sides on this one
 - Art: re-add the filter thing (see w3 schools and my legacy site)
 - Art: create assets for the filter buttons (see the splatoon base website)
 - Art: refine "artwork" sign (its too basic and isn't good lol)
@@ -30,6 +31,8 @@ the large commit number is from the early development cuz i was editing stuff di
 
 ### Thought About:
 - would moving the credits to the index be a better idea? easier to access
+- falling out of love of the spacehey theme, but idk if theres a better one. might make it look like a custom template instead
+- move the comments thing to the profile?
 
 ### Maintenence:
 - Index: add in more songs i listen to

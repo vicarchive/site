@@ -7,8 +7,12 @@
 	src: url('common/IndustryTest-BookItalic.otf');
 }
 @font-face {
-	font-family:IMPORTANT;
-	src: url('common/Foreigner.otf');
+	font-family: dc_more;
+	src: url('common/Unageo-Regular.ttf');
+}
+@font-face {
+	font-family: connection;
+	src: url('common/BabelSans.ttf');
 }
 body {
 	max-width: 1280px;
@@ -20,13 +24,26 @@ body {
 }
 .header {
 	display:flex;
+	flex-direction: column;
 	background:black;
 	position:sticky;
 	top:0px;
-	justify-content:space-evenly;
-	height: 50px;
+	height: 110px;
 }
-.header a {
+.header1 {
+	display: flex;
+	justify-content: end;
+}
+.header1 img {
+	margin-right: 40px;
+	max-width: 220px;
+}
+.header2{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.header2 a {
 	display:inline-block;
 	color:white;
 	text-decoration:none;
@@ -35,7 +52,7 @@ body {
 	font-size:25px;
 	margin:10px;
 }
-.header a:hover {
+.header2 a:hover {
 	border: 4px solid yellow;
 	margin:6px;
 }
@@ -56,12 +73,33 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.activitiesbox {
+.activitiesboxoutside {
+	text-align: center;
 	margin: 5px;
-	padding: 15px;
-	border: 5px solid black;
-	border-radius:5px;
-	background:gainsboro;
+	padding: 5px;
+	border-radius: 15px;
+	background-image: linear-gradient(190deg, rgba(239, 239, 239, 1), rgba(187, 187, 187, 1), rgba(138, 138, 138, 1), rgba(187, 187, 187, 1), rgba(239, 239, 239, 1));
+	box-shadow:
+		inset 2px 3px rgba(247, 247, 247, 1),
+		inset -3px -2px rgba(93, 93, 93, 1);
+}
+.boxtitle {
+	font-family: dc_more;
+	margin: 0px;
+	font-size: 30px;
+}
+.activitiesbox {
+	font-family: connection;
+	font-size: 20px;
+	text-align: left;
+	margin: 7px;
+	padding: 30px;
+	border-radius:15px;
+	background: rgba(249, 249, 249, 1);
+	box-shadow:
+		inset -2px -1px rgba(247, 247, 247, 1),
+		inset 1px 2px rgba(93, 93, 93, 1),
+		inset 0px 0px 0px 15px #000000;
 }
 .musicbtn {
 	margin:4px;

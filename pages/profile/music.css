@@ -76,27 +76,8 @@ h4 {
 	background-color:cornflowerblue;
 	color:white;
 }
-.socials {
-	border: 5px solid cornflowerblue;
-	margin:5px;
-}
-.socialsinside {
-	padding:5px;
-}
-.socialsinside p {
-	margin:5px;
-}
-.interests {
-	border:5px solid cornflowerblue;
-	margin:5px;
-}
-.interests table, td {
-	padding:5px;
-	border:2px solid cornflowerblue;
-	border-collapse:collapse;
-}
-.ask {
-	background-color:#c8dcff;
+.tocentry p {
+	margin: 5px;
 }
 .column2 {
 	width: 536px;
