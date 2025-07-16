@@ -57,7 +57,24 @@ function createEntries(name) {
 	if (name === 'sonadow') {
 		// FORMAT: DIRECTORY, DATE, TITLE, DESCRIPTION
 		allArt = [
-			["d_sonadow/2023,04,28.PNG", "04/28/2023", "test test?", "hey whats up"]
+			["d_sonadow/2024,04,16.PNG", "04/16/2024", "Bang Bang!!", "can you believe a sam & max animation introduced me to this song?? me neither"],
+			["d_sonadow/2024,03,04.PNG", "03/04/2024", "Scene14", "apparently this is from a manga idk i saw this on insta and wanted to draw it"],
+			["d_sonadow/2024,02,22.png", "02/22/2024", "Newlyweds", "this is for the ace attorney fans this time HII TGAA1 REFERENCE"],
+			["d_sonadow/2024,02,19.png", "02/19/2024", "Valentine's Day", "based on those wallpaper memes that were going around where you make a heart w your partner"],
+			["d_sonadow/2023,11,09.png", "11/09/2023", "Run and Hug", "apparently this is called a glomp idk hes just happy to see him"],
+			["d_sonadow/2023,11,07.PNG", "11/07/2023", "Yin Yang", "hello splatoon fans? knock knock come get your splatoon reference"],
+			["d_sonadow/2023,10,30.PNG", "10/30/2023", "From Afar", "sighs and stares at them with googley eyes"],
+			["d_sonadow/2023,10,06.PNG", "10/06/2023", "Sketches", "idk i think some of these are still good"],
+			["d_sonadow/2023,09,27.PNG", "09/27/2023", "Midnight Kiss", "this came from a 3am sketch"],
+			["d_sonadow/2023,09,17.PNG", "09/17/2023", "Wedding March", "look at them. nothing else matters but them"],
+			["d_sonadow/2023,09,08.PNG", "09/08/2023", "Tropical Waters", "spacecolonie made a olympics 2020 piece that inspired this because the water was so pretty"],
+			["d_sonadow/2023,09,04.PNG", "09/04/2023", "&quot;Can we do something fun?&quot;", "&quot;We did something fun last night. Go to bed.&quot;"],
+			["d_sonadow/2023,07_08.PNG", "July - August 2023", "idrk", "so bright and pretty. i dont see a date here so im not gonna go looking for it"],
+			["d_sonadow/2023,07,18.PNG", "07/18/2023", "Spreading the Gospel", "came back to animal jam after almost a decade off the game"],
+			["d_sonadow/2023,07,07.png", "07/07/2023", "SONADOW<<<", "this is based off an animate project i never really finished"],
+			["d_sonadow/2023,06,01.PNG", "06/01/2023", "Pride Month 2023", "i used to have a tradition where i use a palette of colors for these which is why its so bright"],
+			["d_sonadow/2023,05,12.PNG", "05/12/2023", "Boom At Night", "lighting practice that i still like"],
+			["d_sonadow/2023,04,28.PNG", "04/28/2023", "Pool", "read this from a fanfic. still so good"]
 		];
 		allArt.map(makeSonadow);
 	}
@@ -74,7 +91,7 @@ function makeArt(infoArray) {
 
 function makeSonadow(infoArray) {
 	if (infoArray[0].includes("d_sonadow/")) {
-		artCode = '<div style="text-align:center;"><img id="IMG" src=' + infoArray[0] + '><div class="textholder"><p>' + infoArray[2] + '&nbsp;-&nbsp;' + infoArray[1]  + '</p><p class="desc">' + infoArray[3] + '</p></div></div>';
+		artCode = '<div class="artbox" style="text-align:center;"><img id="IMG" src=' + infoArray[0] + '><div class="textholder"><p>' + infoArray[2] + '&nbsp;-&nbsp;' + infoArray[1]  + '</p><p class="desc">' + infoArray[3] + '</p></div></div>';
 	} else {
 		artCode = '<iframe id="IFR" src="https://www.youtube.com/embed/' + infoArray[0] + '" width="370" height="370"></iframe><div class="textholder"><p>' + infoArray[2] + '&nbsp;-&nbsp;' + infoArray[1]  + '</p><p class="desc">' + infoArray[3] + '</p></div></div>';
 	}

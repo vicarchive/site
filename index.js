@@ -20,7 +20,7 @@ var linkArray = [
 			];
 var UPDATESLIST = [
 // FORMAT: TITLE, [BULLET POINTS, AS AN ARRAY]
-["16 July", ["Hey guys, now you can see just the newest update!!! and scroll!!!!", "Art filters are back !!!!!!!", "Weird stuff was happening with the art but it is now reliable"]],
+["16 July", ["Hey guys, now you can see just the newest update!!! and scroll!!!!", "Art filters are back !!!!!!!", "Weird stuff was happening with the art but it is now reliable", "art2 is now css'd pretty well i think!! need assets"]],
 ["15 July", ["Fixed the css that bugged me on the landing page and made it more accurate", "Made css on profile page more accurate and added proper tabs for pages!!", "Added in all the pages for the profile!! will need to fill them out later with the correct information but it should be okay", "Addition of filters on the art part is in progress!!!", "Art2 has been created...."]],
 ["16 Sept", ["Added in most of the artwork","Added fonts to art page, in credits","Kind of CSS'd the art page to what it will look like (too lazy for assets right now)"]],
 ["10 Sept",["Began CSS'ing the art page","Fixed readme to what I've got planned so far, less speculation"]],
