@@ -96,16 +96,17 @@ body {
 	padding: 30px;
 	border-radius:15px;
 	background: rgba(249, 249, 249, 1);
+	min-height: 500px;
 	box-shadow:
 		inset -2px -1px rgba(247, 247, 247, 1),
 		inset 1px 2px rgba(93, 93, 93, 1),
 		inset 0px 0px 0px 15px #000000;
 }
-.musicbtn {
+button {
 	margin:4px;
 	border-radius:5px;
 }
-.musicbtn:hover {
+button:hover {
 	border: 5.6px solid yellow;
 	margin:0;
 }
@@ -120,8 +121,8 @@ iframe {
 .updatebox {
 	border-left:2px solid black;
 	padding-left:5px;
-	width:300px;
 	text-wrap: wrap;
+	width: 500px;
 	display:inline-block;
 	vertical-align:top;
 }

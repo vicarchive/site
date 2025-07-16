@@ -5,85 +5,31 @@
 		<link rel="stylesheet" href="art.css">
 		<title>Art - Vic's Archive 3: Hoodlum Havoc</title>
 		<link rel="icon" type="image/x-con" href="assets/splat.ico">
+		<script src="assets/spawnart.js"></script>
+		<script>
+			window.onload = function () {
+				createEntries('art');
+			};
+		</script>
 	</head>
 	<body>
-	<div class="header">
+		<div class="header">
 			<a href="../../index.html">VIC'S ARCHIVE 3</a>
 			<a href="../profile/me.html">ABOUT ME</a>
 			<a href="../shelf/showcase.html">SHOWCASE</a>
-	</div>
-	<div class="contents">
-		<div class="bitch">
-			<img id="HEAD" src="assets/title again.png">
 		</div>
-		<p class="descriptionheader">Welcome to the gallery! Click the filters below to sort through the artwork! (WIP..)</p>
+		<div class="contents">
+			<div class="bitch">
+				<img id="HEAD" src="assets/title again.png">
+			</div>
+		<p class="descriptionheader">Welcome to the gallery! Click the buttons below to sort through the artwork!</p>
+		<button onclick="editArtFilter('all')">all</button>
+		<button onclick="editArtFilter('sonic')">sonic</button>
+		<button onclick="editArtFilter('splatoon')">splatoon</button>
+		<button onclick="editArtFilter('splatchao')">splatchao</button>
+		<button onclick="editArtFilter('attorney')">attorney</button>
+		<button onclick="editArtFilter('other')">other</button>
 		<div id="artBlock" class="container"></div>
 	</div>
-		
-		<script>
-window.onload = function() {
-allArt = [
-// FORMAT: DIRECTORY, FILTERS, DATE, TITLE, DESCRIPTION
-["assets/2024,09,14.png","splatoon","09/14/2024","Callie",""],
-["assets/2024,09,06.png","splatchao","09/06/2024","Proper Render",""],
-["assets/2024,06,01.png","other","06/01/2024","Snorpy & Chandlo","From Bugsnax."],
-["assets/2024,05,26.png","splatchao","05/26/2024","Hammerhead Bridge Rework",""],
-["assets/2024,04,08.PNG","other","04/08/2024","Sam & Max: Shitass Police",""],
-["assets/2024,04,03.PNG","splatchao","04/03/2024","Amy & Blaze Concept Render",""],
-["assets/2024,03,15.PNG","splatchao","03/15/2024","S2 Render Sonic & Shadow",""],
-["assets/2024,03,08.PNG","other","03/08/2024","Side Eye Maya",""],
-["assets/2024,02,26.png","splatchao","02/26/2024","Shadow S2 Outfit",""],
-["assets/2024,02,03.png","splatoon","02/03/2024","Splatoon Style Test",""],
-["assets/2024,01,20.PNG","splatchao","01/20/2024","Sonic Solo Album Concept",""],
-["assets/2024,01,16.png","splatchao","01/16/2024","S2 Performance Concept",""],
-["assets/2024,01,10.PNG","splatchao","01/10/2024","Splatchao Low Quality Intro",""],
-["assets/2024,01,09.PNG","splatchao","01/09/2024","S2 Outfits",""],
-["assets/2023,12,25.PNG","sonic","12/25/2023","SA2 Render",""],
-["assets/2023,12,17.PNG","splatoon","12/17/2023","Shiver",""],
-["assets/2023,12,12.PNG","attorney","12/12/2023","Klapollo","He plays his guitar for his boyfriend."],
-["assets/2023,12,06.PNG","attorney","12/06/2023","Maya Fey",""],
-["assets/2023,11,25.PNG","sonic","11/25/2023","DTYS","Started an Instagram around this time."],
-["assets/2023,11,13.png","splatchao","11/13/2023","Smile Test","Trying to see how Shadow smiles."],
-["assets/2023,11,12.png","splatchao","11/12/2023","S3 Cover Concept",""],
-["assets/2023,10,28.PNG","sonic","10/28/2023","Orange","Got bored and tried making Sonic in the Splatoon style."],
-["assets/2023,10,28,1.PNG","splatchao","10/28/2023","Agent 3",""],
-["assets/2023,10,23.PNG","sonic","10/23/2023","Sonic Pomni",""],
-["assets/2023,10,23,1.PNG","splatchao","10/23/2023","Chaoween",""],
-["assets/2023,09,19.PNG","splatchao","09/19/2023","Proper Render 1",""],
-["assets/2023,09,19,1.PNG","splatoon","09/19/2023","Stay Fresh",""],
-["assets/2023,09,13.PNG","splatchao","09/13/2023","Tomorrow's Nostalgia Today",""],
-["assets/2023,08,23.PNG","splatchao","08/23/2023","First Render","Tried something similar to the Squid Sisters S1 Render."],
-["assets/2023,08,22.PNG","sonic","08/22/2023","Live Sonic Reaction","Live Sonic Reaction"],
-["assets/2023,08,22,1.PNG","splatchao","08/22/2023","Story Mode Icons","Quick sketches."],
-["assets/2023,08,20.PNG","other","08/20/2023","Mittopia, 3 out of 3","Tank"],
-["assets/2023,08,08.PNG","other","08/08/2023","Miitopia, 1 out of 3","Warrior"],
-["assets/2023,08,06.PNG","other","08/06/2023","Miitopia, 2 out of 3","Cat"],
-["assets/2023,06,04.PNG","splatchao","06/04/2023","Player Characters",""],
-["assets/2023,06,02.PNG","sonic","06/02/2023","SA2's 22nd Birthday",""],
-["assets/2023,05,24.PNG","splatchao","05/24/2023","Final Splatchao Designs",""],
-["assets/2023,05,08.PNG","splatoon","05/08/2023","Deep Cut",""],
-["assets/2023,05,03.PNG","sonic","05/03/2023","Shipwrecked","From a Meriner May prompt."],
-["assets/2023,05,01.PNG","sonic","05/01/2023","Shadow","This is based off of something I wrote."],
-["assets/2023,04,21.JPG","sonic","04/21/2023","Shadow Chaos Control",""],
-["assets/2023,04,10.png","splatchao","04/10/2023","Old Splatchao Render","Rendered something quick."],
-["Fdw7tJTL094","splatchao","04/02/2023","Old Splatchao Designs Animation","Made animations for their second designs."],
-["assets/2023,03,08.png","splatchao","03/08/2023","First Splatchao Designs","Original concept art of the two of them."],
-["D8Ubo17WtT4", "splatoon","02/27/2023","Off the Hook Animation","Duik Bassel 2 Animation of Off the Hook."],
-["zi-x1XRUqY4", "sonic","11/24/2022", "Shadow SA2 Animation","Companion animation to Sonic."],
-["v8skw7CQODI","sonic","11/18/2022","Sonic SA2 Animation","Made using After Effects and Duik Bassel 2."],
-["pfkRTlAOrwQ","sonic","10/29/2021","Shadow Cookie","Made using After Effects and puppet tools."]
-];
-// FILTERS: SONIC, SPLATOON, SPLATCHAO, ATTORNEY, OTHER
-allArt.map(makeArt);
-function makeArt(infoArray) {
-	if (infoArray[0].includes("assets/")) {
-		artCode = '<div id="FILT" class="filterDiv&nbsp;' + infoArray[1] + '"><img id="IMG" src=' + infoArray[0] + '><div class="textholder"><p>' + infoArray[3] + '&nbsp;-&nbsp;' + infoArray[2]  + '</p><p class="desc">' + infoArray[4] + '</p></div></div>';
-	} else {
-		artCode = '<div id="FILT" class="filterDiv&nbsp;' + infoArray[1] + '"><iframe id="IFR" src="https://www.youtube.com/embed/' + infoArray[0] + '" width="370" height="370"></iframe><div class="textholder"><p>' + infoArray[3] + '&nbsp;-&nbsp;' + infoArray[2]  + '</p><p class="desc">' + infoArray[4] + '</p></div></div>';
-	}
-	document.getElementById("artBlock").innerHTML = document.getElementById("artBlock").innerHTML + artCode;
-}
-}
-		</script>
 	</body>
 </html>

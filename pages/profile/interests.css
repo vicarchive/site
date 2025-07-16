@@ -1,0 +1,98 @@
+body {
+	background:#e3e3e3;
+	cursor: url("assets/V_ARROW.cur"), default;
+/** cursor: url("assets/V_LINK.cur"), pointer; **/
+}
+.site {
+	background:white;
+	max-width:960px;
+	margin:auto;
+	font-family: Verdana, sans-serif;
+}
+.headerz {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	background: rgba(27, 63, 244, 1);
+	margin:0;
+	padding:20px;	
+}
+.headerz p {
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.headerz a {
+	color:white;
+	text-decoration:none;
+}
+.headerz a:hover {
+	text-decoration: underline;
+}
+.headerzz {
+	margin:0px;
+	background-color: rgba(96, 164, 239, 1);
+	padding:5px;
+}
+.headerzz p {
+	margin: 1px;
+}
+.headerzz a {
+	margin: 1px;
+	color:white;
+	text-decoration:none;
+}
+.headerzz a:hover {
+	color:black;
+}
+a:hover {
+	cursor: url("assets/V_LINK.cur"), pointer;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column1 {
+	width: 344px;
+	margin: 10px;
+}
+.profile h1 {
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5px;
+	font-size:25px;
+}
+.topblock {
+	margin-left:5px;
+}
+.topblock p {
+	width:100px;
+}
+h4 {
+	margin:0;
+	background-color:cornflowerblue;
+	color:white;
+}
+.tocentry p {
+	margin: 5px;
+}
+.column2 {
+	width: 536px;
+	margin: 10px;
+}
+.column2 h3 {
+	color:red;
+	background-color: rgba(242, 200, 130, 1);
+	padding-left: 10px;
+}
+.column2 h4 {
+	color: red;
+	background-color: transparent;
+}
+.footer {
+	text-align:center;
+	color:#777777
+}

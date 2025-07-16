@@ -10,24 +10,29 @@ the large commit number is from the early development cuz i was editing stuff di
   - sonic adventure 2 menus (sonadow section) https://www.spriters-resource.com/gamecube/sonicadventure2battle/
   - frutiger aero metal (showcase) [i need this link]
 
-### ToDo List:
-- Index: write a function to scroll through the updates. each update has an array id, just scroll through those array ids when clicking a button. then move updates up as an activity box
-- Profile: add the rest of the pages and finish adding content / css
-- Profile: write a function to create entries for the diary (similar to the artwork thing)
+### ToDo List (actual coding):
+- Index: css the updates box a little so it looks cooler and is more functional
 - Profile: get a different discord logo or cut down the sides on this one
-- Art: re-add the filter thing (see w3 schools and my legacy site)
+
+- Profile: finish adding content to the interests, music, and diary pages
+- - biggest issue here is css
+- Profile: write a function to create entries for the diary (similar to the artwork thing)
+- - i need to know how to css this before fully writing a script
+- Shelf: figure out structure for collection items
+- Shelf: css the boxes for the information (see early ios apps)
+
+- css every page to be mobile friendly (after finishing everything else. last thing i need to do)
+
+### ToDo List (asset creation):
 - Art: create assets for the filter buttons (see the splatoon base website)
 - Art: refine "artwork" sign (its too basic and isn't good lol)
 - Art: create the background tag card thing for art (see splatoon website)
 - - i want to use a random number generator to dictate how theyre rotated to create randomness in the tag spread
 - Art: redo background pattern
+- Art2: the art bg boxes, define border and just loop the lines inside. should be the menu boxes from the game
 - Shelf: make bubble assets for shelf information (basically add the text on top of the bubbles. see frutier aero or make icons)
-- Shelf: css the boxes for the information (see early ios apps)
 - Shelf: create asset for the top header (see ios apps? idk if i need an asset for it)
 - Shelf: create the assets for the information boxes (is there a way to frutiger aero the boxes with info in them?)
-- Shelf: figure out structure for collection items
-
-- css every page to be mobile friendly (after finishing all css and html)
 
 ### Thought About:
 - would moving the credits to the index be a better idea? easier to access

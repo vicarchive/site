@@ -1,0 +1,44 @@
+@font-face {
+	font-family: comicsans;
+	src: url('assets/ComicSans.ttf');
+}
+body {
+	margin:0;
+	background: black;
+	height: 100%;
+}
+p {
+	font-family: comicsans;
+	color: white;
+}
+.all {
+	max-width: 1536px; /*changeas needed*/
+	margin: auto;
+	background: url('assets/tvset_bg.png');
+	background-size: auto 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+}
+.header {
+	height: 30px;
+	width: 100%;
+}
+.header h3 {
+	margin: 0;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1400px;
+	margin: auto;
+	justify-content: space-between;
+}
+.textholder {
+	margin: 5px;
+}
+#IMG {
+	max-width:370px;
+	max-height:370px;
+}

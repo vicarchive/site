@@ -5,6 +5,12 @@
 	<title>Vic's Archive 3: Hoodlum Havoc V2</title>
 	<link rel="icon" type="image/x-con" href="common/DC.ico">
 	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+	<script>
+			window.onload = function () {
+				startUp();
+			};
+	</script>
 </head>
 		<!-- Start of actual content -->
 <body>
@@ -33,12 +39,18 @@
 		</div>
 		
 	<div class="container">
+		<!-- New Updates Box -->
+		<div class="activitiesboxoutside">
+			<h2 class="boxtitle">Updates</h2>
+			<div class="activitiesbox">
+				<button onclick="crementUpdate(-1)" style="cursor: url('common/DFLTL.GIF'), pointer">&lt;</button><button onclick="crementUpdate(1)" style="cursor: url('common/DFLTL.GIF'), pointer">&gt;</button><div id="UPD"></div></div>
+		</div>
 		<!-- Music Box -->
 		<div class="activitiesboxoutside">
 			<h2 class="boxtitle">Music</h2>
 			<div class="activitiesbox">
 				<p style="display: inline-block">Click the button and listen to a song I like! There are&nbsp;</p><p style="display: inline-block" id="counterp"></p><p style="display: inline-block">&nbsp;songs in the playlist! </p><br>
-				<button class="musicbtn" onclick="randomSong()" style="cursor: url('common/DFLTL.GIF'), pointer">Generate!</button><br><br>
+				<button onclick="randomSong()" style="cursor: url('common/DFLTL.GIF'), pointer">Generate!</button><br><br>
 				<iframe id="songLink" width="100%" height="300" src="about:blank" title="YouTube video player" frameborder="0"></iframe>
 			</div>
 		</div>
@@ -54,83 +66,14 @@
 			<h2 class="boxtitle">Featured Video</h2>
 			<div class="activitiesbox"><iframe id="songLink" width="500" height="300" src="https://www.youtube.com/embed/4aoyDsnK54s" title="YouTube video player" frameborder="0"></iframe></div>
 		</div>
-			<script>
-			function link(embedID) {
-				return 'https://www.youtube.com/embed/' + embedID;
-			}
-			
-			linkArray = [
-			//Splatoon
-			link('k2N9rVrIb6s'), //Three Wishes
-			link('m4wvwTr_jDM'), //Rainbow Color Inkantation
-			link('5L1ddMgCfAc'), //Suffer No Fools
-			link('nZHz9fnO7Ko'), //Anarchy Rainbow Springfest
-			link('vlv7HV2lPQI'), //Anarchy Rainbow LIVE 2022
-			//Sonic
-			link('J-ykAmdtOYI'), //Arid Sands Day
-			link('UxbyOQgTsVc'), //Seven Rings in Hand
-			link('4KkQCxXUEBQ'), //Free
-			//Other Games
-			link('ryp-CqIfeX4'), //Beach Overworld 2012 <- private?
-			link('ABPavPWpsCw'), //Sticker Star Event Battle
-			//Misc
-			link('GmfwI0vDy68'), //On the FM
-			link('R4WDXeGtwYQ'), //LeJeune
-			link('8TAuh7HGUss'), //Myoisia
-			link('3wm3Xr3OY3M'), //One More Lovely
-			];
-			
-			window.onload = function startUp() {
-				// countSong
-				document.getElementById("counterp").textContent = linkArray.length;
-				
-				// loadUpdates
-				UPDATESLIST = [
-				// FORMAT: TITLE, [BULLET POINTS, AS AN ARRAY]
-["15 July", ["Fixed the css that bugged me on the landing page and made it more accurate", "Made css on profile page more accurate and added proper tabs for pages!!", "Added the music page (its like 3am so its really basic)"]],
-["16 Sept", ["Added in most of the artwork","Added fonts to art page, in credits","Kind of CSS'd the art page to what it will look like (too lazy for assets right now)"]],
-["10 Sept",["Began CSS'ing the art page","Fixed readme to what I've got planned so far, less speculation"]],
-["09 Sept", ["Index is basically css'd! Guess where it's from :D (need to figure out fonts and titles)","Added an easier way to add updates","Fixed buttons on the shelf page. Still need assets","Added a credits page to keep track of assets and fonts used. As of now it is conprehensive"]],
-["08 Sept", ["Showcase partially css'd - some issues came about", "Index partially css'd - assets required","Added custom cursors for all pages but art"]],
-["07 Sept", ["Profile is now css'd! Go take a look"]],
-["04 Sept", ["Fixed display for the art page","About me no longer squishes and is now readable on mobile"]],
-["03 Sept", ["Finished main HTML for the about me page","Added some more music","Worked and completed a function for the art page (remember when i had to manually put art in? not anymore :D)","Added a way back to the new site from the legacy site"]],
-["02 Sept", ["Fixed the menu bar so it doesn't cover the header","Added links to future pages","Added the music box","Added a way to reach the legacy site"]]
-				];
-
-				UPDATESLIST.map(createUpdate);
-				}
-			
-			function randomSong() {
-				const song = Math.floor(Math.random() * linkArray.length);
-				document.getElementById("songLink").src = linkArray[song];
-			}
-			</script>
 		<!-- End of main menu -->
 	</div>
-	<!-- Updates Box -->
-	<div class="activitiesboxoutside">
-		<h2 class="boxtitle">Updates</h2>
-		<div class="activitiesbox"><div id="UPD" class="updates"></div></div>
-	</div>
-		
-		
-<script>
-	function createUpdate(updateArray) {
-		ils="";
-		for (let i=0, len=updateArray[1].length; i<len; i++) {
-			ils += '<li>' + updateArray[1][i] + '</li>';
-		}
-		updateCode ='<div class="updatebox"><p>' + updateArray[0] + '</p><ul>' + ils + '</ul>';
-		document.getElementById("UPD").innerHTML += updateCode;
-	}
-</script>
 </div>
 
 <!-- Footer -->
 <div class="footer">
 	<p style="display:inline-block">Vic's Archive 3</p>
-	<p style="display:inline-block">15 July 2025</p>
+	<p style="display:inline-block">16 July 2025</p>
 </div>
 
 </body>
