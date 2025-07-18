@@ -1,0 +1,139 @@
+/**
+ * 	The main CSS file for the Mario Kart Wii section !!!! Written by Vic (vicarchive), feel free to use w/ no credit!
+ * 	You may also use the relevant assets as long as you give credit to those listed in the credits page (vicarchive.github.io/site/pages/credits.html). Their work should not go unnoticed.
+ * 	If an asset does not have credit, then it is likely I ripped it from the game / remade it. Please use these with no credit :D
+ */
+
+@font-face {
+	font-family: MKWII;
+	src: url('assets2/FOT-RodinNTLGPro-EB.otf');
+}
+/** Premade MKWII Text **/
+.BlackAndWhite {
+	font-family: MKWII;
+	color: white;
+	-webkit-text-stroke: black 3px; /** May need tweaking **/
+	paint-order: stroke fill;
+}
+.Grey {
+	font-family: MKWII;
+	color:#818181;
+}
+.Gold {
+	font-family: MKWII;
+	color: white;
+	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
+	paint-order: stroke fill;
+	/** transform:scale(0.7,1)  // may use if it's actually needed **/
+}
+.BlueHover {
+	font-family: MKWII;
+	color: rgba(35, 146, 109, 1);
+	-webkit-text-stroke: black 4px;
+	paint-order: stroke fill;
+	text-shadow: -1px 2px black;
+}
+.BlueHover:hover {
+	color: rgba(106, 255, 253, 1);
+}
+
+/** Website Arrangement Template and Button Functions **/
+html {
+	background: black;
+}
+body {
+	position: relative;
+	cursor: url('assets2/player1_c.cur'), default;
+	max-width: 1582px;
+	height:100%;
+	margin: auto;
+	background-image: url('assets2/bg.gif');
+	background-size: cover;
+}
+button:hover {
+	cursor: url('assets2/player1_c.cur'), pointer;
+}
+a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.header {
+	min-height:200px;
+	background-image: url('assets2/top.png');
+	background-size: cover;
+	background-position:center;
+}
+.footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	min-height:200px;
+	background-image: url('assets2/bottom.png');
+	background-size: cover;
+	background-position:left;
+}
+.mainButton {
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 2px solid rgba(230, 198, 8, 1);
+	transition: transform 0.1s;
+	box-shadow:
+		0px 0px 0px 2px black;
+}
+.mainButton:hover {
+	background-color: rgba(189, 132, 29, 0.4);
+	transform: scale(1.2);
+}
+.sideButton {
+	background: white;
+	border-radius: 5px;
+	border: none;
+	transition: transform 0.1s;
+	box-shadow:
+		inset 0px 0px 8px 1px rgba(150, 150, 150, 1),
+		inset 0px 0px 2px 0px white,
+		4px 2px rgba(0, 0, 0, 0.35);
+}
+.sideButton:hover {
+	transform: scale(1.08);
+}
+/** Essentially a copy paste of the above Main button but with additional CSS to function like the cup buttons in MKWii **/
+.mainButtonImage {
+	height: 50px;
+	width: 100px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 2px solid rgba(230, 198, 8, 1);
+	position: relative;
+	transition: transform 0.1s;
+	box-shadow:
+		0px 0px 0px 2px black;
+}
+.mainButtonImage img {
+	max-height: 80px;
+	position: absolute;
+	bottom: 7px;
+	left: 17px;
+}
+.mainButtonImage p {
+	display: none;
+	position: absolute;
+	bottom: -15px;
+	left: -13px;
+	font-size:17px;
+	margin:0;
+	text-wrap: nowrap;
+}
+.mainButtonImage:hover {
+	background-color: rgba(189, 132, 29, 0.4);
+	transform: scale(1.2);
+}
+.mainButtonImage:hover img {
+	max-height: 100px;
+}
+.mainButtonImage:hover p { /** These may need to be overwritten in your own CSS for it to be positioned correctly **/
+	display: block;
+}
+/** And some main website things **/
+.main {
+	width: 100%;
+}

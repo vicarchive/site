@@ -1,0 +1,50 @@
+@font-face {
+	font-family: Myriad; src: url('assets/MYRIADAT.TTF');
+}
+@font-face {
+	font-family: nn; src:url('assets/NEURO.otf');
+}
+body {
+	background-image:url('assets/GRASS.jpeg');
+	background-size:cover;
+	max-width:960px;
+	margin:auto;
+	cursor: url('assets/7_ARROW.cur'), default;
+/** cursor: url('assets/7_LINK.cur'), pointer; **/
+}
+h1 {
+	font-family:nn;
+}
+p {
+	font-family:Myriad;
+}
+.frutigerheader {
+	display:flex;
+	border-radius:15px;
+	padding:10px;
+	text-align:center;
+	justify-content: space-around
+}
+.frutigerheader1 {
+	display:inline-block;
+}
+.frutigerheader img {
+	width:50px;
+	display:inline-block;
+	margin-left:10px;
+	vertical-align:middle;
+	cursor: url('assets/7_LINK.cur'), pointer;
+}
+.bubbles a {
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	cursor: url('assets/7_LINK.cur'), pointer;
+	font-family: Myriad;
+	border:none;
+	text-decoration:none;
+}
+.information {
+	border: 3px solid green;
+	padding:5px;
+}

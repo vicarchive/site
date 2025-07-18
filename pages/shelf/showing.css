@@ -1,0 +1,22 @@
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+#showOff {
+	width:300px;
+}
+.activeRegion {
+	display: flex;
+	flex-direction: column;
+}
+a {
+	margin-right: 50px;
+}
+.selection {
+	display: flex;
+	flex-direction: row;
+}
+.information {
+
+}
