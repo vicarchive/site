@@ -41,6 +41,7 @@ the large commit number is from the early development cuz i was editing stuff di
 - falling out of love of the spacehey theme, but idk if theres a better one. might make it look like a custom template instead
 - move the comments thing to the profile?
 - audios for websites with inspirations that could be enhanced w them??!! and maybe a speaker thing at the bottom to mute and unmute!! https://stackoverflow.com/questions/63546265/how-to-make-music-autoplay-and-loop-in-background/63546549
+- main art section no longer makes sense to me lmao, will probably end up changing it to something else
 
 ### Maintenence:
 - Index: add in more songs i listen to
