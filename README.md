@@ -11,11 +11,11 @@ the large commit number is from the early development cuz i was editing stuff di
   - mario kart wii menu (collection) https://www.youtube.com/watch?v=YjNTdQHkRJY @ 1:43
 
 ### ToDo List (actual coding):
-- Index: make the iframe use the same cursor
 - Profile: finish adding content to the interests, music, and diary pages
  - biggest issue here is css and layout
 - Profile: write a function to create entries for the diary (similar to the artwork thing)
  - i need to know how to css this before fully writing a script
+- Shelf: trophy.ico
 - Shelf: layout the main menu page with the correct content (no gifs or images. might add later)
 - Shelf: finish the information template page layout
 - Shelf: currently just missing the mini description at the bottom
