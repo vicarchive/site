@@ -21,10 +21,14 @@
 }
 .Gold {
 	font-family: MKWII;
-	color: white;
-	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
+	color: rgba(211, 203, 192, 1);
+	-webkit-text-stroke: rgba(73, 51, 18, 1) 5px;
 	paint-order: stroke fill;
 	/** transform:scale(0.7,1)  // may use if it's actually needed **/
+}
+.Gold:hover {
+	color: white;
+	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
 }
 .BlueHover {
 	font-family: MKWII;
@@ -61,7 +65,7 @@ a {
 	min-height:200px;
 	background-image: url('assets2/top.png');
 	background-size: cover;
-	background-position:center;
+	background-position:bottom left;
 }
 .footer {
 	position: absolute;
@@ -71,18 +75,23 @@ a {
 	min-height:200px;
 	background-image: url('assets2/bottom.png');
 	background-size: cover;
-	background-position:left;
+	background-position: top left;
 }
 .mainButton {
 	background-color: rgba(0, 0, 0, 0.4);
-	border: 2px solid rgba(230, 198, 8, 1);
+	border: 2px solid rgba(203, 156, 15, 1);
 	transition: transform 0.1s;
 	box-shadow:
 		0px 0px 0px 2px black;
 }
 .mainButton:hover {
 	background-color: rgba(189, 132, 29, 0.4);
+	border: 2px solid rgba(230, 198, 8, 1);
 	transform: scale(1.2);
+}
+.mainButton:hover p { /** Gold **/
+	color: white;
+	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
 }
 .sideButton {
 	background: white;
@@ -102,7 +111,7 @@ a {
 	height: 50px;
 	width: 100px;
 	background-color: rgba(0, 0, 0, 0.4);
-	border: 2px solid rgba(230, 198, 8, 1);
+	border: 2px solid rgba(203, 156, 15, 1);
 	position: relative;
 	transition: transform 0.1s;
 	box-shadow:
@@ -125,6 +134,7 @@ a {
 }
 .mainButtonImage:hover {
 	background-color: rgba(189, 132, 29, 0.4);
+	border: 2px solid rgba(230, 198, 8, 1);
 	transform: scale(1.2);
 }
 .mainButtonImage:hover img {
@@ -132,6 +142,38 @@ a {
 }
 .mainButtonImage:hover p { /** These may need to be overwritten in your own CSS for it to be positioned correctly **/
 	display: block;
+	color:white;
+	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
+}
+/** MKWii Modal Popup **/
+.popUp {
+	display: none;
+	position: fixed;
+	z-index: 1;
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%;
+  	overflow: auto;
+  	background-color: rgba(255,255,255,0.4);
+}
+.popUpInside {
+	background-color: white;
+	margin: auto;
+	margin-top: 15%; /* this is based off of the width for some reason? */
+  	padding: 20px;
+  	border: 3px solid black;
+  	border-radius: 10px;
+  	width: 700px;
+  	box-shadow: inset 0px 0px 15px 9px rgba(163, 179, 252, 1);
+}
+.popUpContent {
+	width: 100%;
+	background: url('assets2/checker32.png');
+}
+.popUpContent p {
+	margin: 0;
+	padding: 5px;
 }
 /** And some main website things **/
 .main {

@@ -12,18 +12,14 @@ the large commit number is from the early development cuz i was editing stuff di
 
 ### ToDo List (actual coding):
 - Profile: finish adding content to the interests, music, and diary pages
- - biggest issue here is css and layout
+  - biggest issue here is css and layout
 - Profile: write a function to create entries for the diary (similar to the artwork thing)
- - i need to know how to css this before fully writing a script
-- Shelf: trophy.ico
+  - i need to know how to css this before fully writing a script
 - Shelf: layout the main menu page with the correct content (no gifs or images. might add later)
+  - html and css the mini description with this
 - Shelf: finish the information template page layout
-- Shelf: currently just missing the mini description at the bottom
-- Shelf: trim the header and footer and readjust. its interfering with the buttons
-- Shelf: create a modal popup like in mkwii for shelf information
-- Shelf: gold text is also hoverable. need to change that
+- Shelf: transition for the popup (my braincells are dying trying to figure this out right now so ill add this later. but this is something i definitely want to add)
 - Shelf: figure out how to do button select stuff. i know that when hovering, it shows the collection preview on the course selection section. when pressed the button should be depressed and the images should pop up with the blue highlighted text and clicking them brings up the popup. how to do back button? click anywhere on the screen to go back to select collection?
-
 - move repeatable css into separate pages for less space (see mkwii section)
 - css every page to be mobile friendly (after finishing everything else. last thing i need to do)
 

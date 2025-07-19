@@ -20,6 +20,7 @@ var linkArray = [
 			];
 var UPDATESLIST = [
 // FORMAT: TITLE, [BULLET POINTS, AS AN ARRAY]
+["19 July 2025", ["Made some minor tweaks to the MKWii stuff in the collection page. css is a lot better now !!", "MKWii popup is real!!!!", "its like 5am sorry i cant add anything else rn......."]],
 ["17 July 2025", ["Updates box looks a little better. date is easier to see", "Formally changed the theme for the collection page!!", "Added a TON of css presets for me to use for the collection stuff later", "Collection pages are now actually in progress woah!!!! noway!!!"]],
 ["16 July 2025", ["Hey guys, now you can see just the newest update!!! and scroll!!!!", "Art filters are back !!!!!!!", "Weird stuff was happening with the art but it is now reliable", "art2 is now css'd pretty well i think!! need assets"]],
 ["15 July 2025", ["Fixed the css that bugged me on the landing page and made it more accurate", "Made css on profile page more accurate and added proper tabs for pages!!", "Added in all the pages for the profile!! will need to fill them out later with the correct information but it should be okay", "Addition of filters on the art part is in progress!!!", "Art2 has been created...."]],

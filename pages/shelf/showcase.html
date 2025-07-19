@@ -4,8 +4,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="mariokartwii.css">
 		<link rel="stylesheet" href="showcase.css">
+		<script src="popupmkwii.js"></script>
 		<title>Showcase - Vic's Archive 3: Hoodlum Havoc</title>
-		<link rel="icon" type="image/x-con" href="">
+		<link rel="icon" type="image/x-con" href="assets2/crown.ico">
 	</head>
 	<body>
 		<div class="header"><p class="Grey" style="margin:0;">Collection Menu</p></div>
@@ -14,9 +15,18 @@
 			<p class="Grey">Testing grey MKWii text</p>
 			<p class="Gold">Testing gold MKWii text</p>
 			<p class="BlueHover">Testing hoverable MKWii text</p>
-			<a href="showing_temp.html"><button class="mainButton"><p class="Gold">Testing an MKWii main button</p></button></a>
-			<a href="javascript:;"><button class="sideButton"><p class="Grey">Testing an MKWii side button</p></button></a>
+			<a href="showing_temp.html"><button class="mainButton"><p class="Gold" style="font-size:18px;">Testing an MKWii main button</p></button></a>
+			<a href="javascript:displayPop('pop');"><button class="sideButton"><p class="Grey" style="font-size:17px;">Testing an MKWii side button</p></button></a>
 			<a href="javascript:;" style="margin-top:20px;"><button class="mainButtonImage"><img src='assets2/huh.png'><p class="Gold">Image Button</p></button></a>
+		</div>
+		<div id="pop" class="popUp">
+			<div class="popUpInside">
+				<div class="popUpContent">
+					<p class="Grey">Testing MKWii popup</p>
+					<p class="Grey">Here's some more text!!</p>
+					<p class="Grey">Click anywhere outside to close this &lt;3</p>
+				</div>
+			</div>
 		</div>
 		<div class="footer"><a href="../../"><button class="sideButton"><p class="Grey">Home Page</p></button></a></div>
 	</body>
