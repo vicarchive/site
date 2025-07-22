@@ -10,13 +10,13 @@ the large commit number is from the early development cuz i was editing stuff di
   - sonic adventure 2 menus (sonadow section) https://www.spriters-resource.com/gamecube/sonicadventure2battle/
   - mario kart wii menu (collection) https://www.youtube.com/watch?v=YjNTdQHkRJY @ 1:43
 
-### ToDo List (actual coding):
+### ToDo List (brainless coding):
 - Shelf: finish the information template page layout
   - css return button, properly css selection buttons, css information box, html at least one div popup as a test
 - Shelf: transition for the popup (my braincells are dying trying to figure this out right now so ill add this later. but this is something i definitely want to add)
 - Shelf: figure out how to do button select stuff. i know that when hovering, it shows the collection preview on the course selection section. when pressed the button should be depressed and the images should pop up with the blue highlighted text and clicking them brings up the popup. how to do back button? click anywhere on the screen to go back to select collection?
   - probably click to select and then the menu stuff appears on the main box. then clicking an image shows the popup with information. kinda want to know how to select and deselect stuff though w the buttons
-- move repeatable css into separate pages for less space (see mkwii section)
+- move repeatable css into separate pages for less space (see mkwii section) (most applicable to the myspace section, will make the rest of the sections easier to work with)
 - css every page to be mobile friendly (after finishing everything else. last thing i need to do)
 
 ### ToDo List (my content):
@@ -27,19 +27,17 @@ the large commit number is from the early development cuz i was editing stuff di
 
 ### ToDo List (asset creation):
 - Index: what assets can i make for the buttons? (left right and generate)
-- Art: create assets for the filter buttons (see the splatoon base website)
-- Art: refine "artwork" sign (its too basic and isn't good lol)
-- Art: create the background tag card thing for art (see splatoon website)
- - i want to use a random number generator to dictate how theyre rotated to create randomness in the tag spread
-- Art: redo background pattern
+- Art: want to redo this section. find something to brainrot about that can look like a gallery lol
 - Art2: find a way to integrate the menu box borders into the thing? idk
 
 ### Thought About:
 - would moving the credits to the index be a better idea? easier to access
 - falling out of love of the spacehey theme, but idk if theres a better one. might make it look like a custom template instead
+  - any other old social media websites that have better 00s layouts to them?
 - move the comments thing to the profile?
 - audios for websites with inspirations that could be enhanced w them??!! and maybe a speaker thing at the bottom to mute and unmute!! https://stackoverflow.com/questions/63546265/how-to-make-music-autoplay-and-loop-in-background/63546549
-- main art section no longer makes sense to me lmao, will probably end up changing it to something else
+  - could use a universal js script with a global var to keep track of mute vs ost on if i choose to do this. would be fun
+- maybe add an information section to the index just as a way to get started? i feel like a landing page without an explanation of the website might confuse people
 
 ### Maintenence:
 - Index: add in more songs i listen to
