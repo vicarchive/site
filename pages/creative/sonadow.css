@@ -2,6 +2,10 @@
 	font-family: comicsans;
 	src: url('assets/ComicSans.ttf');
 }
+@font-face {
+	font-family: sa2menu;
+	src: url('assets/Vipnagorgialla_bd.otf');
+}
 body {
 	margin:0;
 	background: black;
@@ -21,12 +25,36 @@ p {
 	height: 100%;
 }
 .header {
-	height: 30px;
 	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
-.header h3 {
-	margin: 0;
+.menuButton {
+	border: none;
+	height: 125px;
+	width: 127px;
+	background: url('assets/son_button_off.png');
+	background-position: center;
+	background-size: cover;
+}
+.menuButton p {
+	position: relative;
+	left: -1px;
+	font-family:sa2menu;
+	font-size: 15px;
+	color: rgba(15, 35, 51, 1);
+	text-shadow: 0.5px 0px rgba(189, 247, 255, 1);
+}
+.menuButton:hover {
+	background: url('assets/son_button_on.png');
+	background-position: center;
+	background-size: cover;
+}
+.menuButton:hover p {
+	left: -2px;
 	color: white;
+	text-shadow: 5px 0px black;
 }
 .container {
 	display: flex;
@@ -40,15 +68,22 @@ p {
 	position:relative;
 	margin:10px;
 	padding:10px;
-	height:470px;
+	height:480px;
 	width:400px;
 	text-align:center;
 	align-content:center;
+	background: url('assets/son_artbutton.png');
+	background-size: contain;
+	background-repeat: repeat-y;
 }
 .textholder {
 	margin: 5px;
 }
+.textholder p {
+	text-shadow: 3px 0px black;
+}
 #IMG {
 	max-width:370px;
 	max-height:370px;
+	border: 5px solid rgba(15, 35, 51, 1);
 }

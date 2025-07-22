@@ -11,17 +11,19 @@ the large commit number is from the early development cuz i was editing stuff di
   - mario kart wii menu (collection) https://www.youtube.com/watch?v=YjNTdQHkRJY @ 1:43
 
 ### ToDo List (actual coding):
+- Shelf: finish the information template page layout
+  - css return button, properly css selection buttons, css information box, html at least one div popup as a test
+- Shelf: transition for the popup (my braincells are dying trying to figure this out right now so ill add this later. but this is something i definitely want to add)
+- Shelf: figure out how to do button select stuff. i know that when hovering, it shows the collection preview on the course selection section. when pressed the button should be depressed and the images should pop up with the blue highlighted text and clicking them brings up the popup. how to do back button? click anywhere on the screen to go back to select collection?
+  - probably click to select and then the menu stuff appears on the main box. then clicking an image shows the popup with information. kinda want to know how to select and deselect stuff though w the buttons
+- move repeatable css into separate pages for less space (see mkwii section)
+- css every page to be mobile friendly (after finishing everything else. last thing i need to do)
+
+### ToDo List (my content):
 - Profile: finish adding content to the interests, music, and diary pages
   - biggest issue here is css and layout
 - Profile: write a function to create entries for the diary (similar to the artwork thing)
   - i need to know how to css this before fully writing a script
-- Shelf: layout the main menu page with the correct content (no gifs or images. might add later)
-  - html and css the mini description with this
-- Shelf: finish the information template page layout
-- Shelf: transition for the popup (my braincells are dying trying to figure this out right now so ill add this later. but this is something i definitely want to add)
-- Shelf: figure out how to do button select stuff. i know that when hovering, it shows the collection preview on the course selection section. when pressed the button should be depressed and the images should pop up with the blue highlighted text and clicking them brings up the popup. how to do back button? click anywhere on the screen to go back to select collection?
-- move repeatable css into separate pages for less space (see mkwii section)
-- css every page to be mobile friendly (after finishing everything else. last thing i need to do)
 
 ### ToDo List (asset creation):
 - Index: what assets can i make for the buttons? (left right and generate)
@@ -30,7 +32,7 @@ the large commit number is from the early development cuz i was editing stuff di
 - Art: create the background tag card thing for art (see splatoon website)
  - i want to use a random number generator to dictate how theyre rotated to create randomness in the tag spread
 - Art: redo background pattern
-- Art2: the art bg boxes, define border and just loop the lines inside. should be the menu boxes from the game
+- Art2: find a way to integrate the menu box borders into the thing? idk
 
 ### Thought About:
 - would moving the credits to the index be a better idea? easier to access
@@ -41,5 +43,5 @@ the large commit number is from the early development cuz i was editing stuff di
 
 ### Maintenence:
 - Index: add in more songs i listen to
-- Art: add in newer artworks
+- Art1+2: add in newer artworks
 - Shelf: add in new collection items

@@ -1,22 +1,29 @@
 .main {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
 }
 #showOff {
+	float: left;
 	width:300px;
+	height: 300px;
+	margin-right: calc(100% / 10);
+	position: relative;
+	top: 100px;
 }
 .activeRegion {
+	height: 90%;
+	width: calc(100% - 500px);
 	display: flex;
 	flex-direction: column;
 }
-a {
+.activeRegion a {
 	margin-right: 50px;
 }
 .selection {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 50px;
 }
 .information {
-
+	border: 2px solid white;
+	height: 100%;
 }

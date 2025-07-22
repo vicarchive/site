@@ -40,7 +40,13 @@
 .BlueHover:hover {
 	color: rgba(106, 255, 253, 1);
 }
-
+.LightBlue {
+	font-family:MKWii;
+	color: white;
+	-webkit-text-stroke: rgba(46, 190, 215, 1) 5px;
+	paint-order: stroke fill;
+	text-shadow: -1px 4px black;
+}
 /** Website Arrangement Template and Button Functions **/
 html {
 	background: black;
@@ -67,6 +73,12 @@ a {
 	background-size: cover;
 	background-position:bottom left;
 }
+.headerContent {
+	position: relative;
+	top: 90px;
+	left: 120px;
+	width: calc(100% - 120px);
+}
 .footer {
 	position: absolute;
 	width: 100%;
@@ -77,6 +89,25 @@ a {
 	background-size: cover;
 	background-position: top left;
 }
+.footerContent {
+	position: relative;
+	top: 30px;
+	left: 15px;
+}
+.footerContent button {
+	font-size: 20px;
+	margin: 5px;
+}
+.descriptionFooter {
+	font-size: 30px;
+	text-align: right;
+	float: right;
+	position: relative;
+	top: -20px;
+	left: -50px;
+	-webkit-text-stroke: black 6px;
+}
+/** MKWii Buttons **/
 .mainButton {
 	background-color: rgba(0, 0, 0, 0.4);
 	border: 2px solid rgba(203, 156, 15, 1);
@@ -105,6 +136,33 @@ a {
 }
 .sideButton:hover {
 	transform: scale(1.08);
+}
+.helpButton {
+	position: relative;
+	background: url('assets2/arrow.png');
+	background-size: cover;
+	background-position: center;
+	top: -40px;
+	left: calc(100% - 500px);
+	border: 10px solid rgba(57, 103, 239, 1);
+	border-radius: 50%;
+	font-size:20px;
+	padding: 20px;
+	box-shadow:
+		0px 0px 0px 10px rgba(180, 149, 46, 1),
+		inset 0px 0px 0px 5px blue,
+		inset 0px 0px 5px 10px white;
+		
+}
+.helpButton p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 40px;
+	left: -60px;
+}
+.helpButton:hover {
+	
 }
 /** Essentially a copy paste of the above Main button but with additional CSS to function like the cup buttons in MKWii **/
 .mainButtonImage {
@@ -145,6 +203,10 @@ a {
 	color:white;
 	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
 }
+/** Return Button **/
+.return {
+	
+}
 /** MKWii Modal Popup **/
 .popUp {
 	display: none;
@@ -178,4 +240,5 @@ a {
 /** And some main website things **/
 .main {
 	width: 100%;
+	height: calc(100% - 400px);
 }

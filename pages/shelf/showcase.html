@@ -5,20 +5,30 @@
 		<link rel="stylesheet" href="mariokartwii.css">
 		<link rel="stylesheet" href="showcase.css">
 		<script src="popupmkwii.js"></script>
+		<script src="select.js"></script>
 		<title>Showcase - Vic's Archive 3: Hoodlum Havoc</title>
 		<link rel="icon" type="image/x-con" href="assets2/crown.ico">
 	</head>
 	<body>
-		<div class="header"><p class="Grey" style="margin:0;">Collection Menu</p></div>
-		<div class="main">
-			<p class="BlackAndWhite">Testing black and white MKWii text</p>
-			<p class="Grey">Testing grey MKWii text</p>
-			<p class="Gold">Testing gold MKWii text</p>
-			<p class="BlueHover">Testing hoverable MKWii text</p>
-			<a href="showing_temp.html"><button class="mainButton"><p class="Gold" style="font-size:18px;">Testing an MKWii main button</p></button></a>
-			<a href="javascript:displayPop('pop');"><button class="sideButton"><p class="Grey" style="font-size:17px;">Testing an MKWii side button</p></button></a>
-			<a href="javascript:;" style="margin-top:20px;"><button class="mainButtonImage"><img src='assets2/huh.png'><p class="Gold">Image Button</p></button></a>
+		<div class="header">
+			<div class="headerContent">
+				<p class="Grey" style="margin:0;font-size:40px;display:inline;">Collection</p>
+			</div>
 		</div>
+		<div class="main">
+			<a href="showing_temp.html"><button class="mainButton" onmouseover="changeText('See all of my Sonic stuff.', 'descTarget');"><p class="Gold">Sonic</p></button></a>
+			<a href="showing_temp.html"><button class="mainButton" onmouseover="changeText('See all of my Splatoon stuff.', 'descTarget');"><p class="Gold">Splatoon</p></button></a>
+			<a href="showing_temp.html"><button class="mainButton" onmouseover="changeText('See all of my consoles and miscellaneous games.', 'descTarget');"><p class="Gold">Consoles and Games</p></button></a>
+			<a href="showing_temp.html"><button class="mainButton" onmouseover="changeText('See all the other stuff I can\'t categorize.', 'descTarget');"><p class="Gold">Others</p></button></a>
+		</div>
+		<div style="display:none;">
+				<p class="Grey">Below are testing functions</p>
+				<a href="showing_temp.html"><button class="mainButton"><p class="Gold" style="font-size:18px;">Testing an MKWii main button</p></button></a>
+				<a href="javascript:displayPop('pop');"><button class="sideButton"><p class="Grey" style="font-size:17px;">Testing an MKWii side button</p></button></a>
+				<a href="javascript:;" style="margin-top:20px;"><button class="mainButtonImage"><img src='assets2/huh.png'><p class="Gold">Image Button</p></button></a>
+				<p class="BlackAndWhite">probably gonna be sonic, splatoon, consoles, others for the main menu</p>
+				<p class="BlackAndWhite">and then statues (+ figures), plushies, prints + stickers, my stuff i made for it</p>
+			</div>
 		<div id="pop" class="popUp">
 			<div class="popUpInside">
 				<div class="popUpContent">
@@ -28,6 +38,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer"><a href="../../"><button class="sideButton"><p class="Grey">Home Page</p></button></a></div>
+		<div class="footer">
+			<div class="footerContent">
+				<a href="../../"><button class="sideButton"><p class="Grey">Home</p></button></a>
+				<a href="../../pages/profile/me.html"><button class="sideButton"><p class="Grey">License</p></button></a>
+				<a href="../../pages/creative/art.html"><button class="sideButton"><p class="Grey">Artwork</p></button></a>
+				<p id="descTarget" class="BlackAndWhite descriptionFooter" style="display:inline;">Select a franchise to see my stuff.</p>
+			</div>
+		</div>
 	</body>
 </html>

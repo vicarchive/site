@@ -4,25 +4,39 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="mariokartwii.css">
 		<link rel="stylesheet" href="showing.css">
+		<script src="select.js"></script>
+		<script src="popupmkwii.js"></script>
 		<title>Showcase - Vic's Archive 3: Hoodlum Havoc</title>
 		<link rel="icon" type="image/x-con" href="assets2/crown.ico">
 	</head>
 	<body>
-		<div class="header"><p class="Grey" style="margin:0;">Collection Menu</p></div>
+		<div class="header">
+			<div class="headerContent">
+				<p class="Grey" style="margin:0;font-size:40px;display:inline;">Collection</p>
+				<a href="showcase.html"><button class="helpButton"><p class="LightBlue">Return</p></button></a>
+			</div>
+		</div>
 		<div class="main">
 			<img id="showOff" src="assets2/huh.png">
 			<div class="activeRegion">
 				<div class="selection">
-					<a href="javascript:;"><button class="mainButtonImage"><p class="Gold">cooking</p></button></a>
-					<a href="javascript:;"><button class="mainButtonImage"><p class="Gold">gaming</p></button></a>
-					<a href="javascript:;"><button class="mainButtonImage"><p class="Gold">this is a joke</p></button></a>
-					<a href="javascript:;"><button class="mainButtonImage"><p class="Gold">help</p></button></a>
+					<a href="javascript:;"><button class="mainButtonImage" onmouseover="changeText('See my statues and action figures.', 'descTarget');" ><p class="Gold">Figures</p></button></a>
+					<a href="javascript:;"><button class="mainButtonImage" onmouseover="changeText('See my plushies and stuffed animals.', 'descTarget');"><p class="Gold">Plushes</p></button></a>
+					<a href="javascript:;"><button class="mainButtonImage" onmouseover="changeText('See my stickers, prints, and cutouts.', 'descTarget');"><p class="Gold">Artwork</p></button></a>
+					<a href="javascript:;"><button class="mainButtonImage" onmouseover="changeText('See other things.', 'descTarget');"><p class="Gold">Custom</p></button></a>
 				</div>
 				<div class="information">
 					<p class="BlackAndWhite">hello everybody my name is markiplier</p>
 				</div>
 			</div>
 		</div>
-		<div class="footer"><a href="showcase.html"><button class="sideButton"><p class="Grey">Main Menu</p></button></a></div>
+		<div class="footer">
+			<div class="footerContent">
+				<a href="../../"><button class="sideButton"><p class="Grey">Home</p></button></a>
+				<a href="../../pages/profile/me.html"><button class="sideButton"><p class="Grey">License</p></button></a>
+				<a href="../../pages/creative/art.html"><button class="sideButton"><p class="Grey">Artwork</p></button></a>
+				<p id="descTarget" class="BlackAndWhite descriptionFooter" style="display:inline;">Select an item type.</p>
+			</div>
+		</div>
 	</body>
 </html>
