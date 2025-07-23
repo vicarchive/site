@@ -11,6 +11,7 @@ the large commit number is from the early development cuz i was editing stuff di
   - mario kart wii menu (collection) https://www.youtube.com/watch?v=YjNTdQHkRJY @ 1:43
 
 ### ToDo List (brainless coding):
+- Shelf: fix header and footer overlap when resizing window within bounds
 - Shelf: finish the information template page layout
   - css return button, properly css selection buttons, css information box, html at least one div popup as a test
 - Shelf: transition for the popup (my braincells are dying trying to figure this out right now so ill add this later. but this is something i definitely want to add)
@@ -24,6 +25,7 @@ the large commit number is from the early development cuz i was editing stuff di
   - biggest issue here is css and layout
 - Profile: write a function to create entries for the diary (similar to the artwork thing)
   - i need to know how to css this before fully writing a script
+- Shelf: add in images and content for the collections (once pages and css is done)
 
 ### ToDo List (asset creation):
 - Index: what assets can i make for the buttons? (left right and generate)
@@ -37,7 +39,6 @@ the large commit number is from the early development cuz i was editing stuff di
 - move the comments thing to the profile?
 - audios for websites with inspirations that could be enhanced w them??!! and maybe a speaker thing at the bottom to mute and unmute!! https://stackoverflow.com/questions/63546265/how-to-make-music-autoplay-and-loop-in-background/63546549
   - could use a universal js script with a global var to keep track of mute vs ost on if i choose to do this. would be fun
-- maybe add an information section to the index just as a way to get started? i feel like a landing page without an explanation of the website might confuse people
 
 ### Maintenence:
 - Index: add in more songs i listen to

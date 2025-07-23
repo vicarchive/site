@@ -26,6 +26,7 @@ iframe {
 	cursor: url("common/DFLTL.GIF"), pointer;
 }
 .header {
+    z-index:1;
 	display:flex;
 	flex-direction: column;
 	background:black;
@@ -131,6 +132,7 @@ iframe {
 	vertical-align:top;
 }
 .footer {
+    z-index: 1;
 	display:flex;
 	background: black;
 	color:white;
