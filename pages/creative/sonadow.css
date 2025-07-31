@@ -81,6 +81,7 @@ p {
 }
 .textholder p {
 	text-shadow: 3px 0px black;
+	margin-top: 2px;
 }
 #IMG {
 	max-width:370px;

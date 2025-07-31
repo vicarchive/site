@@ -1,10 +1,13 @@
-var popUp;
+var popUp, popUpInside;
 function displayPop(myId) {
 	var popUp = document.getElementById(myId);
-	popUp.style.display = "block";
+	var popUpInside = document.getElementById("p" + myId);
+	popUp.classList.add("show");
+	popUpInside.classList.add("show");
 	window.onclick = function(event) {
 		if (event.target == popUp) {
-			popUp.style.display = "none";
+			popUp.classList.remove("show");
+			popUpInside.classList.remove("show");
 		}
-	}
+	};
 }

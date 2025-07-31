@@ -43,9 +43,12 @@
 .LightBlue {
 	font-family:MKWii;
 	color: white;
-	-webkit-text-stroke: rgba(46, 190, 215, 1) 5px;
+	-webkit-text-stroke: rgba(29, 162, 211, 1) 5px;
 	paint-order: stroke fill;
 	text-shadow: -1px 4px black;
+}
+.LightBlue:hover {
+	-webkit-text-stroke: rgba(142, 149, 34, 1) 5px;
 }
 /** Website Arrangement Template and Button Functions **/
 html {
@@ -68,25 +71,40 @@ a {
 	margin-bottom: 10px;
 }
 .header {
+<<<<<<< Updated upstream
     z-index: 1;
 	min-height:200px;
+=======
+	z-index: 1;
+	height: 15%;
+	width: 100%;
+>>>>>>> Stashed changes
 	background-image: url('assets2/top.png');
 	background-size: cover;
 	background-position:bottom left;
 }
 .headerContent {
 	position: relative;
-	top: 90px;
 	left: 120px;
 	width: calc(100% - 120px);
 }
+.main {
+	z-index: 0;
+	width: 100%;
+	height: 70%;
+}
 .footer {
+<<<<<<< Updated upstream
     z-index:1;
+=======
+	z-index: 1;
+>>>>>>> Stashed changes
 	position: absolute;
 	width: 100%;
 	bottom: 0px;
 	left: 0px;
-	min-height:200px;
+	min-height:15%;
+	max-height: 200px;
 	background-image: url('assets2/bottom.png');
 	background-size: cover;
 	background-position: top left;
@@ -122,7 +140,7 @@ a {
 	border: 2px solid rgba(230, 198, 8, 1);
 	transform: scale(1.2);
 }
-.mainButton:hover p { /** Gold **/
+.mainButton:hover p {
 	color: white;
 	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
 }
@@ -140,31 +158,35 @@ a {
 	transform: scale(1.08);
 }
 .helpButton {
+	max-height: 100px;
+	max-width: 100px;
 	position: relative;
 	background: url('assets2/arrow.png');
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center;
-	top: -40px;
 	left: calc(100% - 500px);
-	border: 10px solid rgba(57, 103, 239, 1);
+	border: 5px solid rgba(238, 253, 255, 1);
 	border-radius: 50%;
-	font-size:20px;
 	padding: 20px;
 	box-shadow:
-		0px 0px 0px 10px rgba(180, 149, 46, 1),
-		inset 0px 0px 0px 5px blue,
-		inset 0px 0px 5px 10px white;
-		
+		0px 0px 0px 3px rgba(42, 142, 178, 1),
+		0px 0px 0px 10px rgba(111, 103, 238, 1),
+		0px 0px 0px 20px rgba(181, 181, 45, 1),
+		inset 0px 0px 6px 2px rgba(111, 103, 238, 1);
+	transition: transform 0.1s;
 }
 .helpButton p {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin: 0;
+	font-size: 30px;
 	position: relative;
 	top: 40px;
-	left: -60px;
+	left: -90px;
 }
 .helpButton:hover {
-	
+	transform: scale(1.1);
+}
+.helpButton:hover p {
+	-webkit-text-stroke: rgba(142, 149, 34, 1) 5px;
 }
 /** Essentially a copy paste of the above Main button but with additional CSS to function like the cup buttons in MKWii **/
 .mainButtonImage {
@@ -205,23 +227,29 @@ a {
 	color:white;
 	-webkit-text-stroke: rgba(189, 135, 5, 1) 5px;
 }
-/** Return Button **/
-.return {
-	
-}
 /** MKWii Modal Popup **/
 .popUp {
-	display: none;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.1s linear, visibility 0s linear 0.1s;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
   	left: 0;
   	top: 0;
   	width: 100%;
   	height: 100%;
   	overflow: auto;
-  	background-color: rgba(255,255,255,0.4);
+  	background-color: rgba(0,0,0,0.4);
+}
+.popUp.show {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 1s linear, opacity 0.1s linear;
 }
 .popUpInside {
+	visibility: hidden;
+	transform: scale(0);
+	transition: transform 0.1s linear, visibility 0s linear 0.1s;
 	background-color: white;
 	margin: auto;
 	margin-top: 15%; /* this is based off of the width for some reason? */
@@ -231,6 +259,11 @@ a {
   	width: 700px;
   	box-shadow: inset 0px 0px 15px 9px rgba(163, 179, 252, 1);
 }
+.popUpInside.show {
+	visibility: visible;
+	transform: scale(1);
+	transition: visibility 1s linear, transform 0.1s linear;
+}
 .popUpContent {
 	width: 100%;
 	background: url('assets2/checker32.png');
@@ -238,9 +271,4 @@ a {
 .popUpContent p {
 	margin: 0;
 	padding: 5px;
-}
-/** And some main website things **/
-.main {
-	width: 100%;
-	height: calc(100% - 400px);
 }

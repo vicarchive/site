@@ -13,11 +13,7 @@ the large commit number is from the early development cuz i was editing stuff di
 ### ToDo List (brainless coding):
 - Shelf: fix header and footer overlap when resizing window within bounds
 - Shelf: finish the information template page layout
-  - css return button, properly css selection buttons, css information box, html at least one div popup as a test
-- Shelf: transition for the popup (my braincells are dying trying to figure this out right now so ill add this later. but this is something i definitely want to add)
-- Shelf: figure out how to do button select stuff. i know that when hovering, it shows the collection preview on the course selection section. when pressed the button should be depressed and the images should pop up with the blue highlighted text and clicking them brings up the popup. how to do back button? click anywhere on the screen to go back to select collection?
-  - probably click to select and then the menu stuff appears on the main box. then clicking an image shows the popup with information. kinda want to know how to select and deselect stuff though w the buttons
-- move repeatable css into separate pages for less space (see mkwii section) (most applicable to the myspace section, will make the rest of the sections easier to work with)
+  - properly css (add images and fix text) selection buttons, css information box (add temp image)
 - css every page to be mobile friendly (after finishing everything else. last thing i need to do)
 
 ### ToDo List (my content):

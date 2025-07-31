@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html style="height:100%; margin:0%">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="mariokartwii.css">
+		<link rel="stylesheet" href="showing.css">
+		<link rel="stylesheet" href="focus.css">
+		<script src="select.js"></script>
+		<script src="popupmkwii.js"></script>
+		<title>Temp Showcase: Selected - Vic's Archive 3: Hoodlum Havoc</title>
+		<link rel="icon" type="image/x-con" href="assets2/crown.ico">
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerContent">
+				<p class="Grey" style="margin:0;font-size:40px;display:inline;">Collection</p>
+				<a href="showing_temp.html"><button class="helpButton"><p class="LightBlue">Return</p></button></a>
+			</div>
+		</div>
+		<div class="main">
+			<img id="showOff" src="assets2/huh.png">
+			<div class="activeRegion">
+				<div class="selection">
+					<p class="BlackAndWhite">Replace with selected graphic:</p>
+					<a href="javascript:;"><button class="mainButtonImage" onmouseover="changeText('See my statues and action figures.', 'descTarget');" ><p class="Gold">Figures</p></button></a>
+				</div>
+				<div class="information">
+					<p class="BlackAndWhite">aight number one we got beeneengs numba 2 we got ee number 3 we got ayou numba 4 we got BEAT. numba 5 we got ____ numba 6 we got JEE</p>
+					<img class="collectionImage" onclick="displayPop('pop1');" src="../../common/SHADS_PLUSH.jpg">
+					<img class="collectionImage" onclick="displayPop('pop2');" src="../../common/dc_website_splash.png">
+				</div>
+			</div>
+		</div>
+		<div id="pop1" class="popUp">
+			<div id="ppop1" class="popUpInside">
+				<div class="popUpContent">
+					<p class="Grey">Testing MKWii popup</p>
+					<p class="Grey">Here's some more text!!</p>
+					<p class="Grey">Click anywhere outside to close this &lt;3</p>
+				</div>
+			</div>
+		</div>
+		<div id="pop2" class="popUp">
+			<div id="ppop2" class="popUpInside">
+				<div class="popUpContent">
+					<p class="Grey">Wow another MKWii popup!!</p>
+					<p class="Grey">Click anywhere outside to close this &lt;3</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerContent">
+				<a href="../../"><button class="sideButton"><p class="Grey">Home</p></button></a>
+				<a href="../../pages/profile/me.html"><button class="sideButton"><p class="Grey">License</p></button></a>
+				<a href="../../pages/creative/art.html"><button class="sideButton"><p class="Grey">Artwork</p></button></a>
+				<p id="descTarget" class="BlackAndWhite descriptionFooter" style="display:inline;">Select an item type.</p>
+			</div>
+		</div>
+	</body>
+</html>
