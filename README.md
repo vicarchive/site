@@ -1,7 +1,7 @@
 welcome to my website!! i wanted a place where i could add in my work in a way i wanted to without space restrictions or premade templates, and as a bonus i get to learn html, css and js!! and maybe some more sql..
 the large commit number is from the early development cuz i was editing stuff directly on github. i use aptana studio 3 now :D
 
-this is like......... a passion project that i do not take seriously, so its not professional in the slightest <3
+> this is NOT a portfolio, this is a personal website. this is not to show off my work, proficiency, or skills, but as a way to express myself. do with that as you will <3
 <br /><br />
 ## Website Plans
 ### Plans:
