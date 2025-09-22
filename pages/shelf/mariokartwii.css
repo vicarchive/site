@@ -71,14 +71,8 @@ a {
 	margin-bottom: 10px;
 }
 .header {
-<<<<<<< Updated upstream
     z-index: 1;
 	min-height:200px;
-=======
-	z-index: 1;
-	height: 15%;
-	width: 100%;
->>>>>>> Stashed changes
 	background-image: url('assets2/top.png');
 	background-size: cover;
 	background-position:bottom left;
