@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html style="height:100%; margin:0%">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="_art_old.css">
+		<title>Art - Vic's Archive 3: Hoodlum Havoc</title>
+		<link rel="icon" type="image/x-con" href="assets/splat.ico">
+		<script src="spawnart.js"></script>
+		<script>
+			window.onload = function () {
+				createEntries('art');
+			};
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<a href="../../index.html">VIC'S ARCHIVE 3</a>
+			<a href="../profile/me.html">ABOUT ME</a>
+			<a href="../shelf/showcase.html">SHOWCASE</a>
+			<a href="sonadow.html">sonadow art</a>
+		</div>
+		<div class="contents">
+			<div class="bitch">
+				<img id="HEAD" src="assets/title again.png">
+			</div>
+		<p class="descriptionheader">Welcome to the gallery! Click the buttons below to sort through the artwork!</p>
+		<button onclick="editArtFilter('all')">all</button>
+		<button onclick="editArtFilter('sonic')">sonic</button>
+		<button onclick="editArtFilter('splatoon')">splatoon</button>
+		<button onclick="editArtFilter('splatchao')">splatchao</button>
+		<button onclick="editArtFilter('attorney')">attorney</button>
+		<button onclick="editArtFilter('other')">other</button>
+		<div id="artBlock" class="container"></div>
+	</div>
+	</body>
+</html>

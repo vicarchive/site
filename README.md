@@ -8,7 +8,7 @@ the large commit number is from the early development cuz i was editing stuff di
 - themes for the website:
   - dreamcast web browser (index) https://youtu.be/oL1Pxek3sss @ 0:18
   - myspace (profile) https://spacehey.com/profile?id=2620231
-  - splatoon base (art) https://www.nintendo.com/jp/character/splatoon/en/index.html
+  - splatoon base (art) https://www.nintendo.com/jp/character/splatoon/en/index.html >> phantasy star online dreamcast menus
   - sonic adventure 2 menus (sonadow section) https://www.spriters-resource.com/gamecube/sonicadventure2battle/
   - mario kart wii menu (collection) https://www.youtube.com/watch?v=YjNTdQHkRJY @ 1:43
 
@@ -16,6 +16,7 @@ the large commit number is from the early development cuz i was editing stuff di
 - Shelf: fix header and footer overlap when resizing window within bounds
 - Shelf: finish the information template page layout
   - properly css (add images and fix text) selection buttons, css information box (add temp image)
+- All: use client.width and stuff to establish viewing ratios (phone vs pc screen)
 - css every page to be mobile friendly (after finishing everything else. last thing i need to do)
 
 ### ToDo List (my content):
@@ -27,7 +28,7 @@ the large commit number is from the early development cuz i was editing stuff di
 
 ### ToDo List (asset creation):
 - Index: what assets can i make for the buttons? (left right and generate)
-- Art: want to redo this section. find something to brainrot about that can look like a gallery lol
+- Art: rip assets from pso gdrom and arrange/ create substitutes
 - Art2: find a way to integrate the menu box borders into the thing? idk
 
 ### Thought About:

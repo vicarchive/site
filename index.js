@@ -9,17 +9,23 @@ var linkArray = [
 			link('J-ykAmdtOYI'), //Arid Sands Day
 			link('UxbyOQgTsVc'), //Seven Rings in Hand
 			link('4KkQCxXUEBQ'), //Free
+			// PSO
+			link('zcnKBu_uUZc'), //Day Dawns
+			link('zSJK3cSig3w'), //Chaotic Bar
+			link('Brh_dWXj_Wk'), //Crossing3084
+			link('qHwwqX98nEo'), //Mother Earth of Dishonesty 1
+			link('039VsX9vjSQ'), //Empty Space Out of Control 1
 			//Other Games
-			link('ryp-CqIfeX4'), //Beach Overworld 2012 <- private?
+			link('jQd1AwFPSlY'), //Beach Overworld 2012
 			link('ABPavPWpsCw'), //Sticker Star Event Battle
 			//Misc
 			link('GmfwI0vDy68'), //On the FM
-			link('R4WDXeGtwYQ'), //LeJeune
 			link('8TAuh7HGUss'), //Myoisia
 			link('3wm3Xr3OY3M'), //One More Lovely
 			];
 var UPDATESLIST = [
 // FORMAT: TITLE, [BULLET POINTS, AS AN ARRAY]
+["23 September 2025", ["fixed that weird header bug in the shelf section lol...", "added more songs because i discovered pso", "began working on a new art section!!!! stay tuned!!!"]],
 ["25 July 2025", ["mkwii pop ups work!!! yayyyy!!!!! just have to do scaling css and finish html content hee hee"]],
 ["23 July 2025", ["added an information box to the landing page!"]],
 ["21 July 2025", ["more css to the collection stuff! main page SHOULD be done essentially. might add more images at some point", "added a return button to the collection page!!", "sonadow section is up and pretty much running !!!"]],
@@ -28,7 +34,7 @@ var UPDATESLIST = [
 ["16 July 2025", ["Hey guys, now you can see just the newest update!!! and scroll!!!!", "Art filters are back !!!!!!!", "Weird stuff was happening with the art but it is now reliable", "art2 is now css'd pretty well i think!! need assets"]],
 ["15 July 2025", ["Fixed the css that bugged me on the landing page and made it more accurate", "Made css on profile page more accurate and added proper tabs for pages!!", "Added in all the pages for the profile!! will need to fill them out later with the correct information but it should be okay", "Addition of filters on the art part is in progress!!!", "Art2 has been created...."]],
 ["16 Sept 2024", ["Added in most of the artwork","Added fonts to art page, in credits","Kind of CSS'd the art page to what it will look like (too lazy for assets right now)"]],
-["10 Sept 2024",["Began CSS'ing the art page","Fixed readme to what I've got planned so far, less speculation"]],
+["10 Sept 2024", ["Began CSS'ing the art page","Fixed readme to what I've got planned so far, less speculation"]],
 ["09 Sept 2024", ["Index is basically css'd! Guess where it's from :D (need to figure out fonts and titles)","Added an easier way to add updates","Fixed buttons on the shelf page. Still need assets","Added a credits page to keep track of assets and fonts used. As of now it is conprehensive"]],
 ["08 Sept 2024", ["Showcase partially css'd - some issues came about", "Index partially css'd - assets required","Added custom cursors for all pages but art"]],
 ["07 Sept 2024", ["Profile is now css'd! Go take a look"]],
