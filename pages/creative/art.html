@@ -3,8 +3,14 @@
 	<title>Artwork - Vic's Archive 3: Hoodlum Havoc</title>
 </head>
 <body>
+	
 	<svg width="120" height="40">
-		<path d="M 0 20 L 10 0 L 110 0 L 120 20 L 110 40 L 10 40 Z" fill="transparent" stroke-width="3px" stroke="black"/>
+		<defs>
+			<pattern id="psobg" patternUnits="userSpaceOnUse" width="120" height="120">
+				<image xlink:href="assets/son_artbutton.png" x="0" y="0" width="120" height="40" />
+			</pattern>
+		</defs>
+		<path d="M 0 20 L 10 0 L 110 0 L 120 20 L 110 40 L 10 40 Z" fill="url(#psobg)" stroke-width="3px" stroke="black" />
 	</svg>
 	<button>a list of buttons</button>
 	<button>another button</button>
