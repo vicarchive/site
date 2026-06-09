@@ -1,25 +1,48 @@
 var linkArray = [
 			//Splatoon
 			link('k2N9rVrIb6s'), //Three Wishes
-			link('m4wvwTr_jDM'), //Rainbow Color Inkantation
+			link('gVAGjUlj-Yg'), //Rainbow Color Inkantation
 			link('5L1ddMgCfAc'), //Suffer No Fools
-			link('nZHz9fnO7Ko'), //Anarchy Rainbow Springfest
-			link('vlv7HV2lPQI'), //Anarchy Rainbow LIVE 2022
+			link('etpSGl1bc_M'), //Anarchy Rainbow Springfest
+			link('pWu2s84II8I'), //Anarchy Rainbow LIVE 2022
+			link('2hayqs6z-pQ'), //Big Betrayal
 			//Sonic
 			link('J-ykAmdtOYI'), //Arid Sands Day
 			link('UxbyOQgTsVc'), //Seven Rings in Hand
 			link('4KkQCxXUEBQ'), //Free
+			// PSO/U
+			link('zcnKBu_uUZc'), //Day Dawns
+			link('zSJK3cSig3w'), //Chaotic Bar
+			link('Brh_dWXj_Wk'), //Crossing3084
+			link('qHwwqX98nEo'), //Mother Earth of Dishonesty 1
+			link('039VsX9vjSQ'), //Empty Space Out of Control 1
+			link('Ge56xCiefZM'), //Cherry Blossom
+			link('-Imi9eSc2Jg'), //Rozenom Line Milate
 			//Other Games
-			link('ryp-CqIfeX4'), //Beach Overworld 2012 <- private?
+			link('jQd1AwFPSlY'), //Beach Overworld 2012
 			link('ABPavPWpsCw'), //Sticker Star Event Battle
+			link('K7tT1RiGOT0'), //Feel the Heat
+			link('jUs-ITmi_u4'), //Dudley's Theme SF3
+			link('wwidcxa3fmY'), //Track 7 Sheep Raider
+			link('Rdxy3J_acRE'), //The Offing SEGA Marine Fishing
+			link('k0nqXeM-sns'), //Nature's Crescendo
+			link('UF2KFIMeezY'), //Let's Go Away
+			link('pls6OyJpCWg'), //Rolling Start
 			//Misc
 			link('GmfwI0vDy68'), //On the FM
-			link('R4WDXeGtwYQ'), //LeJeune
 			link('8TAuh7HGUss'), //Myoisia
 			link('3wm3Xr3OY3M'), //One More Lovely
+			link('z0Bc_XEEcE4'), //Beep Block Skyway YTP
+			link('dv13gl0a-FA'), //Deja Vu
+			link('cn32jcNkBvc'), //Gas Gas Gas
+			link('2OjdLtEs81A'), //Ievan Polkka
+			link('NRtnUVaRwXM'), //Invisible
+			link('AbVnlmR4fz4'), //Pesnya o Druge
+			link('9PT67OXezZU'), //Marukaite Chikyuu
 			];
 var UPDATESLIST = [
 // FORMAT: TITLE, [BULLET POINTS, AS AN ARRAY]
+["08 June 2026", ["added more songs and replaced the ones that were striken by nintendo :/", "added more art to the art page"]],
 ["25 July 2025", ["mkwii pop ups work!!! yayyyy!!!!! just have to do scaling css and finish html content hee hee"]],
 ["23 July 2025", ["added an information box to the landing page!"]],
 ["21 July 2025", ["more css to the collection stuff! main page SHOULD be done essentially. might add more images at some point", "added a return button to the collection page!!", "sonadow section is up and pretty much running !!!"]],
@@ -28,7 +51,7 @@ var UPDATESLIST = [
 ["16 July 2025", ["Hey guys, now you can see just the newest update!!! and scroll!!!!", "Art filters are back !!!!!!!", "Weird stuff was happening with the art but it is now reliable", "art2 is now css'd pretty well i think!! need assets"]],
 ["15 July 2025", ["Fixed the css that bugged me on the landing page and made it more accurate", "Made css on profile page more accurate and added proper tabs for pages!!", "Added in all the pages for the profile!! will need to fill them out later with the correct information but it should be okay", "Addition of filters on the art part is in progress!!!", "Art2 has been created...."]],
 ["16 Sept 2024", ["Added in most of the artwork","Added fonts to art page, in credits","Kind of CSS'd the art page to what it will look like (too lazy for assets right now)"]],
-["10 Sept 2024",["Began CSS'ing the art page","Fixed readme to what I've got planned so far, less speculation"]],
+["10 Sept 2024", ["Began CSS'ing the art page","Fixed readme to what I've got planned so far, less speculation"]],
 ["09 Sept 2024", ["Index is basically css'd! Guess where it's from :D (need to figure out fonts and titles)","Added an easier way to add updates","Fixed buttons on the shelf page. Still need assets","Added a credits page to keep track of assets and fonts used. As of now it is conprehensive"]],
 ["08 Sept 2024", ["Showcase partially css'd - some issues came about", "Index partially css'd - assets required","Added custom cursors for all pages but art"]],
 ["07 Sept 2024", ["Profile is now css'd! Go take a look"]],

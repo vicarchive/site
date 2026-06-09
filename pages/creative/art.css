@@ -71,8 +71,15 @@ h1 {
 	display: none;
 }
 .textholder{
-	margin:5px;
+	margin:0px;
 	font-family:lol;
+}
+.desc {
+	margin: 5px;
+	font-size: 15px;
+}
+p {
+	margin: 1px;
 }
 #IMG {
 	max-width:370px;
